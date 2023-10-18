@@ -1,0 +1,10 @@
+group	display_label	name_label	description
+per-gene	Gene expression (FPKM)	FPKMgene	FPKM of all genes with at least one intron meeting the study conditions.
+per-gene	per-gene AS rate	SVRgene	The probability to observe at least one alternative splicing event across all the major introns of a gene.
+per-gene	Number of introns per gene	IntronPerGene	The number of introns meeting the study conditions per gene.
+per-gene	Intron length on average per gene (bp)	averageLength	The average length of introns meeting the study conditions per gene.
+per-intron	Intron expression (FPKM of the gene)	FPKMintron	FPKM of all introns meeting the study conditions, this FPKM corresponds to the FPKM of their gene.
+per-intron	AS rate	SVRintron	Na/(Ns+Na)
+per-intron	Intron length (bp)	IntronLength	Intron length (bp).
+per-intron	Ns per intron	Ns	Ns per intron.
+per-intron	Ns+Na per intron	Ns+Na	Ns+Na per intron.

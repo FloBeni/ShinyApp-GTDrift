@@ -1,0 +1,37 @@
+group	display_label	name_label	description	quantitative
+Life-history traits	Clades	clade.qual	Clade corresponding to the species, it can be the class for vertebrates or the order for insects.	FALSE
+Life-history traits	Life-span (days)	lifespan_days.quant	For longevity when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
+Life-history traits	Body length (cm)	length_cm.quant	For body length, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
+Life-history traits	Weight (kg)	weight_kg.quant	For body weight, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
+Life-history traits	RGBIF Observation	RGBIF_observation.quant	Observation on GBIF	TRUE
+				
+Genome characteristics	Genome size	genome_size.quant	The number of A T C and G in the genome fasta	TRUE
+Genome characteristics	GC content	GC_content_proportion.quant	The fraction of GC content within the genome	TRUE
+Genome characteristics	No of protein annotated	No_prot_annot.quant	Number of protein annotated	TRUE
+				
+Genome characteristics	Nb of genes	No_genes.buscodataset_	Number of genes	TRUE
+Genome characteristics	Nb of introns	No_introns.buscodataset_	Number of major introns	TRUE
+Genome characteristics	Median intron length	median_length_introns.buscodataset_	Major intron median Length	TRUE
+Genome characteristics	Nb of multiexonic genes	No_multi_exonic_genes.buscodataset_	Number of genes with at least one major intron	TRUE
+Genome characteristics	Nb of introns per gene	No_intron_per_gene.buscodataset_	Number of major introns per gene	TRUE
+Genome characteristics	Fraq of introns annotated	prop_intron_annotated.buscodataset_	Fraction of major introns annotated	TRUE
+				
+AS dataset	Exon coverage (Buscodataset only)	median_coverage_exon.buscodataset_	Exon coverage (Buscodataset only)	TRUE
+AS dataset	Average AS rate per intron	average_svr.svr_class_all.buscodataset_	Average per-intron alternative splicing rate among major introns (Na/(Ns+Na)).	TRUE
+	
+Molecular evolutionary rate	dN/dS Embryophyta	Embryophyta_dnds.quant	dN/dS per_clade 1240 species  genes	TRUE
+Molecular evolutionary rate	dN Embryophyta	Embryophyta_dn.quant	dN per_clade 1240 species  genes	TRUE
+Molecular evolutionary rate	dS Embryophyta	Embryophyta_ds.quant	dS per_clade 1240 species  genes	TRUE
+				
+Molecular evolutionary rate	dN/dS Eukaryota	Eukaryota_dnds.quant	dN/dS Eukaryota 175 species 194 genes	TRUE
+Molecular evolutionary rate	dN Eukaryota	Eukaryota_dn.quant	dN Eukaryota 175 species 194 genes	TRUE
+Molecular evolutionary rate	dS Eukaryota	Eukaryota_ds.quant	dS Eukaryota 175 species 194 genes	TRUE
+				
+Molecular evolutionary rate	dN/dS Metazoa	Metazoa_dnds.quant	dN/dS Metazoa 257 species 731 genes	TRUE
+Molecular evolutionary rate	dN Metazoa	Metazoa_dn.quant	dN Metazoa 257 species 731 genes	TRUE
+Molecular evolutionary rate	dS Metazoa	Metazoa_ds.quant	dS Metazoa 257 species 731 genes	TRUE
+				
+Molecular evolutionary rate	dN/dS per_clade	per_clade_dnds.quant	dN/dS Embryophyta 80 species 387 genes	TRUE
+Molecular evolutionary rate	dN per_clade	per_clade_dn.quant	dN Embryophyta 80 species 387 genes	TRUE
+Molecular evolutionary rate	dS per_clade	per_clade_ds.quant	dS Embryophyta 80 species 387 genes	TRUE
+
