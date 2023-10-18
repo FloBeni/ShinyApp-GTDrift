@@ -5,13 +5,13 @@ list=$(awk -F '\t' '{print $1}'  ../database/list_species.tab)
 
 for query in ${list}; do
 echo "${query}"
-
 count=1
 find=true
 
 while ${find} = true:
 do
 find=false
+
 
 
 
