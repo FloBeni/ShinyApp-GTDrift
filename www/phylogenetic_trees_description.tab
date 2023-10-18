@@ -1,5 +1,5 @@
 name	description
-data/dnds_phylo/per_clade/merged_clades_tree_root.nwk	per_clade 1240 species  genes
-data/dnds_phylo/Metazoa/phylogeny/raxml.root.nwk	Metazoa 257 species 731 genes
-data/dnds_phylo/Eukaryota/phylogeny/raxml.root.nwk	Eukaryota 175 species 194 genes
-data/dnds_phylo/Embryophyta/phylogeny/raxml.root.nwk	Embryophyta 80 species 387 genes
+database/dNdS/phylogeny/merged_clades_tree_root.nwk	merged 1240 species 73 genes
+database/dNdS/phylogeny/Metazoa_root.nwk	Metazoa 257 species 146 genes
+database/dNdS/phylogeny/Eukaryota_root.nwk	Eukaryota 279 species 25 genes
+database/dNdS/phylogeny/Embryophyta_root.nwk	Embryophyta 80 species 77 genes

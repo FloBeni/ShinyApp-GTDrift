@@ -1,7 +1,7 @@
 #You can upload google image of each species with the following bash script
 
 
-list=$(awk -F '\t' '{print $1}'  ../../../database/list_species.tab)
+list=$(awk -F '\t' '{print $1}'  ../database/list_species.tab)
 
 for query in ${list}; do
 echo "${query}"
