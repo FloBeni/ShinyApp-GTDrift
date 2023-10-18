@@ -78,7 +78,7 @@ ui <- shinyUI(fluidPage(style = "background-color:#a7c2da;height: 100%;font-fami
                                      prettyRadioButtons("busco_intra",shape = "round",animation="pulse",
                                                         status = "primary",bigger=T,
                                                         fill = TRUE,h3("Busco dataset"),
-                                                        choices = list("Eukaryota"="eukaryota","Metazoa"="metazoa","Embryophyta"="embryophyta",
+                                                        choices = list("Eukaryota"="busco_to_gene_id_eukaryota.gz","Metazoa"="busco_to_gene_id_metazoa.gz","Embryophyta"="busco_to_gene_id_embryophyta.gz",
                                                                        "None"="None"),selected = "None",inline = T,),
                                      dropdown( 
                                        sliderInput("svr_range_intra",h3("AS range of the introns studied"),min = 0, max = 0.5, value =  c(0,0.5)),
@@ -106,9 +106,9 @@ ui <- shinyUI(fluidPage(style = "background-color:#a7c2da;height: 100%;font-fami
                                 prettyRadioButtons("gene_list",shape = "round",animation="pulse",
                                                    status = "primary",bigger=T,
                                                    fill = TRUE,h4("ID choice"),
-                                                   choices = c("gene id"="gene_id","metazoa busco id" = "busco_id_metazoa",
-                                                               "eukaryota busco id" = "busco_id_eukaryota",
-                                                               "embryophyta busco id" = "busco_id_embryophyta"),selected = "gene_id",inline = T)),
+                                                   choices = c("gene id"="gene_id","metazoa busco id" = "busco_to_gene_id_metazoa.gz",
+                                                               "eukaryota busco id" = "busco_to_gene_id_eukaryota.gz",
+                                                               "embryophyta busco id" = "busco_to_gene_id_embryophyta.gz"),selected = "gene_id",inline = T)),
                          
                          column(2, selectInput("studied_gene", h4("Gene studied"),choices="")),
                          column(2,  dropdown(   

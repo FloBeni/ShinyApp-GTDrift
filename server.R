@@ -79,15 +79,15 @@ server <- function(input, output,session) {
                                                     status = "primary",bigger=T,
                                                     fill = TRUE), "gene_list",
                                choices = c("gene id"="gene_id",
-                                           "eukaryota busco id" = "busco_id_eukaryota",
-                                           "embryophyta busco id" = "busco_id_embryophyta"),selected = "gene_id",inline = T)
+                                           "eukaryota busco id" = "busco_to_gene_id_eukaryota.gz",
+                                           "embryophyta busco id" = "busco_to_gene_id_embryophyta.gz"),selected = "gene_id",inline = T)
     } else {
       updatePrettyRadioButtons(session,
                                prettyOptions = list(shape = "round",animation="pulse",
                                                     status = "primary",bigger=T,
                                                     fill = TRUE), "gene_list",
-                               choices = c("gene id"="gene_id","metazoa busco id" = "busco_id_metazoa",
-                                           "eukaryota busco id" = "busco_id_eukaryota"
+                               choices = c("gene id"="gene_id","metazoa busco id" = "busco_to_gene_id_metazoa.gz",
+                                           "eukaryota busco id" = "busco_to_gene_id_eukaryota.gz"
                                ),selected = "gene_id")
     }
   })
@@ -255,7 +255,7 @@ server <- function(input, output,session) {
     
     
     if ("None" != input$busco_intra){
-      busco_gene = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/busco_to_gene_id_",input$busco_intra,sep=""))
+      busco_gene = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""))
       
       species_intron = species_intron[species_intron$gene_id %in% busco_gene$gene_id, ]
     }
@@ -294,7 +294,7 @@ server <- function(input, output,session) {
       table(intervalle)
       
       p9 = ggplot(data_sp,aes(x=X,y=Y,text=paste("Nb of samples by group",table(intervalle))))  + theme_bw() +
-        ylab(input$y_intra) + xlab(axisIntra==input$x_intra) +
+        ylab(input$y_intra) + xlab(input$x_intra) +
         geom_errorbar(aes(ymin=Y-YerrorBar, ymax=Y+YerrorBar),size=0.1) +
         geom_errorbarh(aes(xmin=X-XerrorBar, xmax=X+XerrorBar),size=0.1)+
         ggtitle(paste("No genes or introns studied=",sum(table(intervalle)))) + 
@@ -339,10 +339,9 @@ server <- function(input, output,session) {
       species = str_replace_all(species," ","_")
       species_genes = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep=""), header=T , sep="\t",comment.char = "#")
       
-      if ( grepl("busco_id_",input$gene_list) ){
-        domain = str_replace(input$gene_list,"busco_id_","")
+      if ( grepl("busco_to_gene_id_",input$gene_list) ){
         
-        busco_gene = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/busco_to_gene_id_",domain,sep=""))
+        busco_gene = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$gene_list,sep=""))
         busco_gene = busco_gene[!(duplicated(busco_gene$busco_id,fromLast = FALSE) | duplicated(busco_gene$busco_id,fromLast = TRUE)) &
                                   !(duplicated(busco_gene$gene_id,fromLast = FALSE) | duplicated(busco_gene$gene_id,fromLast = TRUE)) ,]
         
@@ -391,14 +390,14 @@ server <- function(input, output,session) {
         intron$sum_ns = as.numeric(intron$ns)
         intron = intron[,colnames(intron)[colnames(intron)!= "id"]]
         
-        p2 = ggplot(intron,aes(group=category_intron)) +
-          geom_rect( aes(label=position , xmin=splice3,ymin=sum_ns*1.1,xmax=splice5,ymax=sum_ns,fill=category_intron),
+        p2 = ggplot(intron,aes(label=position ,group=category_intron)) +
+          geom_rect( aes( xmin=splice3,ymin=sum_ns*1.1,xmax=splice5,ymax=sum_ns,fill=category_intron),
                      size=0.5,alpha=1,col="black" ) +
           geom_segment(aes(x=splice3,y=sum_ns*1.1,xend=splice5+length/2*(splice3-splice5)/abs(splice5-splice3),
-                           yend=sum_ns*1.4,fill=category_intron),
+                           yend=sum_ns*1.4),
                        size=0.5,alpha=1,col="black")+
           geom_segment(aes(x=splice5,y=sum_ns*1.1,xend=splice3-length/2*(splice3-splice5)/abs(splice5-splice3),
-                           yend=sum_ns*1.4,fill=category_intron),
+                           yend=sum_ns*1.4),
                        size=0.5,alpha=1,col="black") +
           theme_bw()  +
           ylab("Sum of Ns") +
@@ -413,8 +412,8 @@ server <- function(input, output,session) {
             text =  element_text(color="black", size=20, family="economica"),
             legend.text =  element_text(color="black", size=20, family="economica")
           ) + scale_y_log10()  +
-          geom_vline(aes(xintercept=splice3,col=category_intron),alpha=0.1,fill="black") +
-          geom_vline(aes(xintercept=splice5,col=category_intron),alpha=0.1,fill="black")+
+          geom_vline(aes(xintercept=splice3,col=category_intron),alpha=0.1) +
+          geom_vline(aes(xintercept=splice5,col=category_intron),alpha=0.1)+
           guides(col = guide_legend(override.aes = list( size = 6,alpha=1),
                                     label.theme = element_text(color="black",
                                                                size=26,face="italic", family="economica",vjust = 1.5,margin = margin(t = 5))))
@@ -501,8 +500,7 @@ server <- function(input, output,session) {
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      data = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep=""))
-      write.table(data, file=file,row.names=F, col.names=T, sep="\t", quote=F)
+      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep=""),paste(file,".gz",sep=""))
     }
   )
   output$download_busco_id <- downloadHandler(
@@ -511,9 +509,7 @@ server <- function(input, output,session) {
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      domain = input$busco_intra
-      data = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/busco_to_gene_id_",domain,sep=""))
-      write.table(data, file=file,row.names=F, col.names=T, sep="\t", quote=F)
+      file.copy(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep=""))
     }
   )
   
@@ -523,8 +519,7 @@ server <- function(input, output,session) {
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      data = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep=""))
-      write.table(data, file=file,row.names=F, col.names=T, sep="\t", quote=F)
+      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep=""),paste(file,".gz",sep=""))
     }
   )
 }
