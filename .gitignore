@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+www/database/
+www/species_images/*.png
