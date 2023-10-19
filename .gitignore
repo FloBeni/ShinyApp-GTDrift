@@ -3,4 +3,4 @@
 .RData
 .Ruserdata
 www/species_images/*.png
-www/database/Transcriptomic
+www/database/Transcriptomic/
