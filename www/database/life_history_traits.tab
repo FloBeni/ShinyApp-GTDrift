@@ -1,0 +1,970 @@
+species	NCBI.taxid	value	db	life_history_traits
+Balaenoptera_musculus	9771	190000	ADW	weight_kg
+Chelonoidis_abingdonii	106734	64605	EOL Chelonoidis abingdonii	lifespan_days
+Rhincodon_typus	259920	54750	ADW	lifespan_days
+Terrapene_carolina	158814	50370	AnAge;ADW;EOL	lifespan_days
+Physeter_catodon	9755	50000	ADW	weight_kg
+Homo_sapiens	9606	44712.5	AnAge	lifespan_days
+Anoplopoma_fimbria	229290	41610	AnAge	lifespan_days
+Mercenaria_mercenaria	6596	38690	AnAge	lifespan_days
+Probosciger_aterrimus	141839	36500	ADW text	lifespan_days
+Homarus_americanus	6706	36500	AnAge	lifespan_days
+Orcinus_orca	9733	36000	EOL	lifespan_days
+Hippoglossus_hippoglossus	8267	32850	AnAge	lifespan_days
+Anguilla_anguilla	7936	32120	AnAge	lifespan_days
+Elephas_maximus	9783	31390	ADW	lifespan_days
+Loxodonta_africana	9785	29200	ADW	lifespan_days
+Gopherus_evgoodei	1825980	29200	ADW Gopherus agassizii	lifespan_days
+Caretta_caretta	8467	28105	AnAge	lifespan_days
+Alligator_mississippiensis	8496	28105	AnAge	lifespan_days
+Chelonia_mydas	8469	27375	AnAge;ADW	lifespan_days
+Buceros_rhinoceros	175835	25550	ADW text	lifespan_days
+Gopherus_flavomarginatus	286002	25550	ADW	lifespan_days
+Alligator_sinensis	38654	25550	ADW	lifespan_days
+Trichechus_manatus	9778	25185	AnAge	lifespan_days
+Pan_troglodytes	9598	24820	AnAge	lifespan_days
+Megalops_atlanticus	7932	22995	ADW	lifespan_days
+Equus_caballus	9796	22630	ADW	lifespan_days
+Varanus_komodoensis	61221	22630	AnAge	lifespan_days
+Chrysemys_picta	8479	22265	AnAge	lifespan_days
+Gorilla_gorilla	9593	21936.5	AnAge	lifespan_days
+Strigops_habroptila	2489341	21900	ADW text;AnAge	lifespan_days
+Pristis_pectinata	685728	21900	ADW	lifespan_days
+Globicephala_melas	9731	21900	AnAge;ADW	lifespan_days
+Delphinapterus_leucas	9749	21900	ADW	lifespan_days
+Pongo_pygmaeus	9600	21600	EOL	lifespan_days
+Gavialis_gangeticus	94835	21535	AnAge	lifespan_days
+Pongo_abelii	9601	21170	ADW	lifespan_days
+Crocodylus_porosus	8502	20805	AnAge	lifespan_days
+Hippoglossus_stenolepis	195615	20075	EOL;fishbase	lifespan_days
+Polyodon_spathula	7913	20075	AnAge;ADW;fishbase	lifespan_days
+Pan_paniscus	9597	20075	AnAge	lifespan_days
+Coryphaenoides_rupestris	163118	19710	AnAge;EOL;fishbase	lifespan_days
+Tursiops_truncatus	9739	19345	ADW	lifespan_days
+Fulmarus_glacialis	30455	18615	AnAge	lifespan_days
+Pleuronectes_platessa	8262	18250	AnAge;EOL;fishbase	lifespan_days
+Dissostichus_eleginoides	100907	18250	AnAge	lifespan_days
+Coregonus_clupeaformis	59861	18250	AnAge;ADW;fishbase	lifespan_days
+Tachyglossus_aculeatus	9261	18250	ADW	lifespan_days
+Xyrauchen_texanus	154827	18250	ADW	lifespan_days
+Atractosteus_spatula	7917	18250	ADW	lifespan_days
+Strongylocentrotus_purpuratus	7668	18250	AnAge;EOL	lifespan_days
+Ursus_arctos	9644	18250	ADW	lifespan_days
+Balaenoptera_acutorostrata	9767	18250	ADW;AnAge	lifespan_days
+Equus_asinus	9793	18250	ADW	lifespan_days
+Struthio_camelus	8801	18250	ADW;AnAge	lifespan_days
+Ceratotherium_simum	9807	18250	ADW	lifespan_days
+Aptenodytes_forsteri	9233	18250	ADW	lifespan_days
+Carcharodon_carcharias	13397	18250	AnAge	lifespan_days
+Camelus_bactrianus	9837	18250	ADW	lifespan_days
+Camelus_dromedarius	9838	18250	ADW	lifespan_days
+Monodon_monoceros	40151	18250	AnAge;ADW	lifespan_days
+Salvelinus_namaycush	8040	18250	AnAge;fishbase;EOL	lifespan_days
+Haliaeetus_leucocephalus	52644	17520	AnAge	lifespan_days
+Latimeria_chalumnae	7897	17520	AnAge;ADW;EOL;fishbase	lifespan_days
+Aquila_chrysaetos	8962	17520	ADW;AnAge	lifespan_days
+Phoca_vitulina	9720	17374	AnAge;ADW	lifespan_days
+Nestor_notabilis	176057	17155	AnAge	lifespan_days
+Chelydra_serpentina	8475	17155	AnAge;ADW	lifespan_days
+Cyprinus_carpio	7962	17155	ADW;AnAge	lifespan_days
+Acipenser_ruthenus	7906	16826.5	AnAge	lifespan_days
+Halichoerus_grypus	9711	16802.1	EOL	lifespan_days
+Mandrillus_leucophaeus	9568	16790	ADW	lifespan_days
+Lagenorhynchus_obliquidens	90247	16790	AnAge;ADW	lifespan_days
+Sapajus_apella	9515	16790	AnAge	lifespan_days
+Aythya_fuligula	219594	16498	AnAge	lifespan_days
+Gymnogyps_californianus	33616	16425	AnAge;ADW	lifespan_days
+Hylobates_moloch	81572	16425	AnAge;ADW	lifespan_days
+Nomascus_leucogenys	61853	16096.5	AnAge	lifespan_days
+Megalops_cyprinoides	118141	16060	AnAge;fishbase;EOL	lifespan_days
+Pteropus_giganteus	143291	16060	AnAge	lifespan_days
+Ursus_maritimus	29073	15995	ADW format	lifespan_days
+Symphalangus_syndactylus	9590	15695	AnAge	lifespan_days
+Carassius_auratus	7957	15695	ADW	lifespan_days
+Uria_aalge	13746	15622	AnAge	lifespan_days
+Eudyptula_minor	37083	15403	AnAge	lifespan_days
+Haliaeetus_albicilla	8969	15330	AnAge;EOL	lifespan_days
+Trachemys_scripta	34903	15074.5	ADW;AnAge	lifespan_days
+Crocuta_crocuta	9678	15001.5	AnAge;ADW	lifespan_days
+Myotis_brandtii	109478	14965	AnAge	lifespan_days
+Pygoscelis_papua	30457	14965	AnAge	lifespan_days
+Equus_quagga	89248	14600	ADW	lifespan_days
+Bufo_bufo	8384	14600	AnAge;EOL	lifespan_days
+Eolophus_roseicapilla	176039	14600	AnAge;EOL	lifespan_days
+Cygnus_olor	8869	14600	AnAge;ADW	lifespan_days
+Grus_americana	9117	14600	AnAge;ADW	lifespan_days
+Epinephelus_fuscoguttatus	293821	14600	EOL;fishbase	lifespan_days
+Cygnus_atratus	8868	14600	ADW	lifespan_days
+Macaca_mulatta	9544	14600	AnAge	lifespan_days
+Anser_cygnoides	8845	14600	ADW	lifespan_days
+Bison_bison	9901	14600	ADW	lifespan_days
+Apteryx_rowi	308060	14600	ADW Apteryx australis	lifespan_days
+Ictalurus_punctatus	7998	14600	ADW	lifespan_days
+Dissostichus_mawsoni	36200	14235	EOL;fishbase	lifespan_days
+Macaca_fascicularis	9541	14235	AnAge	lifespan_days
+Salmo_trutta	8032	13870	AnAge;fishbase;ADW	lifespan_days
+Macaca_nemestrina	9545	13724	AnAge	lifespan_days
+Papio_anubis	9555	13687.5	ADW	lifespan_days
+Lemur_catta	9447	13614.5	AnAge	lifespan_days
+Myotis_myotis	51298	13541.5	AnAge	lifespan_days
+Thalassarche_chlororhynchos	54017	13505	AnAge;EOL	lifespan_days
+Choloepus_didactylus	27675	13432	AnAge	lifespan_days
+Ailuropoda_melanoleuca	9646	13432	AnAge	lifespan_days
+Balaeniceps_rex	33584	13140	ADW	lifespan_days
+Theropithecus_gelada	9565	13140	AnAge	lifespan_days
+Zalophus_californianus	9704	13030.5	AnAge	lifespan_days
+Colobus_angolensis	54131	12884.5	AnAge	lifespan_days
+Pelecanus_crispus	36300	12884.5	AnAge;EOL	lifespan_days
+Harpia_harpyja	202280	12775	ADW	lifespan_days
+Lates_calcarifer	8187	12775	fishbase	lifespan_days
+Columba_livia	8932	12775	AnAge;ADW	lifespan_days
+Bubalus_bubalis	89462	12738.5	ADW;AnAge	lifespan_days
+Callorhinus_ursinus	34884	12600	EOL	lifespan_days
+Limosa_lapponica	161683	12410	AnAge;EOL	lifespan_days
+Polypterus_senegalus	55291	12410	AnAge;EOL	lifespan_days
+Ursus_americanus	9643	12410	AnAge	lifespan_days
+Tyto_alba	56313	12410	ADW;AnAge	lifespan_days
+Myotis_lucifugus	59463	12410	AnAge	lifespan_days
+Fregata_magnificens	37042	12410	AnAge	lifespan_days
+Felis_catus	9685	12240	EOL	lifespan_days
+Stegostoma_fasciatum	378071	12045	ADW	lifespan_days
+Eumetopias_jubatus	34886	11972	AnAge	lifespan_days
+Naja_naja	35670	11789.5	AnAge;EOL	lifespan_days
+Pantherophis_guttatus	94885	11789.5	ADW	lifespan_days
+Lynx_rufus	61384	11789.5	AnAge;ADW	lifespan_days
+Phalacrocorax_carbo	9209	11716.5	AnAge	lifespan_days
+Pandion_haliaetus	56262	11680	AnAge	lifespan_days
+Anseranas_semipalmata	8851	11680	ADW	lifespan_days
+Cheilinus_undulatus	241271	11680	fishbase;EOL	lifespan_days
+Stercorarius_parasiticus	54059	11550	ADW	lifespan_days
+Cervus_elaphus	9860	11497.5	AnAge	lifespan_days
+Heterocephalus_glaber	10181	11315	ADW;AnAge	lifespan_days
+Propithecus_coquereli	379532	11315	ADW	lifespan_days
+Rhinolophus_ferrumequinum	59479	11132.5	AnAge	lifespan_days
+Saimiri_boliviensis	27679	11059.5	AnAge	lifespan_days
+Xenopus_laevis	8355	11059.5	AnAge	lifespan_days
+Spheniscus_magellanicus	37081	10950	AnAge;ADW	lifespan_days
+Phacochoerus_africanus	41426	10950	AnAge	lifespan_days
+Vombatus_ursinus	29139	10950	AnAge;ADW	lifespan_days
+Dicentrarchus_labrax	13489	10950	fishbase;EOL	lifespan_days
+Gallus_gallus	9031	10950	ADW;AnAge;EOL	lifespan_days
+Dermochelys_coriacea	27794	10950	ADW;AnAge	lifespan_days
+Panthera_leo	9689	10950	ADW	lifespan_days
+Pteropus_vampyrus	132908	10950	ADW	lifespan_days
+Esox_lucius	8010	10950	AnAge;fishbase	lifespan_days
+Morone_saxatilis	34816	10950	AnAge;fishbase;ADW	lifespan_days
+Cepphus_grylle	28697	10913.5	AnAge	lifespan_days
+Orycteropus_afer	9818	10877	AnAge	lifespan_days
+Enhydra_lutris	34882	10800	EOL	lifespan_days
+Neomonachus_schauinslandi	29088	10800	EOL Monachus schauinslandi	lifespan_days
+Rhinopithecus_roxellana	61622	10767.5	AnAge;EOL	lifespan_days
+Desmodus_rotundus	9430	10658	AnAge	lifespan_days
+Anas_platyrhynchos	8839	10621.5	AnAge	lifespan_days
+Canis_lupus	9612	10620	EOL	lifespan_days
+Ciccaba_nigrolineata	1118524	10585	ADW	lifespan_days
+Labrus_bergylta	56723	10585	AnAge;fishbase;EOL	lifespan_days
+Eublepharis_macularius	481883	10402.5	AnAge;EOL	lifespan_days
+Rissa_tridactyla	75485	10402.5	AnAge	lifespan_days
+Amazona_guildingii	175529	10220	AnAge;EOL	lifespan_days
+Lasius_niger	67767	10220	AnAge;EOL	lifespan_days
+Amblyraja_radiata	386614	10220	EOL;fishbase	lifespan_days
+Pogonomyrmex_barbatus	144034	10220	Ingram 2013	lifespan_days
+Mya_arenaria	6604	10220	AnAge	lifespan_days
+Oryx_dammah	59534	10037.5	AnAge;ADW	lifespan_days
+Spheniscus_demersus	92683	9964.5	AnAge	lifespan_days
+Panthera_pardus	9691	9964.5	AnAge	lifespan_days
+Balearica_regulorum	925459	9928	AnAge	lifespan_days
+Macaca_thibetana	54602	9855	AnAge	lifespan_days
+Lontra_canadensis	76717	9855	AnAge	lifespan_days
+Platysternon_megacephalum	55544	9855	AnAge;EOL	lifespan_days
+Sus_scrofa	9823	9855	AnAge;ADW	lifespan_days
+Puma_concolor	9696	9855	AnAge	lifespan_days
+Rana_temporaria	8407	9855	AnAge;EOL	lifespan_days
+Phasianus_colchicus	9054	9855	AnAge	lifespan_days
+Aptenodytes_patagonicus	9234	9855	AnAge	lifespan_days
+Cercocebus_atys	9531	9782	ADW	lifespan_days
+Lynx_canadensis	61383	9782	AnAge	lifespan_days
+Nycticebus_coucang	9470	9672.5	ADW	lifespan_days
+Panthera_tigris	9694	9599.5	AnAge	lifespan_days
+Trachypithecus_francoisi	54180	9599.5	AnAge;ADW	lifespan_days
+Ardeotis_kori	89386	9490	ADW	lifespan_days
+Micropterus_dolomieu	147949	9490	AnAge;ADW;fishbase	lifespan_days
+Nipponia_nippon	128390	9490	ADW	lifespan_days
+Scophthalmus_maximus	52904	9490	AnAge	lifespan_days
+Plectropomus_leopardus	160734	9490	AnAge;fishbase;EOL	lifespan_days
+Vicugna_pacos	30538	9417	ADW Lama pacos;AnAge	lifespan_days
+Sula_dactylatra	56068	9307.5	AnAge	lifespan_days
+Ptilonorhynchus_violaceus	28724	9161.5	AnAge	lifespan_days
+Falco_peregrinus	8954	9125	AnAge;ADW	lifespan_days
+Pheucticus_melanocephalus	371919	9125	AnAge;ADW	lifespan_days
+Corvus_hawaiiensis	134902	9125	AnAge;EOL	lifespan_days
+Hyaena_hyaena	95912	9125	AnAge	lifespan_days
+Clupea_harengus	7950	9125	fishbase	lifespan_days
+Falco_cherrug	345164	9125	ADW	lifespan_days
+Ictalurus_furcatus	66913	9125	ADW error unit	lifespan_days
+Chiloscyllium_plagiosum	36176	9125	AnAge;EOL;fishbase	lifespan_days
+Lamprotornis_superbus	245042	9125	AnAge	lifespan_days
+Colossoma_macropomum	42526	9125	Animal-world	lifespan_days
+Gadus_morhua	8049	9125	AnAge;fishbase	lifespan_days
+Struthidea_cinerea	181839	9125	AnAge;ADW	lifespan_days
+Rousettus_aegyptiacus	9407	9125	ADW	lifespan_days
+Leptonychotes_weddellii	9713	9000	EOL	lifespan_days
+Mauremys_reevesii	260615	8833	AnAge;EOL	lifespan_days
+Lipotes_vexillifer	118797	8760	AnAge;ADW	lifespan_days
+Salvelinus_fontinalis	8038	8760	AnAge;ADW;fishbase	lifespan_days
+Serinus_canaria	9135	8760	AnAge;EOL	lifespan_days
+Gavia_stellata	37040	8760	AnAge	lifespan_days
+Sciurus_carolinensis	30640	8640	EOL	lifespan_days
+Gekko_japonicus	146911	8577.5	AnAge Gekko gecko	lifespan_days
+Castor_canadensis	51338	8541	AnAge	lifespan_days
+Megadyptes_antipodes	37085	8395	ADW	lifespan_days
+Dasypus_novemcinctus	9361	8395	ADW	lifespan_days
+Odocoileus_virginianus	9874	8395	ADW;AnAge	lifespan_days
+Micropterus_salmoides	27706	8395	ADW;AnAge;fishbase	lifespan_days
+Leopardus_geoffroyi	46844	8395	AnAge	lifespan_days
+Rhinopithecus_bieti	61621	8395	ADW	lifespan_days
+Sturnus_vulgaris	9172	8358.5	AnAge	lifespan_days
+Callithrix_jacchus	9483	8322	AnAge	lifespan_days
+Ovis_aries	9940	8322	ADW;AnAge	lifespan_days
+Crotalus_adamanteus	8729	8322	AnAge;EOL	lifespan_days
+Neophocaena_asiaeorientalis	189058	8280	EOL Neophocaena phocaenoides	lifespan_days
+Mirounga_leonina	9715	8280	EOL	lifespan_days
+Ornithorhynchus_anatinus	9258	8249	AnAge	lifespan_days
+Ophiophagus_hannah	8665	8212.5	AnAge;EOL	lifespan_days
+Arenaria_interpres	54971	8139.5	AnAge	lifespan_days
+Egretta_garzetta	188379	8139.5	AnAge;EOL	lifespan_days
+Mauremys_mutica	74926	8066.5	AnAge;EOL	lifespan_days
+Phascolarctos_cinereus	38626	8066.5	AnAge	lifespan_days
+Accipiter_gentilis	8957	8030	AnAge	lifespan_days
+Pecten_maximus	6579	8030	EOL	lifespan_days
+Electrophorus_electricus	8005	8030	ADW	lifespan_days
+Perca_fluviatilis	8168	8030	AnAge;fishbase;EOL	lifespan_days
+Capra_hircus	9925	8030	ADW	lifespan_days
+Lutra_lutra	9657	8030	ADW	lifespan_days
+Budorcas_taxicolor	37181	7993.5	AnAge	lifespan_days
+Rangifer_tarandus	9870	7957	AnAge	lifespan_days
+Vulpes_vulpes	9627	7774.5	AnAge	lifespan_days
+Marmota_flaviventris	93162	7738	AnAge	lifespan_days
+Piliocolobus_tephrosceles	591936	7738	ADW format	lifespan_days
+Apus_apus	8895	7701.5	AnAge	lifespan_days
+Pontoporia_blainvillei	48723	7665	ADW	lifespan_days
+Ctenopharyngodon_idella	7959	7665	AnAge;EOL;fishbase	lifespan_days
+Melopsittacus_undulatus	13146	7665	AnAge;ADW	lifespan_days
+Cathartes_aura	43455	7592	AnAge	lifespan_days
+Suricata_suricatta	37032	7519	ADW;AnAge	lifespan_days
+Caloenas_nicobarica	187106	7482.5	AnAge;EOL	lifespan_days
+Acinonyx_jubatus	32536	7482.5	AnAge	lifespan_days
+Pteropus_alecto	9402	7409.5	AnAge	lifespan_days
+Rynchops_niger	227184	7373	AnAge	lifespan_days
+Mirounga_angustirostris	9716	7305	EOL	lifespan_days
+Ovis_ammon	30527	7300	ADW	lifespan_days
+Albula_goreensis	1534307	7300	ADW	lifespan_days
+Eudyptes_schlegeli	57240	7300	ADW	lifespan_days
+Corvus_brachyrhynchos	85066	7300	AnAge	lifespan_days
+Agelaius_phoeniceus	39638	7300	AnAge;ADW	lifespan_days
+Lottia_gigantea	225164	7300	ADW	lifespan_days
+Bombina_bombina	8345	7300	AnAge;EOL	lifespan_days
+Otolemur_garnettii	30611	7300	AnAge	lifespan_days
+Bos_taurus	9913	7300	AnAge;ADW	lifespan_days
+Oxyura_jamaicensis	8884	7300	AnAge	lifespan_days
+Eudyptes_filholi	1419345	7300	ADW Eudyptes schlegeli	lifespan_days
+Bos_indicus	9915	7300	AnAge Bos taurus	lifespan_days
+Manis_javanica	9974	7300	ADW Manis crassicaudata	lifespan_days
+Bothrops_jararaca	8724	7300	ADW	lifespan_days
+Thamnophis_sirtalis	35019	7300	ADW	lifespan_days
+Paragonimus_kellicotti	100269	7300	ADW text	lifespan_days
+Paragonimus_westermani	34504	7300	ADW	lifespan_days
+Chinchilla_lanigera	34839	7300	ADW text	lifespan_days
+Thunnus_maccoyii	8240	7300	AnAge;fishbase;EOL	lifespan_days
+Prionailurus_bengalensis	37029	7300	ADW	lifespan_days
+Dromaius_novaehollandiae	8790	7300	ADW	lifespan_days
+Eptesicus_fuscus	29078	7200	EOL	lifespan_days
+Gulo_gulo	48420	7117.5	AnAge	lifespan_days
+Podiceps_cristatus	345573	7008	AnAge	lifespan_days
+Artibeus_jamaicensis	9417	7008	AnAge	lifespan_days
+Chionoecetes_opilio	41210	6935	ADW	lifespan_days
+Echinops_telfairi	9371	6935	AnAge	lifespan_days
+Meles_meles	9662	6935	ADW	lifespan_days
+Muntiacus_muntjak	9888	6862	AnAge	lifespan_days
+Puma_yagouaroundi	1608482	6789	AnAge	lifespan_days
+Sagittarius_serpentarius	56258	6789	ADW	lifespan_days
+Patagioenas_fasciata	372321	6752.5	AnAge;EOL	lifespan_days
+Microcebus_murinus	30608	6643	AnAge	lifespan_days
+Marmota_marmota	9993	6570	ADW	lifespan_days
+Phyllostomus_hastatus	9423	6570	AnAge;ADW	lifespan_days
+Scomber_japonicus	13676	6570	AnAge;EOL;fishbase	lifespan_days
+Protopterus_annectens	7888	6570	AnAge;EOL	lifespan_days
+Lepisosteus_oculatus	7918	6570	AnAge;fishbase;ADW	lifespan_days
+Menura_novaehollandiae	47692	6533.5	AnAge	lifespan_days
+Thamnophis_elegans	35005	6497	AnAge	lifespan_days
+Panthera_uncia	29064	6480	EOL Uncia uncia	lifespan_days
+Oryctolagus_cuniculus	9986	6480	EOL	lifespan_days
+Prionailurus_viverrinus	61388	6278	AnAge	lifespan_days
+Merops_nubicus	57421	6205	ADW	lifespan_days
+Acanthaster_planci	133434	6205	ADW text	lifespan_days
+Sander_lucioperca	283035	6205	EOL;fishbase	lifespan_days
+Molothrus_ater	84834	6168.5	ADW;AnAge	lifespan_days
+Corvus_cornix	181096	6132	AnAge;EOL	lifespan_days
+Nyctereutes_procyonoides	34880	6059	AnAge	lifespan_days
+Orthonyx_spaldingii	38397	6022.5	AnAge	lifespan_days
+Anhinga_anhinga	56067	5986	AnAge;ADW	lifespan_days
+Vulpes_lagopus	494514	5949.5	AnAge;ADW	lifespan_days
+Clarias_magur	1594786	5913	ADW Clarias batrachus	lifespan_days
+Loxia_curvirostra	64802	5876.5	AnAge	lifespan_days
+Ostrea_edulis	37623	5840	AnAge	lifespan_days
+Mugil_cephalus	48193	5840	AnAge;fishbase	lifespan_days
+Hirundo_rustica	43150	5840	AnAge	lifespan_days
+Carlito_syrichta	1868482	5840	AnAge	lifespan_days
+Lithobates_catesbeianus	8400	5840	AnAge;ADW	lifespan_days
+Pygoscelis_adeliae	9238	5840	ADW	lifespan_days
+Trichosurus_vulpecula	9337	5803.5	AnAge	lifespan_days
+Aphelocoma_coerulescens	39617	5767	ADW	lifespan_days
+Parus_major	9157	5621	AnAge;EOL	lifespan_days
+Crotalus_tigris	88082	5584.5	AnAge	lifespan_days
+Clarias_gariepinus	13013	5475	fishbase	lifespan_days
+Synchiropus_splendidus	270530	5475	ADW	lifespan_days
+Chaetura_pelagica	8897	5475	AnAge	lifespan_days
+Astyanax_mexicanus	7994	5475	AnAge	lifespan_days
+Seriola_dumerili	41447	5475	fishbase;EOL	lifespan_days
+Leiothrix_lutea	36275	5475	AnAge;EOL	lifespan_days
+Callorhinchus_milii	7868	5475	ADW	lifespan_days
+Acromyrmex_echinatior	103372	5475	Romiguier 2014	lifespan_days
+Atta_cephalotes	12957	5475	ADW Atta sexdens	lifespan_days
+Camarhynchus_parvulus	87175	5475	AnAge	lifespan_days
+Coptotermes_formosanus	36987	5475	ADW	lifespan_days
+Eurypyga_helias	54383	5475	AnAge;EOL	lifespan_days
+Lagopus_leucura	30410	5475	AnAge;EOL	lifespan_days
+Chanos_chanos	29144	5475	AnAge;fishbase;ADW	lifespan_days
+Zonotrichia_albicollis	44394	5438.5	AnAge	lifespan_days
+Cavia_porcellus	10141	5402	ADW	lifespan_days
+Oriolus_oriolus	181099	5402	AnAge;EOL	lifespan_days
+Cyanistes_caeruleus	156563	5329	AnAge;EOL	lifespan_days
+Notechis_scutatus	8663	5146.5	AnAge;EOL	lifespan_days
+Herpetotheres_cachinnans	56343	5110	ADW	lifespan_days
+Octodon_degus	10160	5110	AnAge	lifespan_days
+Mustela_putorius	9668	5110	ADW	lifespan_days
+Todus_mexicanus	135184	5110	AnAge	lifespan_days
+Marmota_monax	9995	5110	AnAge;ADW	lifespan_days
+Erinaceus_europaeus	9365	5040	EOL	lifespan_days
+Motacilla_alba	45807	5000.5	AnAge;EOL	lifespan_days
+Tympanuchus_pallidicinctus	109042	4927.5	AnAge	lifespan_days
+Bombycilla_garrulus	125297	4927.5	AnAge	lifespan_days
+Falco_rusticolus	120794	4927.5	AnAge;EOL	lifespan_days
+Passer_montanus	9160	4781.5	AnAge	lifespan_days
+Chlorocebus_sabaeus	60711	4745	ADW	lifespan_days
+Meleagris_gallopavo	9103	4745	AnAge;ADW	lifespan_days
+Cryptotermes_secundus	105785	4745	Monroy 2019	lifespan_days
+Cyclopterus_lumpus	8103	4745	EOL;fishbase	lifespan_days
+Miniopterus_natalensis	291302	4745	www.ewt.org.za	lifespan_days
+Lynx_pardinus	191816	4745	ADW	lifespan_days
+Salmo_salar	8030	4745	ADW;AnAge;fishbase	lifespan_days
+Alosa_sapidissima	34773	4745	AnAge;fishbase	lifespan_days
+Sarcophilus_harrisii	9305	4745	AnAge	lifespan_days
+Sitta_europaea	50251	4708.5	AnAge;EOL	lifespan_days
+Cuculus_canorus	55661	4708.5	AnAge;ADW	lifespan_days
+Melozone_crissalis	40204	4672	AnAge	lifespan_days
+Dipodomys_spectabilis	105255	4635.5	AnAge;ADW	lifespan_days
+Quiscalus_mexicanus	64278	4562.5	AnAge;ADW	lifespan_days
+Lanius_ludovicianus	28713	4562.5	AnAge	lifespan_days
+Mustela_erminea	36723	4562.5	AnAge;ADW	lifespan_days
+Alectura_lathami	81907	4562.5	AnAge;EOL	lifespan_days
+Indicator_indicator	1002788	4380	ADW	lifespan_days
+Seriola_aureovittata	2871759	4380	ADW;fishbase	lifespan_days
+Charadrius_vociferus	50402	4380	ADW	lifespan_days
+Leucoraja_erinacea	7782	4380	fishbase	lifespan_days
+Pogona_vitticeps	103695	4380	AnAge;EOL	lifespan_days
+Seriola_lalandi	302047	4380	ADW;fishbase	lifespan_days
+Scyliorhinus_canicula	7830	4380	AnAge;fishbase;EOL	lifespan_days
+Taeniopygia_guttata	59729	4380	AnAge;ADW	lifespan_days
+Perca_flavescens	8167	4380	AnAge;ADW	lifespan_days
+Falcunculus_frontatus	254539	4343.5	AnAge	lifespan_days
+Spizella_passerina	40210	4307	AnAge	lifespan_days
+Lagopus_muta	64668	4270.5	AnAge	lifespan_days
+Colius_striatus	57412	4197.5	AnAge;EOL	lifespan_days
+Melospiza_melodia	44397	4124.5	AnAge	lifespan_days
+Pycnonotus_jocosus	182897	4051.5	AnAge;EOL	lifespan_days
+Aegithalos_caudatus	73327	4051.5	AnAge	lifespan_days
+Upupa_epops	57439	4051.5	AnAge;EOL	lifespan_days
+Athene_cunicularia	194338	4015	AnAge;ADW	lifespan_days
+Empidonax_traillii	164674	4015	AnAge;ADW	lifespan_days
+Petromyzon_marinus	7757	4015	fishbase	lifespan_days
+Calidris_pugnax	198806	4015	https://www.oiseaux.net/	lifespan_days
+Catharus_ustulatus	91951	4015	ADW;AnAge;EOL	lifespan_days
+Oncorhynchus_mykiss	8022	4015	ADW;AnAge;fishbase	lifespan_days
+Sparus_aurata	8175	4015	AnAge;fishbase;EOL	lifespan_days
+Falco_naumanni	148594	3978.5	AnAge;EOL	lifespan_days
+Hippolais_icterina	68497	3942	AnAge;EOL	lifespan_days
+Neotoma_lepida	56216	3832.5	AnAge;ADW	lifespan_days
+Aix_galericulata	8832	3796	AnAge;EOL	lifespan_days
+Catharus_fuscescens	159581	3686.5	AnAge;EOL	lifespan_days
+Oenanthe_oenanthe	279966	3686.5	AnAge;EOL	lifespan_days
+Malurus_elegans	720584	3650	AnAge	lifespan_days
+Ameiurus_melas	219545	3650	AnAge;ADW;fishbase	lifespan_days
+Labeo_rohita	84645	3650	AnAge;EOL;fishbase	lifespan_days
+Amphiprion_ocellaris	80972	3650	ADW	lifespan_days
+Pangasianodon_gigas	30993	3650	EOL;fishbase	lifespan_days
+Lonchura_striata	40157	3650	AnAge;EOL	lifespan_days
+Monodelphis_domestica	13616	3650	ADW	lifespan_days
+Camponotus_floridanus	104421	3650	ADW Camponotus pennsylvanicus	lifespan_days
+Podarcis_muralis	64176	3650	AnAge;EOL	lifespan_days
+Asterias_rubens	7604	3650	http://www.marlin.ac.uk/	lifespan_days
+Anolis_carolinensis	28377	3650	ADW	lifespan_days
+Chelmon_rostratus	109905	3650	AnAge;EOL;fishbase	lifespan_days
+Carassius_gibelio	101364	3650	EOL;fishbase	lifespan_days
+Alosa_alosa	278164	3650	AnAge;fishbase;EOL	lifespan_days
+Trematomus_bernacchii	40690	3650	AnAge;fishbase;EOL	lifespan_days
+Eudyptes_chrysocome	79626	3650	ADW	lifespan_days
+Passerina_amoena	142471	3613.5	AnAge;EOL;ADW text	lifespan_days
+Dipodomys_ordii	10020	3613.5	AnAge	lifespan_days
+Mesocricetus_auratus	10036	3600	EOL	lifespan_days
+Ficedula_albicollis	59894	3577	AnAge;EOL	lifespan_days
+Drymodes_brunneopygia	626378	3540.5	AnAge	lifespan_days
+Cettia_cetti	68486	3394.5	AnAge;EOL	lifespan_days
+Thryothorus_ludovicianus	74200	3358	AnAge	lifespan_days
+Dreissena_polymorpha	45954	3285	ADW text	lifespan_days
+Geococcyx_californianus	8947	3285	AnAge	lifespan_days
+Phyllostomus_discolor	89673	3285	AnAge	lifespan_days
+Siniperca_chuatsi	119488	3285	fishbase;EOL	lifespan_days
+Thunnus_albacares	8236	3285	AnAge;fishbase;EOL	lifespan_days
+Oreochromis_niloticus	8128	3285	AnAge;fishbase;EOL	lifespan_days
+Oncorhynchus_tshawytscha	74940	3285	AnAge;fishbase;ADW	lifespan_days
+Calypte_anna	9244	3102.5	AnAge;ADW	lifespan_days
+Perognathus_longimembris	38669	3029.5	AnAge	lifespan_days
+Pomatostomus_ruficeps	9176	3029.5	AnAge	lifespan_days
+Peromyscus_maniculatus	10042	3029.5	ADW;AnAge	lifespan_days
+Certhia_familiaris	73333	2993	AnAge	lifespan_days
+Cinclus_mexicanus	161649	2956.5	AnAge;EOL	lifespan_days
+Gasterosteus_aculeatus	69293	2920	AnAge;ADW;fishbase	lifespan_days
+Dallia_pectoralis	75939	2920	AnAge;EOL;fishbase	lifespan_days
+Apis_mellifera	7460	2920	AnAge	lifespan_days
+Archocentrus_centrarchus	63155	2920	en.aqua-fish.net	lifespan_days
+Pipistrellus_kuhlii	59472	2920	AnAge	lifespan_days
+Zootoca_vivipara	8524	2920	ADW	lifespan_days
+Anabas_testudineus	64144	2920	AnAge;EOL	lifespan_days
+Oncorhynchus_nerka	8023	2920	AnAge;fishbase;ADW	lifespan_days
+Ictidomys_tridecemlineatus	43179	2883.5	AnAge	lifespan_days
+Peromyscus_leucopus	10041	2883.5	AnAge	lifespan_days
+Atrichornis_clamosus	449594	2847	AnAge	lifespan_days
+Tegillarca_granosa	220873	2737.5	EOL	lifespan_days
+Jaculus_jaculus	51337	2664.5	AnAge	lifespan_days
+Panurus_biarmicus	181101	2591.5	AnAge;EOL	lifespan_days
+Centrocercus_urophasianus	9002	2555	AnAge;ADW	lifespan_days
+Origma_solitaria	720586	2555	AnAge	lifespan_days
+Ochotona_princeps	9978	2555	AnAge;ADW	lifespan_days
+Notolabrus_celidotus	1203425	2555	AnAge;EOL;fishbase	lifespan_days
+Crassostrea_gigas	29159	2555	AnAge	lifespan_days
+Oncorhynchus_keta	8018	2555	AnAge;fishbase;EOL	lifespan_days
+Talpa_occidentalis	50954	2520	EOL Talpa europaea	lifespan_days
+Toxostoma_redivivum	99882	2518.5	AnAge;EOL	lifespan_days
+Daphoenositta_chrysoptera	254528	2518.5	AnAge	lifespan_days
+Dibothriocephalus_latus	60516	2500	EOL	length_cm
+Pitangus_sulphuratus	371930	2490	ADW	lifespan_days
+Solenopsis_invicta	13686	2482	Romiguier 2014	lifespan_days
+Arvicanthis_niloticus	61156	2445.5	ADW;AnAge	lifespan_days
+Pelecanoides_urinatrix	37079	2372.5	ADW	lifespan_days
+Regulus_satrapa	13245	2299.5	AnAge;ADW;EOL	lifespan_days
+Zootermopsis_nevadensis	136037	2299.5	Thorne 2002	lifespan_days
+Meriones_unguiculatus	10047	2299.5	AnAge	lifespan_days
+Apodemus_sylvaticus	10129	2299.5	AnAge	lifespan_days
+Gracilinanus_agilis	191870	2226.5	AnAge;ADW	lifespan_days
+Eleutherodactylus_coqui	57060	2190	ADW	lifespan_days
+Mus_musculus	10090	2190	ADW format	lifespan_days
+Chloebia_gouldiae	44316	2190	AnAge Erythrura gouldiae;EOL	lifespan_days
+Coturnix_japonica	93934	2190	AnAge;ADW	lifespan_days
+Larimichthys_crocea	215358	2190	fishbase;EOL	lifespan_days
+Mizuhopecten_yessoensis	6573	2190	EOL	lifespan_days
+Molossus_molossus	27622	2044	AnAge	lifespan_days
+Peromyscus_californicus	42520	2007.5	AnAge;ADW	lifespan_days
+Danio_rerio	7955	2007.5	AnAge	lifespan_days
+Cricetulus_griseus	10029	1934.5	EOL Cricetulus barabensis	lifespan_days
+Microtus_ochrogaster	79684	1934.5	AnAge	lifespan_days
+Sceloporus_undulatus	8520	1825	ADW	lifespan_days
+Podilymbus_podiceps	9252	1825	ADW	lifespan_days
+Cyprinodon_tularosa	77115	1825	AnAge;EOL;fishbase	lifespan_days
+Pimephales_promelas	90988	1825	fishbase	lifespan_days
+Eriocheir_sinensis	95602	1825	ADW	lifespan_days
+Oryzias_latipes	8090	1825	AnAge;EOL	lifespan_days
+Arvicola_amphibius	1047088	1825	ADW	lifespan_days
+Oncorhynchus_kisutch	8019	1825	ADW;AnAge;EOL;fishbase	lifespan_days
+Necator_americanus	51031	1825	ADW text	lifespan_days
+Pungitius_pungitius	134920	1825	AnAge;fishbase;EOL	lifespan_days
+Poecilia_reticulata	8081	1825	AnAge;EOL	lifespan_days
+Xiphophorus_hellerii	8084	1825	AnAge	lifespan_days
+Crassostrea_virginica	6565	1825	AnAge	lifespan_days
+Galemys_pyrenaicus	202257	1800	EOL	lifespan_days
+Myodes_glareolus	447135	1788.5	AnAge	lifespan_days
+Phodopus_roborovskii	109678	1752	AnAge	lifespan_days
+Onychomys_torridus	38674	1679	ADW;AnAge	lifespan_days
+Polioptila_caerulea	66707	1533	AnAge;EOL	lifespan_days
+Rattus_rattus	10117	1533	AnAge	lifespan_days
+Calcarius_ornatus	198940	1460	ADW	lifespan_days
+Loxia_leucoptera	96539	1460	AnAge;EOL	lifespan_days
+Psammomys_obesus	48139	1460	ADW	lifespan_days
+Dermacentor_andersoni	34620	1460	ADW	lifespan_days
+Boleophthalmus_pectinirostris	150288	1460	EOL;fishbase	lifespan_days
+Condylura_cristata	143302	1460	ADW	lifespan_days
+Rattus_norvegicus	10116	1460	ADW	lifespan_days
+Fundulus_heteroclitus	8078	1460	EOL;fishbase	lifespan_days
+Pardalotus_punctatus	254575	1460	AnAge	lifespan_days
+Nibea_albiflora	240163	1460	fishbase;EOL	lifespan_days
+Pomacea_canaliculata	400727	1460	ADW	lifespan_days
+Antechinus_flavipes	38775	1423.5	AnAge	lifespan_days
+Mus_caroli	10089	1204.5	AnAge observations	lifespan_days
+Suncus_etruscus	109475	1168	AnAge	lifespan_days
+Sorex_araneus	42254	1168	AnAge	lifespan_days
+Dromiciops_gliroides	33562	1152	EOL	lifespan_days
+Syngnathus_scovelli	161590	1095	AnAge;EOL;fishbase	lifespan_days
+Etheostoma_cragini	417921	1095	AnAge;EOL;fishbase	lifespan_days
+Mytilus_californianus	6549	1095	ADW;AnAge	lifespan_days
+Penaeus_monodon	6687	1095	ADW	lifespan_days
+Apis_florea	7463	1095	Apis_mellifera	lifespan_days
+Apis_cerana	7461	1095	Apis_mellifera	lifespan_days
+Acomys_russatus	60746	1095	ADW	lifespan_days
+Harmonia_axyridis	115357	1095	ADW	lifespan_days
+Gambusia_affinis	33528	1095	AnAge;fishbase;EOL	lifespan_days
+Oncorhynchus_gorbuscha	8017	1095	AnAge;fishbase;EOL	lifespan_days
+Ctenocephalides_felis	7515	1095	ADW	lifespan_days
+Ochotona_curzoniae	130825	957	ADW	lifespan_days
+Pedionomus_torquatus	227192	839.5	AnAge	lifespan_days
+Sorex_cinereus	36803	730	ADW	lifespan_days
+Dracunculus_medinensis	318479	730	ADW	lifespan_days
+Menidia_menidia	238744	730	AnAge;fishbase;EOL	lifespan_days
+Dendroctonus_ponderosae	77166	730	ADW	lifespan_days
+Ixodes_scapularis	6945	730	ADW	lifespan_days
+Octopus_bimaculoides	37653	730	ADW Octopus bimaculatus	lifespan_days
+Armadillidium_vulgare	13347	730	ADW	lifespan_days
+Betta_splendens	158456	730	EOL;AnAge;fishbase;ADW	lifespan_days
+Penaeus_vannamei	6689	730	ADW Penaeus monodon	lifespan_days
+Coccinella_septempunctata	41139	730	ADW	lifespan_days
+Ciona_intestinalis	7719	730	AnAge	lifespan_days
+Leptinotarsa_decemlineata	7539	720	ADW	lifespan_days
+Harpegnathos_saltator	610380	653.35	Liebig 2004	lifespan_days
+Xiphias_gladius	8245	650	fishbase	weight_kg
+Cimex_lectularius	79782	572	Johnson 1940	lifespan_days
+Polistes_canadensis	91411	506	Southon 2015	lifespan_days
+Polistes_dominula	743375	506	Southon 2015 Polistes_canadensis	lifespan_days
+Microtus_oregoni	111838	450	EOL	lifespan_days
+Strongyloides_ratti	34506	401.5	AnAge	lifespan_days
+Nothobranchius_furzeri	105023	401.5	AnAge	lifespan_days
+Epinephelus_lanceolatus	310571	400	fishbase	weight_kg
+Hippocampus_zosterae	109293	365	ADW format;AnAge;fishbase	lifespan_days
+Bombus_affinis	309941	365	ADW	lifespan_days
+Hypomesus_transpacificus	137520	365	EOL;fishbase	lifespan_days
+Agrilus_planipennis	224129	365	ADW	lifespan_days
+Aplysia_californica	6500	365	ADW	lifespan_days
+Linepithema_humile	83485	365	ADW	lifespan_days
+Hermetia_illucens	343691	365	ADW	lifespan_days
+Macrostomum_lignano	282301	365	AnAge	lifespan_days
+Polistes_fuscatus	30207	365	ADW	lifespan_days
+Vespa_mandarinia	7446	365	ADW text	lifespan_days
+Fasciolopsis_buski	27845	365	ADW	lifespan_days
+Bombus_impatiens	132113	365	ADW text	lifespan_days
+Vanessa_cardui	171605	365	ADW	lifespan_days
+Aethina_tumida	116153	360	ADW	lifespan_days
+Elysia_chlorotica	188477	330	ADW	lifespan_days
+Halyomorpha_halys	286706	300	ADW	lifespan_days
+Cervus_canadensis	1574408	275	EOL	weight_kg
+Anarrhichthys_ocellatus	433405	240	EOL;fishbase	length_cm
+Sepia_pharaonis	158019	240	ADW	lifespan_days
+Bagarius_yarrelli	175774	230	fishbase	length_cm
+Megalobrama_amblycephala	75352	200	fishbase;EOL	length_cm
+Blattella_germanica	6973	200	ADW	lifespan_days
+Bicyclus_anynana	110368	182.5	AnAge;EOL	lifespan_days
+Ceratitis_capitata	7213	178.85	AnAge	lifespan_days
+Tribolium_castaneum	7070	170	Grunwald 2013	lifespan_days
+Onthophagus_taurus	166361	160	Kotiaho 2001	lifespan_days
+Phocoena_sinus	42100	152	EOL	length_cm
+Bombus_terrestris	30195	150	Amin 2011	lifespan_days
+Eurytemora_affinis	88015	150	Life cycle traits of two transatlantic populations of Eurytemora affinis (Copepoda: Calanoida): salinity effects	lifespan_days
+Epinephelus_moara	300413	136	fishbase;EOL Epinephelus bruneus	length_cm
+Chiloscyllium_punctatum	137246	132	fishbase;EOL	length_cm
+Hemibagrus_wyckioides	337641	130	fishbase;EOL	length_cm
+Silurus_asotus	30991	130	fishbase;EOL	length_cm
+Pangasianodon_hypophthalmus	310915	130	fishbase;EOL	length_cm
+Orbicella_faveolata	48498	120	EOL text	length_cm
+Caranx_melampygus	181461	117	EOL;fishbase	length_cm
+Aedes_albopictus	7160	117	ADW	lifespan_days
+Silurus_meridionalis	175797	114	fishbase;EOL	length_cm
+Echeneis_naucrates	173247	110	fishbase;EOL	length_cm
+Drosophila_melanogaster	7227	109.5	AnAge;ADW;EOL	lifespan_days
+Galeopterus_variegatus	482537	103.5	EOL	lifespan_days
+Paralichthys_olivaceus	8255	103	EOL;fishbase	length_cm
+Rhagoletis_pomonella	28610	103	ADW	lifespan_days
+Monopterus_albus	43700	100	ADW;fishbase;EOL	length_cm
+Pangasius_djambal	1691987	90	EOL;fishbase	length_cm
+Albula_glossodonta	121402	90	EOL;fishbase	length_cm
+Drosophila_pseudoobscura	7237	90	Vetukhiv 1957	lifespan_days
+Mastacembelus_armatus	205130	90	fishbase	length_cm
+Diuraphis_noxia	143948	90	ADW	lifespan_days
+Scleropages_formosus	113540	90	fishbase;EOL	length_cm
+Moschus_berezovskii	68408	89.999	EOL	length_cm
+Schistosoma_mansoni	6183	80	ADW	lifespan_days
+Cottoperca_gobio	56716	80	EOL;fishbase	length_cm
+Takifugu_rubripes	31033	80	fishbase;EOL	length_cm
+Scyliorhinus_torazame	75743	77.8	EOL;fishbase	length_cm
+Aotus_nancymaae	37293	77.4	ADW	length_cm
+Chaenocephalus_aceratus	36190	72	EOL;fishbase	length_cm
+Pygoscelis_antarcticus	79643	72	ADW text	length_cm
+Eudyptes_chrysolophus	79627	71	ADW text	length_cm
+Daphnia_pulicaria	35523	69.35	AnAge	lifespan_days
+Myxocyprinus_asiaticus	70543	68	fishbase;EOL	length_cm
+Numida_meleagris	8996	67	ADW error unit	length_cm
+Opisthocomus_hoazin	30419	66.04	ADW text	length_cm
+Anoplophora_glabripennis	217634	66	ADW	lifespan_days
+Eudyptes_sclateri	92688	65	ADW text	length_cm
+Notothenia_coriiceps	8208	62	EOL;fishbase	length_cm
+Cynoglossus_semilaevis	244447	61.1	EOL;fishbase	length_cm
+Solea_senegalensis	28829	60	EOL;fishbase	length_cm
+Enterobius_vermicularis	51028	60	ADW	lifespan_days
+Limulus_polyphemus	6850	60	EOL	length_cm
+Megachile_rotundata	143995	60	ADW	lifespan_days
+Musca_domestica	7370	60	ADW	lifespan_days
+Pseudochaenichthys_georgianus	52239	60	EOL;fishbase	length_cm
+Myripristis_murdjan	586833	60	fishbase;EOL	length_cm
+Sarcoptes_scabiei	52283	60	ADW	lifespan_days
+Manis_pentadactyla	143292	60	ADW text	length_cm
+Caenorhabditis_elegans	6239	58.4	AnAge;ADW;EOL	lifespan_days
+Liparis_tanakae	230148	56.3	fishbase;EOL	length_cm
+Daphnia_magna	35525	56	ADW	lifespan_days
+Ramphastos_sulfuratus	322582	52	ADW text	length_cm
+Prochilodus_magdalenae	148989	51	fishbase	length_cm
+Falco_biarmicus	345155	50	ADW	length_cm
+Syngnathus_acus	161584	50	fishbase;EOL	length_cm
+Bombyx_mori	7091	50	Song 2016	lifespan_days
+Drosophila_grimshawi	7222	50	Johansson 2005	lifespan_days
+Pygocentrus_nattereri	42514	50	fishbase;EOL	length_cm
+Steatornis_caripensis	48435	49	ADW	length_cm
+Oreochromis_aureus	47969	45.7	fishbase;EOL	length_cm
+Scatophagus_argus	75038	45	fishbase	length_cm
+Papilio_polytes	76194	43	ADW	lifespan_days
+Pieris_rapae	64459	42	ADW	lifespan_days
+Oceanites_oceanicus	79653	42	EOL	length_cm
+Tyrannus_savana	137541	41	ADW	length_cm
+Acanthopagrus_latus	8177	40	fishbase;EOL	length_cm
+Aedes_aegypti	7159	40	ADW Aedes albopictus	lifespan_days
+Spodoptera_exigua	7107	40	ADW	lifespan_days
+Gymnodraco_acuticeps	8218	38.5	EOL;fishbase	length_cm
+Drosophila_suzukii	28584	38	Lin 2014	lifespan_days
+Erpetoichthys_calabaricus	27687	37	EOL;fishbase	length_cm
+Takifugu_flavidus	433684	35	EOL;fishbase	length_cm
+Rhopalosiphum_maidis	43146	35	ADW	lifespan_days
+Scortum_barcoo	214431	35	fishbase;EOL	length_cm
+Tachysurus_fulvidraco	1234273	34.5	EOL;fishbase	length_cm
+Muraenolepis_orangiensis	630683	30	EOL;fishbase	length_cm
+Toxotes_jaculatrix	941984	30	EOL;fishbase	length_cm
+Acyrthosiphon_pisum	7029	30	Abanda 2012	lifespan_days
+Photinus_pyralis	7054	30	ADW	lifespan_days
+Thrips_palmi	161013	30	Capinera 2008	lifespan_days
+Takifugu_bimaculatus	433685	30	EOL;fishbase	length_cm
+Penaeus_japonicus	27405	30	EOL	length_cm
+Dirofilaria_immitis	6287	30	ADW	length_cm
+Sebastes_umbrosus	72105	29.8	EOL;fishbase	length_cm
+Tetranychus_urticae	32264	29	Comparative life table analysis of Tetranychus urticae Koch (Acari: Tetranychidae) on ten rose cultivars	lifespan_days
+Misgurnus_anguillicaudatus	75329	28	EOL;fishbase	length_cm
+Urocitellus_parryii	9999	27.892	EOL	length_cm
+Onychostoma_macrolepis	369639	26.5	EOL;fishbase	length_cm
+Nasonia_vitripennis	7425	25	King 1963	lifespan_days
+Sinocyclocheilus_grahami	75366	23	fishbase	length_cm
+Malaclemys_terrapin	8485	22.86	ADW text	length_cm
+Pseudoliparis_swirei	2059687	22.6	EOL;fishbase	length_cm
+Haliotis_rufescens	6454	20.7	EOL	length_cm
+Lucilia_cuprina	7375	20.56	Zied 2003	lifespan_days
+Brienomyrus_brachyistius	42636	20	EOL;fishbase	length_cm
+Chordeiles_acutipennis	118183	20	ADW text	length_cm
+Anisakis_simplex	6269	20	EOL	length_cm
+Collichthys_lucidus	240159	19.8	fishbase;EOL	length_cm
+Simochromis_diagramma	43689	19.5	EOL;fishbase	length_cm
+Dunckerocampus_dactyliophorus	161453	19	EOL;fishbase	length_cm
+Hippocampus_comes	109280	18.7	fishbase	length_cm
+Toxocara_canis	6265	18.4	EOL	length_cm
+Glaucidium_brasilianum	78217	18	ADW	length_cm
+Tetraodon_nigroviridis	99883	17	fishbase;EOL Dichotomyctere nigroviridis	length_cm
+Phainopepla_nitens	161653	16	ADW	length_cm
+Anabarilius_grahami	495550	15.6	EOL;fishbase	length_cm
+Lucifuga_dentata	670423	15.2	fishbase;EOL	length_cm
+Haplochromis_burtoni	8153	15	EOL Astatotilapia burtoni;fishbase	length_cm
+Poecilia_latipinna	48699	15	EOL;fishbase	length_cm
+Astatotilapia_calliptera	8154	15	fishbase;EOL	length_cm
+Denticeps_clupeoides	299321	15	fishbase;EOL	length_cm
+Gongylonema_pulchrum	637853	14.5	EOL	length_cm
+Acanthochromis_polyacanthus	80966	14	EOL;fishbase	length_cm
+Salarias_fasciatus	181472	14	fishbase;EOL	length_cm
+Triplophysa_tibetana	1572043	13.9	EOL;fishbase	length_cm
+Paramormyrops_kingsleyae	1676925	13.5	EOL;fishbase	length_cm
+Haliotis_rubra	36100	13.1	EOL	length_cm
+Vespula_pensylvanica	30213	13	EOL image	length_cm
+Styela_clava	7725	12	EOL	length_cm
+Mastomys_coucha	35658	11.966	EOL Mastomys natalensis	length_cm
+Procambarus_clarkii	6728	11.938	ADW text	length_cm
+Elephantulus_edwardii	28737	11.886	EOL	length_cm
+Athalia_rosae	37344	11.64	Park 2017	lifespan_days
+Maylandia_zebra	106582	11.3	EOL;fishbase	length_cm
+Poecilia_mexicana	48701	11	EOL;fishbase	length_cm
+Chrysochloris_asiatica	185453	10.65	EOL	length_cm
+Trichogramma_pretiosum	7493	10.5	Oliveira 2017	lifespan_days
+Periophthalmus_magnuspinnatus	409849	10.3	EOL;fishbase	length_cm
+Pteronotus_parnellii	59476	10.2	ADW	length_cm
+Patiria_miniata	46514	10.16	ADW text	length_cm
+Euphydryas_editha	104508	10	ADW text	lifespan_days
+Capitella_teleta	283909	10	EOL	length_cm
+Stegastes_partitus	144197	10	EOL;fishbase	length_cm
+Sinocyclocheilus_anshuiensis	1608454	10	EOL;fishbase	length_cm
+Owenia_fusiformis	6347	10	EOL	length_cm
+Sphaeramia_orbicularis	375764	10	EOL;fishbase	length_cm
+Sinocyclocheilus_rhinocerous	307959	9.7	EOL;fishbase	length_cm
+Poecilia_formosa	48698	9.6	fishbase;EOL	length_cm
+Hemicordylus_capensis	884348	9.59	EOL	length_cm
+Parambassis_ranga	210632	9.5	fishbase;EOL	length_cm
+Schistocerca_americana	7009	9.4	EOL	length_cm
+Thalassophryne_amazonica	390379	9.3	EOL;fishbase	length_cm
+Parelaphostrongylus_tenuis	148309	9	EOL	length_cm
+Cyprinodon_variegatus	28743	9	EOL;fishbase	length_cm
+Neolamprologus_brichardi	32507	9	EOL;fishbase	length_cm
+Melanotaenia_boesemani	1250792	9	EOL;fishbase	length_cm
+Phrynosoma_platyrhinos	52577	8.7	EOL	length_cm
+Austrofundulus_limnaeus	52670	8	EOL;fishbase	length_cm
+Nematolebias_whitei	451745	8	EOL;fishbase	length_cm
+Trichuris_suis	68888	8	Pittman et al. 2010	length_cm
+Dictyocaulus_viviparus	29172	8	EOL	length_cm
+Brugia_malayi	6279	8	ADW	length_cm
+Pundamilia_nyererei	303518	7.7	EOL Haplochromis nyererei;fishbase	length_cm
+Kryptolebias_marmoratus	37003	7.5	EOL;fishbase	length_cm
+Etheostoma_spectabile	54343	7.2	EOL;fishbase	length_cm
+Cephus_cinctus	211228	7	Rand 2019	lifespan_days
+Orussus_abietinus	222816	7	Cephus cinctus	lifespan_days
+Puntigrus_tetrazona	1606681	7	EOL;fishbase	length_cm
+Loa_loa	7209	7	H.D. Alan Lindquist, John H. Cross, in Infectious Diseases (Fourth Edition), 2017;ADW	length_cm
+Spea_bombifrons	233779	6.5	ADW text	length_cm
+Branchiostoma_lanceolatum	7740	6	EOL	length_cm
+Branchiostoma_belcheri	7741	6	EOL	length_cm
+Strongylus_vulgaris	40348	6	ADW	length_cm
+Nematostella_vectensis	45351	6	EOL;ADW text	length_cm
+Branchiostoma_floridae	7739	6	EOL	length_cm
+Gouania_willdenowi	441366	6	EOL	length_cm
+Xiphophorus_maculatus	8083	6	fishbase;EOL	length_cm
+Xiphophorus_couchianus	32473	6	EOL;fishbase	length_cm
+Triplophysa_rosa	992332	5.6	EOL;fishbase	length_cm
+Periplaneta_americana	6978	5.3	ADW text	length_cm
+Girardinichthys_multiradiatus	208333	5	EOL;fishbase	length_cm
+Trichuris_trichiura	36087	5	ADW;EOL	length_cm
+Pollicipes_pollicipes	41117	5	EOL	length_cm
+Lingula_anatina	7574	4.9	EOL	length_cm
+Oryzias_javanicus	123683	4.5	fishbase;EOL	length_cm
+Chauna_torquata	30388	4.4	EOL	weight_kg
+Angiostrongylus_costaricensis	334426	4.2	EOL	length_cm
+Oryzias_melastigma	30732	4	EOL;fishbase	length_cm
+Pogonophryne_albipinna	1090488	3.8	EOL;fishbase	length_cm
+Soboliphyme_baturini	241478	3.53	EOL	length_cm
+Angiostrongylus_cantonensis	6313	3.284	EOL	length_cm
+Lytechinus_pictus	7653	3.2	EOL text	length_cm
+Patella_vulgata	6465	3	EOL	length_cm
+Poeciliopsis_prolifica	188132	3	EOL;fishbase	length_cm
+Engystomops_pustulosus	76066	3	EOL	length_cm
+Danio_aesculapii	1142201	3	EOL;fishbase	length_cm
+Biomphalaria_glabrata	6526	2.95	EOL	length_cm
+Haemonchus_placei	6290	2.55	EOL	length_cm
+Vespa_crabro	7445	2.5	EOL	length_cm
+Lytechinus_variegatus	7654	2.5	EOL	length_cm
+Dinoponera_quadriceps	609295	2.5	EOL image	length_cm
+Clonorchis_sinensis	79923	2.5	ADW	length_cm
+Pomphorhynchus_laevis	141832	2.5	EOL	length_cm
+Circaetus_pectoralis	321084	2.3	EOL	weight_kg
+Bombus_vosnesenskii	207650	2.1	EOL image	length_cm
+Ancylostoma_caninum	29170	2	ADW	length_cm
+Contarinia_nasturtii	265458	2	Harris and Foster, 1999	lifespan_days
+Bombus_bifarius	103933	1.9	fieldguide	length_cm
+Lepeophtheirus_salmonis	72036	1.8	EOL	length_cm
+Nicrophorus_vespilloides	110193	1.6	EOL	length_cm
+Eudyptula_albosignata	345258	1.5	EOL Eudyptula minor	weight_kg
+Schistosoma_haematobium	6185	1.5	ADW text	length_cm
+Acropora_millepora	45264	1.5	ADW text	length_cm
+Echinococcus_multilocularis	6211	1.5	EOL	length_cm
+Oesophagostomum_dentatum	61180	1.4	EOL	length_cm
+Cariama_cristata	54380	1.4	EOL	weight_kg
+Chunga_burmeisteri	1352770	1.395	EOL	weight_kg
+Ancylostoma_duodenale	51022	1.3	ADW	length_cm
+Ancylostoma_ceylanicum	53326	1.3	Blaine et al. 2022	length_cm
+Corythaeola_cristata	103954	1.231	EOL	weight_kg
+Teladorsagia_circumcincta	45464	1.22	EOL	length_cm
+Eciton_burchellii	213866	1.2	ADW	length_cm
+Amphibalanus_amphitrite	1232801	1.2	EOL	length_cm
+Danionella_translucida	623744	1.2	fishbase;EOL	length_cm
+Spizaetus_tyrannus	252798	1.15	EOL	weight_kg
+Penelope_pileata	1118817	1.1	EOL	weight_kg
+Psophia_crepitans	54359	1.1	EOL	weight_kg
+Dicrocoelium_dendriticum	57078	1	ADW	length_cm
+Lucilia_sericata	13632	1	ADW	length_cm
+Osmia_lignaria	473952	1	EOL image	length_cm
+Odontomachus_brunneus	486640	0.9	EOL image	length_cm
+Echinococcus_granulosus	6210	0.9	ADW	length_cm
+Mesembrinibis_cayennensis	1118748	0.865	EOL	weight_kg
+Tinamus_guttatus	94827	0.8	EOL	weight_kg
+Stomoxys_calcitrans	35570	0.8	ADW	length_cm
+Plutella_xylostella	51655	0.8	EOL image	length_cm
+Cloeon_dipterum	197152	0.8	EOL image	length_cm
+Burhinus_bistriatus	240201	0.787	EOL	weight_kg
+Nothoprocta_ornata	83376	0.761	EOL	weight_kg
+Chionis_minor	227182	0.73	EOL	weight_kg
+Cochlearius_cochlearius	110676	0.726	EOL	weight_kg
+Anthonomus_grandis	7044	0.7	ADW	length_cm
+Pseudoatta_argentina	621737	0.6	EOL image	length_cm
+Parasteatoda_tepidariorum	114398	0.6	ADW text	length_cm
+Diabrotica_virgifera	50389	0.6	EOL image	length_cm
+Crypturellus_undulatus	48396	0.569	EOL	weight_kg
+Diabrotica_balteata	107213	0.52	EOL	length_cm
+Caligus_rogercresseyi	217165	0.516	EOL	length_cm
+Steinernema_carpocapsae	34508	0.51	Chapter 4. Steinernematidae: species descriptions	length_cm
+Chelonus_insularis	460826	0.5	EOL image	length_cm
+Nothoprocta_perdicaria	30464	0.458	EOL	weight_kg
+Pterocles_gutturalis	240206	0.4	EOL	weight_kg
+Anopheles_gambiae	7165	0.4	EOL image	length_cm
+Diachasma_alloeum	454923	0.4	EOL image	length_cm
+Nothoprocta_pentlandii	2585814	0.384	EOL	weight_kg
+Cephalopterus_ornatus	114276	0.38	EOL	weight_kg
+Phaethon_lepturus	97097	0.367	EOL	weight_kg
+Gymnorhina_tibicen	9132	0.36	EOL	weight_kg
+Pediculus_humanus	121225	0.35	ADW text	length_cm
+Corythaixoides_concolor	103956	0.35	EOL	weight_kg
+Daphnia_pulex	6669	0.35	EOL	length_cm
+Tauraco_erythrolophus	121530	0.325	EOL	weight_kg
+Dromas_ardeola	458190	0.325	EOL	weight_kg
+Ibidorhyncha_struthersii	425643	0.32	EOL	weight_kg
+Trichinella_spiralis	6334	0.32	ADW	length_cm
+Leptosomus_discolor	188344	0.301	EOL	weight_kg
+Diaphorina_citri	121845	0.3	EOL image	length_cm
+Odontophorus_gujanensis	886794	0.298	EOL	weight_kg
+Bambusicola_thoracicus	9083	0.297	EOL	weight_kg
+Centropus_bengalensis	1463675	0.29	EOL	weight_kg
+Phaetusa_simplex	297813	0.275	EOL	weight_kg
+Corvus_kubaryi	68294	0.27	EOL	weight_kg
+Crypturellus_soui	458187	0.268	EOL	weight_kg
+Syrrhaptes_paradoxus	302527	0.256	EOL	weight_kg
+Corvus_moneduloides	1196302	0.249	EOL	weight_kg
+Trichinella_pseudospiralis	6337	0.246	ADW	length_cm
+Daphnia_galeata	27404	0.233	EOL	length_cm
+Picathartes_gymnocephalus	175131	0.226	EOL	weight_kg
+Brachypteracias_leptosomus	135165	0.217	EOL	weight_kg
+Baryphthengus_martii	176943	0.2	EOL	weight_kg
+Pterocles_burchelli	2585816	0.2	EOL	weight_kg
+Rhipicephalus_microplus	6941	0.2	EOL image	length_cm
+Lutzomyia_longipalpis	7200	0.2	EOL image	length_cm
+Monomorium_pharaonis	307658	0.2	ADW	length_cm
+Centropus_unirufus	1118519	0.188	EOL	weight_kg
+Clunio_marinus	568069	0.15	EOL	length_cm
+Mesitornis_unicolor	54374	0.148	EOL	weight_kg
+Pocillopora_damicornis	46731	0.144	EOL	length_cm
+Thinocorus_orbignyianus	161742	0.14	EOL	weight_kg
+Grallaria_varia	117165	0.134	EOL	weight_kg
+Heliornis_fulica	54369	0.132	EOL	weight_kg
+Dicrurus_megarhynchus	450177	0.13	EOL	weight_kg
+Piaya_cayana	33601	0.129	EOL	weight_kg
+Rostratula_benghalensis	118793	0.121	EOL	weight_kg
+Trogon_melanurus	56311	0.114	EOL	weight_kg
+Eurystomus_gularis	325343	0.11	EOL	weight_kg
+Cnemophilus_loriae	254448	0.101	EOL	weight_kg
+Rhinoptilus_africanus	240209	0.0955	EOL	weight_kg
+Notiomystis_cincta	366454	0.094	EOL	weight_kg
+Jacana_jacana	54508	0.0875	EOL	weight_kg
+Pluvianellus_socialis	227228	0.087	EOL	weight_kg
+Tokudaia_osimensis	73109	0.08465	EOL	weight_kg
+Formicarius_rufipectus	1118560	0.082	EOL	weight_kg
+Pitta_sordida	9163	0.082	EOL	weight_kg
+Ceuthmochares_aereus	1961834	0.08	EOL	weight_kg
+Aphelenchus_avenae	70226	0.075	http://nemaplex.ucdavis.edu/	length_cm
+Dasyornis_broadbenti	243059	0.0745	EOL	weight_kg
+Turdus_rufiventris	311356	0.0668	EOL	weight_kg
+Meloidogyne_enterolobii	390850	0.0667	Philbrick et al. 2020	length_cm
+Urocolius_indicus	458196	0.065	EOL	weight_kg
+Fregetta_grallaria	79628	0.065	EOL	weight_kg
+Copsychus_sechellarum	797021	0.065	EOL	weight_kg
+Turnix_velox	2529409	0.064	EOL	weight_kg
+Chaetops_frenatus	221966	0.061	EOL	weight_kg
+Aegotheles_bennettii	48278	0.06	EOL	weight_kg
+Apaloderma_vittatum	57397	0.059	EOL	weight_kg
+Buphagus_erythrorhynchus	245048	0.059	EOL	weight_kg
+Nyctibius_bracteatus	48426	0.058	EOL	weight_kg
+Semnornis_frantzii	91796	0.0573	EOL	weight_kg
+Nicator_chloris	237433	0.055	EOL	weight_kg
+Bucco_capensis	135168	0.054	EOL	weight_kg
+Rhodinocichla_rosea	58203	0.0518	EOL	weight_kg
+Ptilorrhoa_leucosticta	449384	0.051	EOL	weight_kg
+Columbina_picui	115618	0.051	EOL	weight_kg
+Indicator_maculatus	545262	0.051	EOL	weight_kg
+Rhabdornis_inornatus	237438	0.0472	EOL	weight_kg
+Aleadryas_rufinucha	461220	0.0471	EOL	weight_kg
+Oxyruncus_cristatus	114331	0.046	EOL	weight_kg
+Chaetorhynchus_papuensis	254446	0.045	EOL	weight_kg
+Pachyramphus_minor	369605	0.044	EOL	weight_kg
+Donacobius_atricapilla	237420	0.044	EOL	weight_kg
+Atlantisia_rogersi	2478892	0.042	EOL	weight_kg
+Eubucco_bourcierii	91767	0.041	EOL	weight_kg
+Ploceus_nigricollis	441696	0.04	EOL	weight_kg
+Chloropsis_hardwickii	667144	0.04	EOL	weight_kg
+Xiphorhynchus_elegans	269412	0.0385	EOL	weight_kg
+Campylorhamphus_procurvoides	190295	0.036	EOL	weight_kg
+Ifrita_kowaldi	461245	0.036	EOL	weight_kg
+Serilophus_lunatus	239386	0.035	EOL	weight_kg
+Dryoscopus_gambensis	85069	0.035	EOL	weight_kg
+Pomatorhinus_ruficollis	932028	0.035	EOL	weight_kg
+Promerops_cafer	254652	0.035	EOL	weight_kg
+Rhinopomastus_cyanomelas	113115	0.035	EOL	weight_kg
+Sakesphorus_luctuosus	419690	0.034	EOL	weight_kg
+Illadopsis_cleaveri	201329	0.034	EOL	weight_kg
+Nesospiza_acunhae	381881	0.034	EOL	weight_kg
+Mohoua_ochrocephala	874463	0.0325	EOL	weight_kg
+Geospiza_fortis	48883	0.032	EOL	weight_kg
+Hypocryptadius_cinnamomeus	589841	0.0315	EOL	weight_kg
+Galbula_dea	1109041	0.0315	EOL	weight_kg
+Oxylabes_madagascariensis	98144	0.03	EOL	weight_kg
+Rhagologus_leucostigma	156170	0.0295	EOL	weight_kg
+Pachycephala_philippinensis	449367	0.0288	EOL	weight_kg
+Smithornis_capensis	363769	0.0285	EOL	weight_kg
+Mystacornis_crossleyi	98133	0.0285	EOL	weight_kg
+Nyctiprogne_leucopyga	382315	0.0282	EOL	weight_kg
+Furnarius_figulus	463165	0.028	EOL	weight_kg
+Sclerurus_mexicanus	265632	0.0277	EOL	weight_kg
+Prunella_himalayana	670356	0.0271	EOL	weight_kg
+Vireo_altiloquus	34956	0.0262	EOL	weight_kg
+Chloropsis_cyanopogon	1218682	0.0253	EOL	weight_kg
+Grantiella_picta	266360	0.025	EOL	weight_kg
+Locustella_ochotensis	187437	0.024	EOL	weight_kg
+Eulacestoma_nigropectus	461239	0.0232	EOL	weight_kg
+Oceanodroma_tethys	79633	0.023	EOL	weight_kg
+Myiagra_hebetior	381031	0.0215	EOL	weight_kg
+Oreocharis_arfaki	979223	0.0215	EOL	weight_kg
+Prunella_fulvescens	670355	0.021	EOL	weight_kg
+Manacus_candei	415023	0.0209	EOL	weight_kg
+Sapayoa_aenigma	239371	0.0208	EOL	weight_kg
+Scytalopus_superciliaris	312124	0.02	EOL	weight_kg
+Melanocharis_versteri	254552	0.02	EOL	weight_kg
+Pipra_filicauda	649802	0.019	EOL	weight_kg
+Piprites_chloris	114369	0.0185	EOL	weight_kg
+Chiroxiphia_lanceolata	296741	0.0185	EOL	weight_kg
+Tichodroma_muraria	237442	0.018	EOL	weight_kg
+Manacus_vitellinus	328815	0.0171	EOL	weight_kg
+Neopelma_chrysocephalum	114329	0.017	EOL	weight_kg
+Chloroceryle_aenea	176938	0.0169	EOL	weight_kg
+Hylia_prasina	208073	0.0165	EOL	weight_kg
+Onychorhynchus_coronatus	360224	0.0162	EOL	weight_kg
+Mionectes_macconnelli	254557	0.016	EOL	weight_kg
+Podarcis_raffonei	65483	0.01556	EOL Podarcis raffoneae	weight_kg
+Pteruthius_melanotis	357074	0.015	EOL	weight_kg
+Platysteira_castanea	1160851	0.015	EOL	weight_kg
+Vidua_chalybeata	81927	0.0134	EOL	weight_kg
+Machaerirhynchus_nigripectus	1160894	0.0133	EOL	weight_kg
+Zosterops_hypoxanthus	2485327	0.013	EOL	weight_kg
+Peucedramus_taeniatus	135441	0.0121	EOL	weight_kg
+Neopipo_cinnamomea	456388	0.012	EOL	weight_kg
+Corapipo_altera	415028	0.0111	EOL	weight_kg
+Rhipidura_dahli	667186	0.011	EOL	weight_kg
+Sylvietta_virens	208069	0.01	EOL	weight_kg
+Dicaeum_eximium	667154	0.0095	EOL	weight_kg
+Tachuris_rubrigastra	495162	0.0095	EOL	weight_kg
+Oreotrochilus_melanogaster	689266	0.0095	EOL	weight_kg
+Zosterops_borbonicus	364589	0.0092	EOL	weight_kg
+Neodrepanis_coruscans	254563	0.0085	EOL	weight_kg
+Certhia_brachydactyla	73330	0.0082	AnAge;EOL	weight_kg
+Erythrocercus_mccallii	107208	0.008	EOL	weight_kg
+Anthoscopus_minutus	156561	0.0076	EOL	weight_kg
+Phrynocephalus_forsythii	171643	0.00458	EOL	weight_kg
+Sphaerodactylus_townsendi	933632	0.0005	EOL	weight_kg
