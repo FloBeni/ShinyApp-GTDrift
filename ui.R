@@ -42,7 +42,7 @@ ui <- shinyUI(fluidPage(style = "background-color:#a7c2da;height: 100%;font-fami
                                        )),
                                        
                                        sliderInput("coverage_inter",h3("Minimal coverage (reads/bp)"),min = 0, max = 1000, value = 200),
-                                       fileInput("upload_data", h3("Choose data File"),
+                                       fileInput("upload_data", h3("Choose data file to upload"),
                                                  accept = c(
                                                    "text/csv/tab",
                                                    "text/comma-separated-values,text/plain",
