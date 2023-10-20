@@ -1,5 +1,5 @@
 # Prepare for applications
-# system("wget -O www/database_ShyniApp.tar.gz https://zenodo.org/records/10018013/files/database_ShyniApp.tar.gz?download=1")
+# system("wget -O www/database_ShyniApp.tar.gz https://zenodo.org/records/10025399/files/database_ShyniApp.tar.gz?download=1")
 # system("cd www")
 # system("tar -xvzf database_ShyniApp.tar.gz")
 

@@ -1,0 +1,21 @@
+[![DOI](https://zenodo.org/badge/706581407.svg)](https://zenodo.org/doi/10.5281/zenodo.10022520)
+
+This archive includes a Shiny Application to explore the database from the paper 'GTDrift: A resource for exploring the interplay between genetic drift, genomic and transcriptomic characteristics in eukaryotes'.
+
+Developed by Florian Bénitière, Anamaria Necsulea and Laurent Duret. Université de Lyon, Université Lyon 1, CNRS, Laboratoire de Biométrie et Biologie Évolutive UMR 5558, F-69622 Villeurbanne, France.
+
+A light version of the database is present in 'www/database' which corresponds to 'database_ShyniApp.tar.gz' downloadable at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10025399.svg)](https://doi.org/10.5281/zenodo.10025399).
+
+The application is available at: <https://lbbe-shiny.univ-lyon1.fr/ShinyApp-GTDrift/>
+
+There are 6 Tabs.
+
+-   The Tab 'Inter-species graphics' facilitates the comparison of genome characteristics across different species through graphical representation. Additionally, users have the option to upload data in a tab-separated text format, where each species is represented in a separate row, with the variables of interest organized in columns. An illustrative example of such a tabular dataset can be found in the table accessible at 'www/species_informations_tables/data_by_species.tab'. Important: the provided table must have a column 'species' with the scientific name of the species.
+
+-   The Tab 'Inter-species Axis' described the variables that are available in the 'Inter-species graphics' Tab.
+
+-   The Tab 'Intra-species graphics' permit to explore characteristics within a species between introns or between genes. Also, users can download metadata for BUSCO annotation, genes expression or introns splicing events (see method in original paper).
+
+-   The Tab 'Intra-species Axis' described the variables that are proposed in the 'Intra-species graphics' Tab.
+
+-   'Phylogenetic tree' Tab facilitates the examination of phylogenetic trees used for Phylogenetic Generalized Least Squares regression within 'Inter-species graphics' Tab.
