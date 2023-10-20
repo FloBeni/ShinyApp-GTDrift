@@ -21,7 +21,7 @@ for (file in list_files){
     nb_genes = readme["nb_genes_raxml","V2"]
   }
   nb_species = length(tree$tip.label)
-
+  
   phylo = rbind(phylo,
                 data.frame(
                   file,
@@ -73,21 +73,26 @@ get_rsquared_slope = function(prop.quantile = 0.1,Xaxis,Yaxis){
 }
 
 
-data1 = read.delim("www/data/data1.tab")
-rownames(data1) = data1$species
-data1$path_db = paste(data1$species,"_NCBI.taxid",data1$NCBI.taxid,"/",data1$assembly_accession,sep="")
-table(is.na(data1$max_lifespan_days))
+list_species = read.delim(paste("www/database/list_species.tab",sep=""))
+rownames(list_species) = list_species$species
+list_species$path_db = paste(list_species$species,"_NCBI.taxid",list_species$NCBI.taxid,"/",list_species$assembly_accession,sep="")
 
+data_lht = read.delim("www/database/life_history_traits.tab")
+rownames(data_lht) = paste(data_lht$species,data_lht$life_history_traits)
+
+list_species$max_lifespan_days = data_lht[paste(list_species$species,"lifespan_days"),]$value
+list_species$max_length_cm = data_lht[paste(list_species$species,"length_cm"),]$value
+list_species$max_weight_kg = data_lht[paste(list_species$species,"weight_kg"),]$value
 
 all_dt = data.frame()
-for (species in rev(data1$species) ){print(species)
+for (species in rev(list_species$species) ){print(species)
   pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
-  pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
+  # pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
   
   gff_path = paste(pathData , "Annotations/",species,"/data_source/annotation.gff",sep="")
   gc_table_path = paste(pathData, "Annotations/",species,"/GC_content.tab",sep="")
-  by_gene_analysis_path = paste("www/database/Transcriptomic/",data1[species,]$path_db,"/by_gene_analysis.tab.gz",sep="")
-  by_intron_analysis_path = paste("www/database/Transcriptomic/",data1[species,]$path_db,"/by_intron_analysis.tab.gz",sep="")
+  by_gene_analysis_path = paste("www/database/Transcriptomic/",list_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep="")
+  by_intron_analysis_path = paste("www/database/Transcriptomic/",list_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep="")
   prot_path = paste(pathData , "Annotations/",species,"/data_source/protein.faa",sep="")
   
   data_summary = data.frame()
@@ -101,10 +106,10 @@ for (species in rev(data1$species) ){print(species)
   genome_assembly = str_replace(genome_assembly,"#!genome-build-accession NCBI_Assembly:","")
   data_summary = add_charac(data_summary,'genome_assembly',"",genome_assembly)
   
-  data_summary = add_charac(data_summary,'clade;qual',"", data1[species,]$clade_group)
-  data_summary = add_charac(data_summary,'lifespan_days;quant',"", data1[species,]$max_lifespan_days)
-  data_summary = add_charac(data_summary,'length_cm;quant',"", data1[species,]$max_length_cm)
-  data_summary = add_charac(data_summary,'weight_kg;quant',"", data1[species,]$max_weight_kg)
+  data_summary = add_charac(data_summary,'clade;qual',"", list_species[species,]$clade_group)
+  data_summary = add_charac(data_summary,'lifespan_days;quant',"", list_species[species,]$max_lifespan_days)
+  data_summary = add_charac(data_summary,'length_cm;quant',"", list_species[species,]$max_length_cm)
+  data_summary = add_charac(data_summary,'weight_kg;quant',"", list_species[species,]$max_weight_kg)
   
   key = name_backbone(name=str_replace(species,"_"," "),rank="species")$usageKey
   RGBIF_count = occ_search(key,limit=0)$meta$count
@@ -136,8 +141,8 @@ for (species in rev(data1$species) ){print(species)
     for (busco_group in c("metazoa","embryophyta","eukaryota","None")){ 
       can_analyse = T
       if ( busco_group != "None" ){
-        if (file.exists(paste("www/database/BUSCO_annotations/",data1[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))){
-          busco_to_gene = read.delim(paste("www/database/BUSCO_annotations/",data1[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))
+        if (file.exists(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))){
+          busco_to_gene = read.delim(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))
           
           by_gene$busco_id = by_gene$gene_id %in% busco_to_gene$gene_id
           by_gene_selected = by_gene[by_gene$busco_id,]

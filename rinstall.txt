@@ -1,0 +1,19 @@
+# Package installation from mirror Lyon1 CRAN
+
+if(!requireNamespace("ape", quietly = TRUE)) install.packages("ape", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("plotly", quietly = TRUE)) install.packages("plotly", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("shinythemes", quietly = TRUE)) install.packages("shinythemes", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("caper", quietly = TRUE)) install.packages("caper", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("shinyWidgets", quietly = TRUE)) install.packages("shinyWidgets", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("shinycssloaders", quietly = TRUE)) install.packages("shinycssloaders", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("RColorBrewer", quietly = TRUE)) install.packages("RColorBrewer", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("shinyjs", quietly = TRUE)) install.packages("shinyjs", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+if(!requireNamespace("phylolm", quietly = TRUE)) install.packages("phylolm", dependencies = TRUE, repos = "http://cran.univ-lyon1.fr")
+
+# Package installation from Bioconductor
+if(!requireNamespace("ggtree", quietly = TRUE)) {
+if(!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager", dependencies = TRUE, repos= "http://cran.univ-lyon1.fr")
+BiocManager::install("ggtree")
+}
+
+

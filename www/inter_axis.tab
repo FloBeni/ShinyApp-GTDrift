@@ -19,9 +19,9 @@ Genome characteristics	Fraq of introns annotated	prop_intron_annotated.buscodata
 AS dataset	Exon coverage (Buscodataset only)	median_coverage_exon.buscodataset_	Exon coverage (Buscodataset only)	TRUE
 AS dataset	Average AS rate per intron	average_svr.svr_class_all.buscodataset_	Average per-intron alternative splicing rate among major introns (Na/(Ns+Na)).	TRUE
 	
-Molecular evolutionary rate	dN/dS Embryophyta	Embryophyta_dnds.quant	dN/dS per_clade 1240 species  genes	TRUE
-Molecular evolutionary rate	dN Embryophyta	Embryophyta_dn.quant	dN per_clade 1240 species  genes	TRUE
-Molecular evolutionary rate	dS Embryophyta	Embryophyta_ds.quant	dS per_clade 1240 species  genes	TRUE
+Molecular evolutionary rate	dN/dS per_clade	per_clade_dnds.quant	dN/dS per_clade 1240 species 731 genes	TRUE
+Molecular evolutionary rate	dN per_clade	per_clade_dn.quant	dN per_clade 1240 species 731 genes	TRUE
+Molecular evolutionary rate	dS per_clade	per_clade_ds.quant	dS per_clade 1240 species 731 genes	TRUE
 				
 Molecular evolutionary rate	dN/dS Eukaryota	Eukaryota_dnds.quant	dN/dS Eukaryota 175 species 194 genes	TRUE
 Molecular evolutionary rate	dN Eukaryota	Eukaryota_dn.quant	dN Eukaryota 175 species 194 genes	TRUE
@@ -31,7 +31,7 @@ Molecular evolutionary rate	dN/dS Metazoa	Metazoa_dnds.quant	dN/dS Metazoa 257 s
 Molecular evolutionary rate	dN Metazoa	Metazoa_dn.quant	dN Metazoa 257 species 731 genes	TRUE
 Molecular evolutionary rate	dS Metazoa	Metazoa_ds.quant	dS Metazoa 257 species 731 genes	TRUE
 				
-Molecular evolutionary rate	dN/dS per_clade	per_clade_dnds.quant	dN/dS Embryophyta 80 species 387 genes	TRUE
-Molecular evolutionary rate	dN per_clade	per_clade_dn.quant	dN Embryophyta 80 species 387 genes	TRUE
-Molecular evolutionary rate	dS per_clade	per_clade_ds.quant	dS Embryophyta 80 species 387 genes	TRUE
+Molecular evolutionary rate	dN/dS Embryophyta	Embryophyta_dnds.quant	dN/dS Embryophyta 80 species 387 genes	TRUE
+Molecular evolutionary rate	dN Embryophyta	Embryophyta_dn.quant	dN Embryophyta 80 species 387 genes	TRUE
+Molecular evolutionary rate	dS Embryophyta	Embryophyta_ds.quant	dS Embryophyta 80 species 387 genes	TRUE
 
