@@ -401,7 +401,7 @@ server <- function(input, output,session) {
                        size=0.5,alpha=1,col="black") +
           theme_bw()  +
           ylab("Sum of Ns") +
-          scale_fill_manual(name="Intron\ngroup",values=set_color) +
+          scale_fill_manual(name="Intron\ngroup",values = set_color_structure_gene) +
           xlab("Position on chromosome (bp)") +
           ggtitle(paste("Chromosome:",intron[1,"seqname"],"and Strand:",intron[1,"strand"])) +  theme(
             axis.title.x = element_text(color="black", size=25,family="economica"),
