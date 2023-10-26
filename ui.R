@@ -10,9 +10,11 @@ ui <- shinyUI(fluidPage(
               tabPanel("Inter-species graphics",
                        column(12,
                               column(1, offset = 1, h2("Y axis :")),
-                              column(4, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
-                              column(2, imageOutput("logoLBBE", height = "80px")),
-                              column(10, class = "well",offset = 0,withSpinner(type = 4,color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
+                              column(5, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
+                              column(2, tags$a(href = "https://www.example.com",
+                                               tags$img(src = "LBBE.png", width = "600px", height = "90px")
+                              )),
+                              column(10, class = "well",offset = 0,withSpinner(type = 4 , color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
                               column(2, class="well", 
                                      fluidRow(column(4,
                                                      materialSwitch(inputId = "boxplot_inter", label = h3("Boxplot"),status="primary")),
@@ -88,8 +90,8 @@ ui <- shinyUI(fluidPage(
                                        status = "primary", 
                                      ),
                                      downloadButton("download_fpkm", "Genes Expression", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
-                                     downloadButton("download_busco_id", "Busco identification", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
-                                     downloadButton("download_svr", "Introns Alternative Splicing", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;")
+                                     downloadButton("download_svr", "Introns Alternative Splicing", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
+                                     downloadButton("download_busco_id", "Busco identification", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;")
                               )
                        )
               ),

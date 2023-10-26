@@ -155,7 +155,7 @@ server <- function(input, output,session) {
     data_by_species$ylabel = data_by_species[,ylabel]
     p = ggplot(
       data_by_species,aes(x=xlabel,y=ylabel , text=speciesname,
-                                 customdata=custom_data))+ 
+                          customdata=custom_data))+ 
       scale_fill_manual(values=Clade_color) +
       xlab(input$x_inter) + 
       ylab(input$y_inter) + theme_bw() + theme(
@@ -498,37 +498,48 @@ server <- function(input, output,session) {
   
   output$download_fpkm <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(), sep="")
+      paste("data-", Sys.Date(),".tab", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep=""),paste(file,".gz",sep=""))
+      species_intron = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep="") , header=T , sep="\t",comment.char = "#")
+      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
     }
   )
+  
   output$download_busco_id <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(), sep="")
+      paste("data-", Sys.Date(),".tab", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      file.copy(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep=""))
+      species_intron = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep="") , header=T , sep="\t",comment.char = "#")
+      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
     }
   )
   
   output$download_svr <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(), sep="")
+      paste("data-", Sys.Date(),".tab", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep=""),paste(file,".gz",sep=""))
+      species_intron = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep="") , header=T , sep="\t",comment.char = "#")
+      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
     }
   )
   
+  observeEvent(input$busco_intra, {
+    if (input$busco_intra=="None"){
+      shinyjs::disable("download_busco_id")
+    } else {
+      shinyjs::enable("download_busco_id")}
+  })
+  
   output$logoLBBE <- renderImage({
-    list(src = "www/LBBE.png",
-         contentType = "image/png",
-         width = "600px",  # Adjust the image width as needed
-         height = "90px"  # Adjust the image height as needed
-  )})
+    list(src = "www/LBBE.png" ,
+         contentType = "image/png" ,
+         width = "600px",
+         height = "90px"
+    )})
 }
