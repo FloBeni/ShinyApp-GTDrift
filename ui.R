@@ -1,17 +1,19 @@
-ui <- shinyUI(fluidPage(style = "background-color:#a7c2da;height: 100%;font-family: Economica; font-size: 21px",tags$style(HTML( #couleur des onglets
-  "
+ui <- shinyUI(fluidPage(
+  style = "background-color:#a7c2da;height: 100%; font-family: Economica; font-size: 21px;",tags$style(HTML( #couleur des onglets
+    "
     .tabbable > .nav > li > a {background-color: #529bde; font-size: 23px; font-family: 'Economica' ; color:white}
     .tabbable > .nav > li[class=active]  > a {background-color: #136dc0; font-size: 25px; font-family: 'Economica' ; color:white}
     .my-class {font-size: 21px;}
     ")),
-  setSliderColor(c("#529bde","#529bde","#529bde","#529bde","#529bde","#529bde"), c(1, 2, 3, 4, 5,6)),shinyjs::useShinyjs(),
+  setSliderColor(c("#529bde","#529bde","#529bde","#529bde","#529bde","#529bde"), c(1, 2, 3, 4, 5,6)), shinyjs::useShinyjs(), 
   tabsetPanel(id = "tabs",
               tabPanel("Inter-species graphics",
                        column(12,
-                              column(1,offset = 1,h2("Y axis :")),
-                              column(10,selectInput("y_inter", "",choices = axisInter_list_quantitative)),
-                              column(10,class = "well",offset = 0,withSpinner(type = 4,color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
-                              column(2,class="well", 
+                              column(1, offset = 1, h2("Y axis :")),
+                              column(6, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
+                              column(2, imageOutput("logoLBBE", height = "80px")),
+                              column(10, class = "well",offset = 0,withSpinner(type = 4,color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
+                              column(2, class="well", 
                                      fluidRow(column(4,
                                                      materialSwitch(inputId = "boxplot_inter", label = h3("Boxplot"),status="primary")),
                                               column(5,
@@ -37,8 +39,8 @@ ui <- shinyUI(fluidPage(style = "background-color:#a7c2da;height: 100%;font-fami
                                      dropdown(
                                        tags$h2("Parameters"),
                                        pickerInput("svr_class",h3("Introns AS classes"), choices = c( "All major introns" = "all",
-                                                                                                       "AS rate >= 5%" = "high_SV",
-                                                                                                       "AS rate < 5%" = "low_SV"
+                                                                                                      "AS rate >= 5%" = "high_SV",
+                                                                                                      "AS rate < 5%" = "low_SV"
                                        )),
                                        
                                        sliderInput("coverage_inter",h3("Minimal coverage (reads/bp)"),min = 0, max = 1000, value = 200),

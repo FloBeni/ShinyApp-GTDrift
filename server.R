@@ -524,4 +524,11 @@ server <- function(input, output,session) {
       file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep=""),paste(file,".gz",sep=""))
     }
   )
+  
+  output$logoLBBE <- renderImage({
+    list(src = "www/LBBE.png",
+         contentType = "image/png",
+         width = "400px",  # Adjust the image width as needed
+         height = "90px"  # Adjust the image height as needed
+  )})
 }
