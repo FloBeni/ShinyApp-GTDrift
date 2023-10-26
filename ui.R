@@ -10,7 +10,7 @@ ui <- shinyUI(fluidPage(
               tabPanel("Inter-species graphics",
                        column(12,
                               column(1, offset = 1, h2("Y axis :")),
-                              column(6, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
+                              column(4, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
                               column(2, imageOutput("logoLBBE", height = "80px")),
                               column(10, class = "well",offset = 0,withSpinner(type = 4,color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
                               column(2, class="well", 

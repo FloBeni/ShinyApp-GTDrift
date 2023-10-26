@@ -528,7 +528,7 @@ server <- function(input, output,session) {
   output$logoLBBE <- renderImage({
     list(src = "www/LBBE.png",
          contentType = "image/png",
-         width = "400px",  # Adjust the image width as needed
+         width = "600px",  # Adjust the image width as needed
          height = "90px"  # Adjust the image height as needed
   )})
 }
