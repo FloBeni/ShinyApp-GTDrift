@@ -21,41 +21,6 @@ lm_eqn <- function(m=lm(Y ~ X,data)){
 }
 
 ## Source codesetSliderColor
-#' if (interactive()) {
-#'
-#' library(shiny)
-#' library(shinyWidgets)
-#'
-#' ui <- fluidPage(
-#'
-#'   # only customize the 2 first sliders and the last one
-#'   # the color of the third one is empty
-#'   setSliderColor(c("DeepPink ", "#FF4500", "", "Teal"), c(1, 2, 4)),
-#'   sliderInput("obs", "My pink slider:",
-#'               min = 0, max = 100, value = 50
-#'   ),
-#'   sliderInput("obs2", "My orange slider:",
-#'               min = 0, max = 100, value = 50
-#'   ),
-#'   sliderInput("obs3", "My basic slider:",
-#'               min = 0, max = 100, value = 50
-#'   ),
-#'   sliderInput("obs3", "My teal slider:",
-#'               min = 0, max = 100, value = 50
-#'   ),
-#'   plotOutput("distPlot")
-#' )
-#'
-#' server <- function(input, output) {
-#'
-#'   output$distPlot <- renderPlot({
-#'     hist(rnorm(input$obs))
-#'   })
-#' }
-#'
-#' shinyApp(ui, server)
-#'
-#' }
 setSliderColor <- function(color, sliderId) {
   
   # some tests to control inputs
