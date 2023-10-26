@@ -151,9 +151,11 @@ server <- function(input, output,session) {
       data_by_species$custom_data = "custom_data"
     }
     data_by_species$speciesname = str_replace(data_by_species$species,"_"," ")
+    data_by_species$xlabel = data_by_species[,xlabel]
+    data_by_species$ylabel = data_by_species[,ylabel]
     p = ggplot(
-      data_by_species,aes_string(x=xlabel,y=ylabel , text="speciesname",
-                                 customdata="custom_data"))+ 
+      data_by_species,aes(x=xlabel,y=ylabel , text=speciesname,
+                                 customdata=custom_data))+ 
       scale_fill_manual(values=Clade_color) +
       xlab(input$x_inter) + 
       ylab(input$y_inter) + theme_bw() + theme(
