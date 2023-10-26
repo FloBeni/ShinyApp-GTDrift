@@ -1,1 +1,2 @@
-Shiny Application to explore the GTDrift database from the paper 'GTDrift: A resource for exploring the interplay between genetic drift, genomic and transcriptomic characteristics in eukaryotes'.
+Shiny Application to explore the GTDrift database from the paper 'GTDrift: A resource for exploring the interplay
+between genetic drift, genomic and transcriptomic characteristics in eukaryotes'.
