@@ -498,34 +498,31 @@ server <- function(input, output,session) {
   
   output$download_fpkm <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(),".tab", sep="")
+      paste("data-", Sys.Date(),".tab.gz", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      species_intron = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep="") , header=T , sep="\t",comment.char = "#")
-      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
-    }
-  )
-  
-  output$download_busco_id <- downloadHandler(
-    filename = function() {
-      paste("data-", Sys.Date(),".tab", sep="")
-    },
-    content = function(file) {
-      species = str_replace(input$species_selected_intra," ","_")
-      species_intron = read.delim(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep="") , header=T , sep="\t",comment.char = "#")
-      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
+      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_gene_analysis.tab.gz",sep="")  , file)
     }
   )
   
   output$download_svr <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(),".tab", sep="")
+      paste("data-", Sys.Date(),".tab.gz", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      species_intron = read.delim(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep="") , header=T , sep="\t",comment.char = "#")
-      write.table(species_intron, file,row.names = F,quote=F,sep="\t")
+      file.copy(paste("www/database/Transcriptomic/",dt_species[species,]$path_db,"/by_intron_analysis.tab.gz",sep="") , file)
+    }
+  )
+  
+  output$download_busco_id <- downloadHandler(
+    filename = function() {
+      paste("data-", Sys.Date(),".tab.gz", sep="")
+    },
+    content = function(file) {
+      species = str_replace(input$species_selected_intra," ","_")
+      file.copy(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep="")  , file)
     }
   )
   
