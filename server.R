@@ -385,15 +385,17 @@ server <- function(input, output,session) {
         end.time <- Sys.time()
         time.taken <- end.time - start.time
         as.data.frame(intron,sep="\t")
-        
-        intron$category_intron = paste("Class:",intron$intron_class," in CDS:",intron$into_cds,sep="" )
+        table(intron$into_cds)
+        intron[intron$into_cds == "True","into_cds"] = "in CDS"
+        intron[intron$into_cds == "False","into_cds"] = ""
+        intron$category_intron = paste("Class:",intron$intron_class," ",intron$into_cds,sep="" )
         
         intron$position = paste("Sp3:",intron$splice3,"Sp5:",intron$splice5)
         intron$sum_ns = as.numeric(intron$ns)
         intron = intron[,colnames(intron)[colnames(intron)!= "id"]]
         
-        p2 = ggplot(intron,aes(label=position ,group=category_intron)) +
-          geom_rect( aes( xmin=splice3,ymin=sum_ns*1.1,xmax=splice5,ymax=sum_ns,fill=category_intron),
+        p2 = ggplot(intron,aes(label=position , group=category_intron,fill=category_intron)) +
+          geom_rect( aes( xmin=splice3,ymin=sum_ns*1.1,xmax=splice5,ymax=sum_ns),
                      size=0.5,alpha=1,col="black" ) +
           geom_segment(aes(x=splice3,y=sum_ns*1.1,xend=splice5+length/2*(splice3-splice5)/abs(splice5-splice3),
                            yend=sum_ns*1.4),
@@ -414,8 +416,7 @@ server <- function(input, output,session) {
             text =  element_text(color="black", size=20, family="economica"),
             legend.text =  element_text(color="black", size=20, family="economica")
           ) + scale_y_log10()  +
-          geom_vline(aes(xintercept=splice3,col=category_intron),alpha=0.1) +
-          geom_vline(aes(xintercept=splice5,col=category_intron),alpha=0.1)+
+          # geom_vline(aes(xintercept=splice5),alpha=0.1)+
           guides(col = guide_legend(override.aes = list( size = 6,alpha=1),
                                     label.theme = element_text(color="black",
                                                                size=26,face="italic", family="economica",vjust = 1.5,margin = margin(t = 5))))

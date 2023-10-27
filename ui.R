@@ -117,7 +117,7 @@ ui <- shinyUI(fluidPage(
                          column(2, selectInput("studied_gene", h4("Gene studied"),choices="")),
                          column(2,  dropdown(   
                            sliderInput("sliderscale", h4("Bp Bins on x axis"),
-                                       min = 0, max = 100000, value = 1000),
+                                       min = 0, max = 10000, value = 500),
                            style = "unite", icon = icon("gears"),
                            status = "primary", 
                          ))))

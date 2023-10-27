@@ -139,6 +139,6 @@ axisIntra = read.delim("www/intra_axis.tab",sep="\t")
 axisIntra_list = tapply(axisIntra$display_label,axisIntra$group,list)
 ExplicationsIntra = axisIntra[axisIntra$group != "",c("display_label","description")]
 
-set_color_structure_gene = c("Class:major in CDS:True"="#33A02C","Class:major in CDS:False"="#B2DF8A",
-                             "Class:minor in CDS:True"="#E31A1C","Class:minor in CDS:False"="#FB9A99",
-                             "Class:Unclassified in CDS:True"="#1F78B4","Class:Unclassified in CDS:False"="#A6CEE3")
+set_color_structure_gene = c("Class:major in CDS"="#33A02C","Class:major "="#B2DF8A",
+                             "Class:minor in CDS"="#E31A1C","Class:minor "="#FB9A99",
+                             "Class:Unclassified in CDS"="#1F78B4","Class:Unclassified "="#A6CEE3")
