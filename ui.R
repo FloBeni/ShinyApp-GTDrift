@@ -27,7 +27,7 @@ ui <- shinyUI(fluidPage(
                                                         status = "primary",bigger=T,
                                                         fill = TRUE,h3("Busco dataset"),
                                                         choices = list("Eukaryota"="eukaryota","Metazoa"="metazoa","Embryophyta"="embryophyta",
-                                                                       "None"="None"),selected = "None",inline = T,),
+                                                                       "None"="None"),selected = "None",inline = T),
                                      pickerInput(inputId = "clades_inter",label = h3("Select/deselect clades"), 
                                                  choices = levels(data_by_species$clade.qual),selected = levels(data_by_species$clade.qual), 
                                                  choicesOpt = list(
@@ -83,7 +83,7 @@ ui <- shinyUI(fluidPage(
                                                         status = "primary",bigger=T,
                                                         fill = TRUE,h3("Busco dataset"),
                                                         choices = list("Eukaryota"="busco_to_gene_id_eukaryota.gz","Metazoa"="busco_to_gene_id_metazoa.gz","Embryophyta"="busco_to_gene_id_embryophyta.gz",
-                                                                       "None"="None"),selected = "None",inline = T,),
+                                                                       "None"="None"),selected = "None",inline = T),
                                      dropdown( 
                                        sliderInput("svr_range_intra",h3("AS range of the introns studied"),min = 0, max = 0.5, value =  c(0,0.5)),
                                        sliderInput("bin_intra",h3("Proportion of N by points (%)"),min = 0, max = 100, value =  10),style = "unite", icon = icon("gears"),

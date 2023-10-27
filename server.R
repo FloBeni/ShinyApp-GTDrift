@@ -498,7 +498,7 @@ server <- function(input, output,session) {
   
   output$download_fpkm <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(),".tab.gz", sep="")
+      paste(input$species_selected_intra,"-by_gene_analysis",".tab.gz", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
@@ -508,7 +508,7 @@ server <- function(input, output,session) {
   
   output$download_svr <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(),".tab.gz", sep="")
+      paste(input$species_selected_intra,"-by_intron_analysis",".tab.gz", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
@@ -518,19 +518,44 @@ server <- function(input, output,session) {
   
   output$download_busco_id <- downloadHandler(
     filename = function() {
-      paste("data-", Sys.Date(),".tab.gz", sep="")
+      paste(input$species_selected_intra,"-",input$busco_intra,".tab.gz", sep="")
     },
     content = function(file) {
       species = str_replace(input$species_selected_intra," ","_")
-      file.copy(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep=""),paste(file,".gz",sep="")  , file)
+      file.copy(paste("www/database/BUSCO_annotations/",dt_species[species,]$path_db,"/",input$busco_intra,sep="") , file)
     }
   )
   
-  observeEvent(input$busco_intra, {
-    if (input$busco_intra=="None"){
+  # Change set of proposed buscoset if species changed
+  observeEvent(input$species_selected_intra, {
+    species = str_replace(input$species_selected_intra," ","_")
+    if (dt_species[species,]$clade_group == "Embryophyta"){
+      updatePrettyRadioButtons(
+        session,
+        prettyOptions = list(shape = "round",animation="pulse",
+                             status = "primary",bigger=T,
+                             fill = TRUE),"busco_intra",
+        choices = list("Eukaryota"="busco_to_gene_id_eukaryota.gz","Embryophyta"="busco_to_gene_id_embryophyta.gz",
+                       "None"="None"),inline = T)
+      
+    } else if (dt_species[species,]$clade_group != "Embryophyta" ) {
+      updatePrettyRadioButtons(
+        session,
+        prettyOptions = list(shape = "round",animation="pulse",
+                             status = "primary",bigger=T,
+                             fill = TRUE),"busco_intra",
+        choices = list("Eukaryota"="busco_to_gene_id_eukaryota.gz","Metazoa"="busco_to_gene_id_metazoa.gz",
+                       "None"="None"))
+    }
+  })
+  
+  # Refuse to download if not buscoset
+  observeEvent(c(input$busco_intra,input$species_selected_intra), {
+    species = str_replace(input$species_selected_intra," ","_")
+    if (input$busco_intra == "None"){
       shinyjs::disable("download_busco_id")
     } else {
-      shinyjs::enable("download_busco_id")}
+      shinyjs::enable("download_busco_id") }
   })
   
   output$logoLBBE <- renderImage({
