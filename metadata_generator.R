@@ -86,8 +86,8 @@ list_species$max_weight_kg = data_lht[paste(list_species$species,"weight_kg"),]$
 
 all_dt = data.frame()
 for (species in rev(list_species$species) ){print(species)
-  pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
-  # pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
+  # pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
+  pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
   
   gff_path = paste(pathData , "Annotations/",species,"/data_source/annotation.gff",sep="")
   gc_table_path = paste(pathData, "Annotations/",species,"/GC_content.tab",sep="")
@@ -141,8 +141,8 @@ for (species in rev(list_species$species) ){print(species)
     for (busco_group in c("metazoa","embryophyta","eukaryota","None")){ 
       can_analyse = T
       if ( busco_group != "None" ){
-        if (file.exists(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))){
-          busco_to_gene = read.delim(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,sep=""))
+        if (file.exists(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,".gz",sep=""))){
+          busco_to_gene = read.delim(paste("www/database/BUSCO_annotations/",list_species[species,]$path_db,"/busco_to_gene_id_",busco_group,".gz",sep=""))
           
           by_gene$busco_id = by_gene$gene_id %in% busco_to_gene$gene_id
           by_gene_selected = by_gene[by_gene$busco_id,]

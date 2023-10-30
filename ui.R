@@ -14,8 +14,8 @@ ui <- shinyUI(fluidPage(
                               column(2, tags$a(href = "https://www.example.com",
                                                tags$img(src = "LBBE.png", width = "600px", height = "90px")
                               )),
-                              column(10, class = "well",offset = 0,withSpinner(type = 4 , color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
-                              column(2, class="well", 
+                              column(9, class = "well",offset = 0,withSpinner(type = 4 , color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
+                              column(3, class="well", 
                                      fluidRow(column(4,
                                                      materialSwitch(inputId = "boxplot_inter", label = h3("Boxplot"),status="primary")),
                                               column(5,
@@ -27,7 +27,7 @@ ui <- shinyUI(fluidPage(
                                                         status = "primary",bigger=T,
                                                         fill = TRUE,h3("Busco dataset"),
                                                         choices = list("Eukaryota"="eukaryota","Metazoa"="metazoa","Embryophyta"="embryophyta",
-                                                                       "None"="None"),selected = "None",inline = T),
+                                                                       "None"="None"),selected = "None",inline = T,),
                                      pickerInput(inputId = "clades_inter",label = h3("Select/deselect clades"), 
                                                  choices = levels(data_by_species$clade.qual),selected = levels(data_by_species$clade.qual), 
                                                  choicesOpt = list(
@@ -57,7 +57,7 @@ ui <- shinyUI(fluidPage(
                                      )
                               ),
                               column(1,offset = 3,h2("X axis :")),
-                              column(5,selectInput("x_inter", "",choices = axisInter_list_quantitative))
+                              column(8,selectInput("x_inter", "",choices = axisInter_list_quantitative))
                        )
                        
               ),
@@ -83,15 +83,15 @@ ui <- shinyUI(fluidPage(
                                                         status = "primary",bigger=T,
                                                         fill = TRUE,h3("Busco dataset"),
                                                         choices = list("Eukaryota"="busco_to_gene_id_eukaryota.gz","Metazoa"="busco_to_gene_id_metazoa.gz","Embryophyta"="busco_to_gene_id_embryophyta.gz",
-                                                                       "None"="None"),selected = "None",inline = T),
+                                                                       "None"="None"),selected = "None",inline = T,),
                                      dropdown( 
                                        sliderInput("svr_range_intra",h3("AS range of the introns studied"),min = 0, max = 0.5, value =  c(0,0.5)),
                                        sliderInput("bin_intra",h3("Proportion of N by points (%)"),min = 0, max = 100, value =  10),style = "unite", icon = icon("gears"),
                                        status = "primary", 
                                      ),
                                      downloadButton("download_fpkm", "Genes Expression", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
-                                     downloadButton("download_svr", "Introns Alternative Splicing", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
-                                     downloadButton("download_busco_id", "Busco identification", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;")
+                                     downloadButton("download_busco_id", "Busco identification", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;"),
+                                     downloadButton("download_svr", "Introns Alternative Splicing", style = "color: #fff; background-color: #27ae60; border-color: #fff;font-size: 21px;")
                               )
                        )
               ),
@@ -117,7 +117,7 @@ ui <- shinyUI(fluidPage(
                          column(2, selectInput("studied_gene", h4("Gene studied"),choices="")),
                          column(2,  dropdown(   
                            sliderInput("sliderscale", h4("Bp Bins on x axis"),
-                                       min = 0, max = 10000, value = 500),
+                                       min = 0, max = 100000, value = 1000),
                            style = "unite", icon = icon("gears"),
                            status = "primary", 
                          ))))
@@ -134,7 +134,7 @@ ui <- shinyUI(fluidPage(
                          )),
                          column(2,sliderInput("spacing", h3("Spacing"),min = 0, max = 1, value = 0.05
                          )),
-                         column(2,sliderInput("tip_size", h3("Tips size"),min = 0, max = 10, value = 2
+                         column(2,sliderInput("tip_size", h3("Tips text size"),min = 0, max = 10, value = 2
                          ))),
                        fluidRow(
                          column(10,offset = 1, class = "well",
@@ -150,7 +150,7 @@ ui <- shinyUI(fluidPage(
                                        # dropdown(
                                        
                                        withSpinner(type = 4,color ="#136dc0",plotOutput("plot_zoomed", height = 600)),
-                                       column(3,offset = 3,sliderInput("tip_size_zoom", h4("Tips size zoomed"),min = 0, max = 10, value = 2
+                                       column(3,offset = 3,sliderInput("tip_size_zoom", h4("Tips text size zoomed"),min = 0, max = 10, value = 2
                                        )),
                                        column(3,sliderInput("spacing_zoom", h4("Spacing zoomed"),min = 0, max = 1, value = 0.05
                                        ))
