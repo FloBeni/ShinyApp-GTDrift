@@ -17,5 +17,7 @@ There are 6 Tabs.
 -   The Tab 'Intra-species graphics' permit to explore characteristics within a species between introns or between genes. Also, users can download metadata for BUSCO annotation, genes expression or introns splicing events (see method in original paper).
 
 -   The Tab 'Intra-species Axis' described the variables that are proposed in the 'Intra-species graphics' Tab.
+  
+-   In the 'Gene structure' tab, you can explore the introns detected in RNA-seq alignments for a specific gene. The introns are color-coded based on categories such as their location within the CDS or outside of it, as well as whether they are major or minor introns (as described in the original paper's methodology).
 
 -   'Phylogenetic tree' Tab facilitates the examination of phylogenetic trees used for Phylogenetic Generalized Least Squares regression within 'Inter-species graphics' Tab.
