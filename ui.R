@@ -4,6 +4,10 @@ ui <- shinyUI(fluidPage(
     .tabbable > .nav > li > a {background-color: #529bde; font-size: 23px; font-family: 'Economica' ; color:white}
     .tabbable > .nav > li[class=active]  > a {background-color: #136dc0; font-size: 25px; font-family: 'Economica' ; color:white}
     .my-class {font-size: 21px;}
+    #x_inter+ div>.selectize-dropdown {
+  bottom: 100% !important; 
+  top: auto !important;
+}
     ")),
   setSliderColor(c("#529bde","#529bde","#529bde","#529bde","#529bde","#529bde"), c(1, 2, 3, 4, 5,6)), shinyjs::useShinyjs(), 
   tabsetPanel(id = "tabs",
