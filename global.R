@@ -116,7 +116,7 @@ data_by_species$clade.qual = factor(data_by_species$clade.qual, levels = c("Embr
                                                                            "Other Insecta","Nematoda","Other Invertebrates",
                                                                            "Mammalia","Aves","Teleostei","Other Vertebrates"))
 
-data_by_species = data_by_species_original
+data_by_species_original = data_by_species
 
 dt_species = read.delim("www/database/list_species.tab",header=T)
 rownames(dt_species) = dt_species$species

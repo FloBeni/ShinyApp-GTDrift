@@ -118,7 +118,7 @@ ui <- shinyUI(fluidPage(
                                                                "eukaryota busco id" = "busco_to_gene_id_eukaryota.gz",
                                                                "embryophyta busco id" = "busco_to_gene_id_embryophyta.gz"),selected = "gene_id",inline = T)),
                          
-                         column(2, selectInput("studied_gene", h4("Gene studied"),choices="")),
+                         column(2, selectInput("studied_gene", h4("Gene studied\n(search by name)"),choices="")),
                          column(2,  dropdown(   
                            sliderInput("sliderscale", h4("Bp Bins on x axis"),
                                        min = 0, max = 100000, value = 1000),
