@@ -25,6 +25,7 @@ server <- function(input, output,session) {
   })
   
   observeEvent(input$upload_data,ignoreNULL = T, {
+    data_by_species = data_by_species_original
     inFile <- input$upload_data
     dt = read.delim(inFile$datapath,header = T)
     data_by_species <<- merge(dt,data_by_species, by.x = "species", by.y = "species", all.x = TRUE, all.y = TRUE)
