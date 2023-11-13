@@ -359,6 +359,7 @@ server <- function(input, output,session) {
         nameGene <<- species_genes$gene_id
         names(nameGene) <<- paste(species_genes$gene_id,species_genes$gene_name,sep=" | ")
       }
+      
       updateSelectizeInput(session, "studied_gene", choices=nameGene,selected = nameGene[1],
                            options=list(maxOptions=100), server = T)
     }
