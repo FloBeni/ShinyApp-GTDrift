@@ -30,7 +30,7 @@ server <- function(input, output,session) {
     dt = read.delim(inFile$datapath,header = T)
     data_by_species <<- merge(dt,data_by_species, by.x = "species", by.y = "species", all.x = TRUE, all.y = TRUE)
     
-    axisInter <<- rbind(axisInter,data.frame(group = "Uploaded" , "display_label" = colnames(dt),name_label=colnames(dt),description=NA,quantitative=T))
+    axisInter <<- rbind(axisInter_original,data.frame(group = "Uploaded" , "display_label" = colnames(dt),name_label=colnames(dt),description=NA,quantitative=T))
     axisInter_quantitative <<- axisInter[axisInter$quantitative,]
     axisInter_list_quantitative <<- tapply(axisInter_quantitative$display_label,axisInter_quantitative$group,list)
     updateSelectizeInput(session, "y_inter", choices = axisInter_list_quantitative,options = list(maxOptions = 3000))

@@ -126,6 +126,7 @@ dt_species$path_db = paste(dt_species$species,"_NCBI.taxid",dt_species$NCBI.taxi
 listNomSpecies = tapply(dt_species$species,dt_species$clade_group,function(x)  str_replace_all(x,"_"," "))
 
 axisInter = read.delim("www/inter_axis.tab",sep="\t")
+axisInter_original = axisInter
 ExplicationsInter = axisInter[axisInter$group != "",c("display_label","description")]
 
 axisInter_quantitative = axisInter[axisInter$quantitative,]
