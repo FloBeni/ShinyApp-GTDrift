@@ -1,14 +1,14 @@
 species	clade	NCBI.taxid	clade_group	expression_data	dnds_data	lht_data	assembly_accession	nb_rnaseq
 Rangifer_tarandus	Mammalia	9870	Mammalia	FALSE	TRUE	TRUE	GCA_951394145.1	0
 Equus_quagga	Mammalia	89248	Mammalia	FALSE	TRUE	TRUE	GCF_021613505.1	0
-Culex_pipiens	Diptera	7175	Lepido Diptera	FALSE	TRUE	FALSE	GCF_016801865.2	0
+Culex_pipiens	Diptera	7175	Mecopterida	FALSE	TRUE	FALSE	GCF_016801865.2	0
 Rhinolophus_ferrumequinum	Mammalia	59479	Mammalia	FALSE	TRUE	TRUE	GCF_004115265.2	0
 Budorcas_taxicolor	Mammalia	37181	Mammalia	FALSE	TRUE	TRUE	GCF_023091745.1	0
 Pediculus_humanus	Invertebrates	121225	Other Insecta	FALSE	TRUE	TRUE	GCF_000006295.1	0
 Falco_peregrinus	Aves	8954	Aves	FALSE	TRUE	TRUE	GCF_023634155.1	0
 Schistocerca_serialis	Invertebrates	2023354	Other Insecta	FALSE	TRUE	FALSE	GCF_023864345.2	0
 Trichonephila_inaurata	Arachnida	2747482	Other Invertebrates	FALSE	TRUE	FALSE	GCA_019973955.1	0
-Pieris_napi	Lepidoptera	78633	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905475465.1	0
+Pieris_napi	Lepidoptera	78633	Mecopterida	FALSE	TRUE	FALSE	GCF_905475465.1	0
 Uria_aalge	Aves	13746	Aves	FALSE	TRUE	TRUE	GCA_013401055.1	0
 Megadyptes_antipodes	Aves	37085	Aves	FALSE	TRUE	TRUE	GCA_010078485.1	0
 Apteryx_mantelli	Aves	2696672	Aves	FALSE	TRUE	FALSE	GCF_001039765.1	0
@@ -19,7 +19,7 @@ Colobus_angolensis	Mammalia	54131	Mammalia	FALSE	TRUE	TRUE	GCF_000951035.1	0
 Marmota_marmota	Mammalia	9993	Mammalia	FALSE	TRUE	TRUE	GCF_001458135.2	0
 Buceros_rhinoceros	Aves	175835	Aves	FALSE	TRUE	TRUE	GCF_000710305.1	0
 Pteronotus_parnellii	Mammalia	59476	Mammalia	FALSE	TRUE	TRUE	GCF_021234165.1	0
-Pararge_aegeria	Lepidoptera	116150	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905163445.1	0
+Pararge_aegeria	Lepidoptera	116150	Mecopterida	FALSE	TRUE	FALSE	GCF_905163445.1	0
 Balearica_regulorum	Aves	925459	Aves	FALSE	TRUE	TRUE	GCF_000709895.1	0
 Ovis_ammon	Mammalia	30527	Mammalia	FALSE	TRUE	TRUE	GCA_028583565.1	0
 Schistocerca_gregaria	Invertebrates	7010	Other Insecta	FALSE	TRUE	FALSE	GCF_023897955.1	0
@@ -33,10 +33,10 @@ Gulo_gulo	Mammalia	48420	Mammalia	FALSE	FALSE	TRUE	GCA_024510155.1	0
 Nycticebus_coucang	Mammalia	9470	Mammalia	FALSE	TRUE	TRUE	GCF_027406575.1	0
 Gasterosteus_aculeatus	Teleostei	69293	Teleostei	FALSE	TRUE	TRUE	GCF_016920845.1	0
 Pitangus_sulphuratus	Aves	371930	Aves	FALSE	TRUE	TRUE	GCA_029286575.1	0
-Bradysia_hygida	Diptera	35572	Lepido Diptera	FALSE	FALSE	FALSE	GCA_029228625.1	0
+Bradysia_hygida	Diptera	35572	Mecopterida	FALSE	FALSE	FALSE	GCA_029228625.1	0
 Melozone_crissalis	Aves	40204	Aves	FALSE	TRUE	TRUE	GCF_028551555.1	0
 Oppia_nitens	Arachnida	1686743	Other Invertebrates	FALSE	TRUE	FALSE	GCF_028296485.1	0
-Anastrepha_obliqua	Diptera	95512	Lepido Diptera	FALSE	TRUE	FALSE	GCF_027943255.1	0
+Anastrepha_obliqua	Diptera	95512	Mecopterida	FALSE	TRUE	FALSE	GCF_027943255.1	0
 Tokudaia_osimensis	Mammalia	73109	Mammalia	FALSE	FALSE	TRUE	GCA_027943515.1	0
 Indicator_indicator	Aves	1002788	Aves	FALSE	TRUE	TRUE	GCF_027791375.1	0
 Muraenolepis_orangiensis	Teleostei	630683	Teleostei	FALSE	TRUE	TRUE	GCA_027704905.1	0
@@ -61,16 +61,16 @@ Bombus_huntii	Hymenoptera	85661	Hymenoptera	FALSE	TRUE	FALSE	GCF_024542735.1	0
 Uloborus_diversus	Arachnida	327109	Other Invertebrates	FALSE	TRUE	FALSE	GCF_026930045.1	0
 Bombus_affinis	Hymenoptera	309941	Hymenoptera	FALSE	TRUE	TRUE	GCF_024516045.1	0
 Syngnathus_scovelli	Teleostei	161590	Teleostei	FALSE	TRUE	TRUE	GCF_024217435.1	0
-Euphydryas_editha	Lepidoptera	104508	Lepido Diptera	FALSE	TRUE	TRUE	GCA_933666425.1	0
+Euphydryas_editha	Lepidoptera	104508	Mecopterida	FALSE	TRUE	TRUE	GCA_933666425.1	0
 Suncus_etruscus	Mammalia	109475	Mammalia	FALSE	TRUE	TRUE	GCF_024139225.1	0
 Psylliodes_chrysocephala	Coleoptera	2598218	Other Insecta	FALSE	TRUE	FALSE	GCA_927349885.1	0
 Neodiprion_virginianus	Hymenoptera	2961670	Hymenoptera	FALSE	TRUE	FALSE	GCF_021901495.1	0
 Prochilodus_magdalenae	Teleostei	148989	Teleostei	FALSE	TRUE	TRUE	GCA_024036415.1	0
 Brienomyrus_brachyistius	Teleostei	42636	Teleostei	FALSE	TRUE	TRUE	GCF_023856365.1	0
-Anopheles_marshallii	Diptera	1521116	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734725.1	0
-Anopheles_moucheti	Diptera	186751	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734755.1	0
-Sabethes_cyaneus	Diptera	53552	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734655.1	0
-Anopheles_maculipalpis	Diptera	1496333	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734695.1	0
+Anopheles_marshallii	Diptera	1521116	Mecopterida	FALSE	TRUE	FALSE	GCF_943734725.1	0
+Anopheles_moucheti	Diptera	186751	Mecopterida	FALSE	TRUE	FALSE	GCF_943734755.1	0
+Sabethes_cyaneus	Diptera	53552	Mecopterida	FALSE	TRUE	FALSE	GCF_943734655.1	0
+Anopheles_maculipalpis	Diptera	1496333	Mecopterida	FALSE	TRUE	FALSE	GCF_943734695.1	0
 Holotrichia_oblita	Coleoptera	644536	Other Insecta	FALSE	FALSE	FALSE	GCA_023690525.1	0
 Polistes_exclamans	Hymenoptera	27506	Hymenoptera	FALSE	TRUE	FALSE	GCA_023678865.1	0
 Mischocyttarus_mexicanus	Hymenoptera	91405	Hymenoptera	FALSE	TRUE	FALSE	GCA_023678845.1	0
@@ -81,12 +81,12 @@ Adelges_cooleyi	Hemiptera	133065	Other Insecta	FALSE	TRUE	FALSE	GCF_023614345.1	
 Paramacrobiotus_metropolitanus	Tardigrada	2943436	Other Invertebrates	FALSE	TRUE	FALSE	GCF_019649055.1	0
 Pseudoliparis_swirei	Teleostei	2059687	Teleostei	FALSE	TRUE	TRUE	GCF_029220125.1	0
 Seison_nebaliae	Invertebrates	104778	Other Invertebrates	FALSE	FALSE	FALSE	GCA_023231475.1	0
-Leguminivora_glycinivorella	Lepidoptera	1035111	Lepido Diptera	FALSE	TRUE	FALSE	GCF_023078275.1	0
+Leguminivora_glycinivorella	Lepidoptera	1035111	Mecopterida	FALSE	TRUE	FALSE	GCF_023078275.1	0
 Pangasius_djambal	Teleostei	1691987	Teleostei	FALSE	TRUE	TRUE	GCA_022985145.1	0
 Albula_goreensis	Teleostei	1534307	Teleostei	FALSE	TRUE	TRUE	GCA_022829145.1	0
-Bactrocera_neohumeralis	Diptera	98809	Lepido Diptera	FALSE	TRUE	FALSE	GCF_024586455.1	0
+Bactrocera_neohumeralis	Diptera	98809	Mecopterida	FALSE	TRUE	FALSE	GCF_024586455.1	0
 Halotydeus_destructor	Arachnida	2874060	Other Invertebrates	FALSE	TRUE	FALSE	GCA_022750525.1	0
-Pectinophora_gossypiella	Lepidoptera	13191	Lepido Diptera	FALSE	TRUE	FALSE	GCF_024362695.1	0
+Pectinophora_gossypiella	Lepidoptera	13191	Mecopterida	FALSE	TRUE	FALSE	GCF_024362695.1	0
 Myiozetetes_cayanensis	Aves	478635	Aves	FALSE	TRUE	FALSE	GCF_022539395.1	0
 Patella_vulgata	Mollusca	6465	Other Invertebrates	FALSE	TRUE	TRUE	GCF_932274485.2	0
 Hypsibius_exemplaris	Tardigrada	2072580	Other Invertebrates	FALSE	TRUE	FALSE	GCA_002082055.1	0
@@ -101,13 +101,13 @@ Brassicogethes_aeneus	Coleoptera	1431903	Other Insecta	FALSE	TRUE	FALSE	GCA_9212
 Girardinichthys_multiradiatus	Teleostei	208333	Teleostei	FALSE	TRUE	TRUE	GCF_021462225.1	0
 Schistocerca_piceifrons	Invertebrates	274613	Other Insecta	FALSE	TRUE	FALSE	GCF_021461385.2	0
 Schistocerca_americana	Invertebrates	7009	Other Insecta	FALSE	TRUE	TRUE	GCF_021461395.2	0
-Brenthis_ino	Lepidoptera	405034	Lepido Diptera	FALSE	TRUE	FALSE	GCA_921882275.1	0
-Drosophila_setifemur	Diptera	2848635	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021224005.1	0
-Zaprionus_bogoriensis	Diptera	309927	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223985.1	0
-Drosophila_pseudotakahashii	Diptera	193234	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223935.1	0
-Drosophila_pandora	Diptera	1867034	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223865.1	0
-Drosophila_ironensis	Diptera	2848634	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223825.1	0
-Drosophila_rubida	Diptera	30044	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223945.1	0
+Brenthis_ino	Lepidoptera	405034	Mecopterida	FALSE	TRUE	FALSE	GCA_921882275.1	0
+Drosophila_setifemur	Diptera	2848635	Mecopterida	FALSE	TRUE	FALSE	GCA_021224005.1	0
+Zaprionus_bogoriensis	Diptera	309927	Mecopterida	FALSE	TRUE	FALSE	GCA_021223985.1	0
+Drosophila_pseudotakahashii	Diptera	193234	Mecopterida	FALSE	TRUE	FALSE	GCA_021223935.1	0
+Drosophila_pandora	Diptera	1867034	Mecopterida	FALSE	TRUE	FALSE	GCA_021223865.1	0
+Drosophila_ironensis	Diptera	2848634	Mecopterida	FALSE	TRUE	FALSE	GCA_021223825.1	0
+Drosophila_rubida	Diptera	30044	Mecopterida	FALSE	TRUE	FALSE	GCA_021223945.1	0
 Diprion_similis	Hymenoptera	362088	Hymenoptera	FALSE	TRUE	FALSE	GCF_021155765.1	0
 Neodiprion_fabricii	Hymenoptera	2872261	Hymenoptera	FALSE	TRUE	FALSE	GCF_021155785.1	0
 Sphaerodactylus_townsendi	Lepidosauria	933632	Other Vertebrates	FALSE	TRUE	TRUE	GCF_021028975.2	0
@@ -121,7 +121,7 @@ Poeciliopsis_prolifica	Teleostei	188132	Teleostei	FALSE	TRUE	TRUE	GCF_027474105.
 Eleutherodactylus_coqui	Amphibia	57060	Other Vertebrates	FALSE	TRUE	TRUE	GCA_019857665.1	0
 Muscidifurax_raptorellus	Hymenoptera	51938	Hymenoptera	FALSE	FALSE	FALSE	GCA_020010945.3	0
 Fragariocoptes_setiger	Arachnida	1670756	Other Invertebrates	FALSE	FALSE	FALSE	GCA_019968535.1	0
-Phthorimaea_operculella	Lepidoptera	192464	Lepido Diptera	FALSE	TRUE	FALSE	GCA_024500475.1	0
+Phthorimaea_operculella	Lepidoptera	192464	Mecopterida	FALSE	TRUE	FALSE	GCA_024500475.1	0
 Elysia_marginata	Mollusca	1093978	Other Invertebrates	FALSE	TRUE	FALSE	GCA_019649035.1	0
 Engystomops_pustulosus	Amphibia	76066	Other Vertebrates	FALSE	TRUE	TRUE	GCA_019512145.1	0
 Venturia_canescens	Hymenoptera	32260	Hymenoptera	FALSE	TRUE	FALSE	GCF_019457755.1	0
@@ -137,7 +137,7 @@ Ampulex_compressa	Hymenoptera	860918	Hymenoptera	FALSE	TRUE	FALSE	GCA_019049445.
 Notodromas_monacha	Crustacea	399045	Other Invertebrates	FALSE	TRUE	FALSE	GCA_905338405.1	0
 Darwinula_stevensoni	Crustacea	69355	Other Invertebrates	FALSE	TRUE	FALSE	GCA_905338385.1	0
 Gonioctena_quinquepunctata	Coleoptera	63699	Other Insecta	FALSE	TRUE	FALSE	GCA_018342105.1	0
-Iphiclides_podalirius	Lepidoptera	110791	Lepido Diptera	FALSE	TRUE	FALSE	GCA_933534255.1	0
+Iphiclides_podalirius	Lepidoptera	110791	Mecopterida	FALSE	TRUE	FALSE	GCA_933534255.1	0
 Chrysoperla_carnea	Invertebrates	189513	Other Insecta	FALSE	TRUE	FALSE	GCF_905475395.1	0
 Toxotes_jaculatrix	Teleostei	941984	Teleostei	FALSE	TRUE	TRUE	GCF_017976425.1	0
 Corvus_kubaryi	Aves	68294	Aves	FALSE	TRUE	TRUE	GCF_017639235.1	0
@@ -146,7 +146,7 @@ Acromyrmex_charruanus	Hymenoptera	2715315	Hymenoptera	FALSE	TRUE	FALSE	GCA_01760
 Pseudoatta_argentina	Hymenoptera	621737	Hymenoptera	FALSE	TRUE	TRUE	GCA_017607525.1	0
 Acromyrmex_insinuator	Hymenoptera	230686	Hymenoptera	FALSE	TRUE	FALSE	GCA_017607455.1	0
 Daphnia_sinensis	Crustacea	1820382	Other Invertebrates	FALSE	TRUE	FALSE	GCA_013167095.2	0
-Pieris_macdunnoughi	Lepidoptera	345717	Lepido Diptera	FALSE	TRUE	FALSE	GCA_905332375.1	0
+Pieris_macdunnoughi	Lepidoptera	345717	Mecopterida	FALSE	TRUE	FALSE	GCA_905332375.1	0
 Rotaria_socialis	Invertebrates	392032	Other Invertebrates	FALSE	FALSE	FALSE	GCA_905331475.1	0
 Didymodactylos_carnosus	Invertebrates	1234261	Other Invertebrates	FALSE	FALSE	FALSE	GCA_905250885.1	0
 Adineta_steineri	Invertebrates	433720	Other Invertebrates	FALSE	FALSE	FALSE	GCA_905250115.1	0
@@ -155,9 +155,9 @@ Daphnia_pulicaria	Crustacea	35523	Other Invertebrates	FALSE	TRUE	TRUE	GCF_021234
 Gryllus_bimaculatus	Invertebrates	6999	Other Insecta	FALSE	TRUE	FALSE	GCA_017312745.1	0
 Polypterus_senegalus	Vertebrates	55291	Other Vertebrates	FALSE	TRUE	TRUE	GCF_016835505.1	0
 Bufo_bufo	Amphibia	8384	Other Vertebrates	FALSE	TRUE	TRUE	GCF_905171765.1	0
-Aricia_agestis	Lepidoptera	91739	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905147365.1	0
-Pieris_brassicae	Lepidoptera	7116	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905147105.1	0
-Drosophila_teissieri	Diptera	7243	Lepido Diptera	FALSE	TRUE	FALSE	GCF_016746235.2	0
+Aricia_agestis	Lepidoptera	91739	Mecopterida	FALSE	TRUE	FALSE	GCF_905147365.1	0
+Pieris_brassicae	Lepidoptera	7116	Mecopterida	FALSE	TRUE	FALSE	GCF_905147105.1	0
+Drosophila_teissieri	Diptera	7243	Mecopterida	FALSE	TRUE	FALSE	GCF_016746235.2	0
 Chionoecetes_opilio	Crustacea	41210	Other Invertebrates	FALSE	TRUE	TRUE	GCA_016584305.1	0
 Gracilinanus_agilis	Mammalia	191870	Mammalia	FALSE	TRUE	TRUE	GCF_016433145.1	0
 Antechinus_flavipes	Mammalia	38775	Mammalia	FALSE	TRUE	TRUE	GCF_016432865.1	0
@@ -356,7 +356,7 @@ Athene_cunicularia	Aves	194338	Aves	FALSE	TRUE	TRUE	GCF_003259725.1	0
 Empidonax_traillii	Aves	164674	Aves	FALSE	TRUE	TRUE	GCF_003031625.1	0
 Ameiurus_melas	Teleostei	219545	Teleostei	FALSE	TRUE	TRUE	GCA_012411365.1	0
 Coryphaenoides_rupestris	Teleostei	163118	Teleostei	FALSE	TRUE	TRUE	GCA_002895965.2	0
-Eupeodes_corollae	Diptera	290404	Lepido Diptera	FALSE	TRUE	FALSE	GCF_945859685.1	0
+Eupeodes_corollae	Diptera	290404	Mecopterida	FALSE	TRUE	FALSE	GCF_945859685.1	0
 Spheniscus_magellanicus	Aves	37081	Aves	FALSE	TRUE	TRUE	GCA_010076225.1	0
 Prunella_fulvescens	Aves	670355	Aves	FALSE	TRUE	TRUE	GCA_013400715.1	0
 Acanthoscelides_obtectus	Coleoptera	200917	Other Insecta	FALSE	TRUE	FALSE	GCA_933228535.1	0
@@ -367,7 +367,7 @@ Euroglyphus_maynei	Arachnida	6958	Other Invertebrates	FALSE	TRUE	FALSE	GCA_00213
 Emberiza_fucata	Aves	337179	Aves	FALSE	TRUE	FALSE	GCA_013398835.1	0
 Eublepharis_macularius	Lepidosauria	481883	Other Vertebrates	FALSE	TRUE	TRUE	GCF_028583425.1	0
 Caloenas_nicobarica	Aves	187106	Aves	FALSE	TRUE	TRUE	GCA_013398195.1	0
-Rhagoletis_zephyria	Diptera	28612	Lepido Diptera	FALSE	FALSE	FALSE	GCF_001687245.2	0
+Rhagoletis_zephyria	Diptera	28612	Mecopterida	FALSE	FALSE	FALSE	GCF_001687245.2	0
 Falco_naumanni	Aves	148594	Aves	FALSE	TRUE	TRUE	GCF_017639655.2	0
 Pomatorhinus_ruficollis	Aves	932028	Aves	FALSE	TRUE	TRUE	GCA_013401195.1	0
 Callipepla_squamata	Aves	9009	Aves	FALSE	TRUE	FALSE	GCA_002218305.1	0
@@ -375,7 +375,7 @@ Notiomystis_cincta	Aves	366454	Aves	FALSE	TRUE	TRUE	GCA_013398075.1	0
 Enteromyxum_leei	Cnidaria	188704	Other Invertebrates	FALSE	FALSE	FALSE	GCA_001455295.2	0
 Puma_yagouaroundi	Mammalia	1608482	Mammalia	FALSE	TRUE	TRUE	GCF_014898765.1	0
 Cyprinodon_tularosa	Teleostei	77115	Teleostei	FALSE	TRUE	TRUE	GCF_016077235.1	0
-Plodia_interpunctella	Lepidoptera	58824	Lepido Diptera	FALSE	TRUE	FALSE	GCF_027563975.1	0
+Plodia_interpunctella	Lepidoptera	58824	Mecopterida	FALSE	TRUE	FALSE	GCF_027563975.1	0
 Clarias_gariepinus	Teleostei	13013	Teleostei	FALSE	TRUE	TRUE	GCF_024256425.1	0
 Oreotrochilus_melanogaster	Aves	689266	Aves	FALSE	TRUE	TRUE	GCA_013400995.1	0
 Oopsacas_minuta	Invertebrates	111878	Other Invertebrates	FALSE	TRUE	FALSE	GCA_024704765.1	0
@@ -397,8 +397,8 @@ Phrynocephalus_forsythii	Lepidosauria	171643	Other Vertebrates	FALSE	TRUE	TRUE	G
 Mustela_erminea	Mammalia	36723	Mammalia	FALSE	TRUE	TRUE	GCF_009829155.1	0
 Chlamydotis_macqueenii	Aves	187382	Aves	FALSE	TRUE	FALSE	GCF_000695195.1	0
 Dicrocoelium_dendriticum	Platyhelminthes	57078	Other Invertebrates	FALSE	FALSE	TRUE	GCA_944474145.2	0
-Parnassius_apollo	Lepidoptera	110799	Lepido Diptera	FALSE	TRUE	FALSE	GCA_907164705.1	0
-Danaus_chrysippus	Lepidoptera	151541	Lepido Diptera	FALSE	TRUE	FALSE	GCA_916720795.1	0
+Parnassius_apollo	Lepidoptera	110799	Mecopterida	FALSE	TRUE	FALSE	GCA_907164705.1	0
+Danaus_chrysippus	Lepidoptera	151541	Mecopterida	FALSE	TRUE	FALSE	GCA_916720795.1	0
 Argiope_bruennichi	Arachnida	94029	Other Invertebrates	FALSE	TRUE	FALSE	GCF_947563725.1	0
 Synchiropus_splendidus	Teleostei	270530	Teleostei	FALSE	TRUE	TRUE	GCF_027744825.2	0
 Chaetura_pelagica	Aves	8897	Aves	FALSE	TRUE	TRUE	GCF_000747805.2	0
@@ -421,11 +421,11 @@ Pelecanus_crispus	Aves	36300	Aves	FALSE	TRUE	TRUE	GCF_000687375.1	0
 Jacana_jacana	Aves	54508	Aves	FALSE	TRUE	TRUE	GCA_013400555.1	0
 Equus_przewalskii	Mammalia	9798	Mammalia	FALSE	TRUE	FALSE	GCF_000696695.1	0
 Pontoporia_blainvillei	Mammalia	48723	Mammalia	FALSE	FALSE	TRUE	GCA_011754075.1	0
-Mythimna_separata	Lepidoptera	271217	Lepido Diptera	FALSE	TRUE	FALSE	GCA_029852925.1	0
+Mythimna_separata	Lepidoptera	271217	Mecopterida	FALSE	TRUE	FALSE	GCA_029852925.1	0
 Spheniscus_demersus	Aves	92683	Aves	FALSE	TRUE	TRUE	GCA_010077935.1	0
-Sitodiplosis_mosellana	Diptera	263140	Lepido Diptera	FALSE	TRUE	FALSE	GCF_009176505.1	0
+Sitodiplosis_mosellana	Diptera	263140	Mecopterida	FALSE	TRUE	FALSE	GCF_009176505.1	0
 Scomber_japonicus	Teleostei	13676	Teleostei	FALSE	TRUE	TRUE	GCF_027409825.1	0
-Anopheles_nili	Diptera	185578	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943737925.1	0
+Anopheles_nili	Diptera	185578	Mecopterida	FALSE	TRUE	FALSE	GCF_943737925.1	0
 Hyaena_hyaena	Mammalia	95912	Mammalia	FALSE	TRUE	TRUE	GCF_003009895.1	0
 Grus_americana	Aves	9117	Aves	FALSE	TRUE	TRUE	GCF_028858705.1	0
 Neogale_vison	Mammalia	452646	Mammalia	FALSE	TRUE	FALSE	GCF_020171115.1	0
@@ -440,7 +440,7 @@ Epinephelus_fuscoguttatus	Teleostei	293821	Teleostei	FALSE	TRUE	TRUE	GCF_0113976
 Cataglyphis_hispanica	Hymenoptera	1086592	Hymenoptera	FALSE	TRUE	FALSE	GCF_021464435.1	0
 Triplophysa_rosa	Teleostei	992332	Teleostei	FALSE	TRUE	TRUE	GCA_024868665.1	0
 Clupea_harengus	Teleostei	7950	Teleostei	FALSE	TRUE	TRUE	GCF_900700415.2	0
-Bactrocera_tryoni	Diptera	59916	Lepido Diptera	FALSE	TRUE	FALSE	GCF_016617805.1	0
+Bactrocera_tryoni	Diptera	59916	Mecopterida	FALSE	TRUE	FALSE	GCF_016617805.1	0
 Agelaius_phoeniceus	Aves	39638	Aves	FALSE	TRUE	TRUE	GCF_020745825.1	0
 Capitella_teleta	Annelida	283909	Other Invertebrates	FALSE	TRUE	TRUE	GCA_000328365.1	0
 Pseudopodoces_humilis	Aves	181119	Aves	FALSE	TRUE	FALSE	GCF_000331425.1	0
@@ -448,7 +448,7 @@ Lottia_gigantea	Mollusca	225164	Other Invertebrates	FALSE	TRUE	TRUE	GCF_00032738
 Helobdella_robusta	Annelida	6412	Other Invertebrates	FALSE	TRUE	FALSE	GCF_000326865.2	0
 Apis_dorsata	Hymenoptera	7462	Hymenoptera	FALSE	TRUE	FALSE	GCF_000469605.1	0
 Hipposideros_armiger	Mammalia	186990	Mammalia	FALSE	TRUE	FALSE	GCF_001890085.2	0
-Anastrepha_ludens	Diptera	28586	Lepido Diptera	FALSE	TRUE	FALSE	GCF_028408465.1	0
+Anastrepha_ludens	Diptera	28586	Mecopterida	FALSE	TRUE	FALSE	GCF_028408465.1	0
 Lipotes_vexillifer	Mammalia	118797	Mammalia	FALSE	TRUE	TRUE	GCF_000442215.2	0
 Misgurnus_anguillicaudatus	Teleostei	75329	Teleostei	FALSE	TRUE	TRUE	GCF_027580225.1	0
 Labrus_bergylta	Teleostei	56723	Teleostei	FALSE	TRUE	TRUE	GCF_900080235.1	0
@@ -461,25 +461,25 @@ Lasius_niger	Hymenoptera	67767	Hymenoptera	FALSE	TRUE	TRUE	GCA_001045655.1	0
 Meloidogyne_graminicola	Nematoda	189291	Nematoda	FALSE	FALSE	FALSE	GCA_014773135.1	0
 Dissostichus_eleginoides	Teleostei	100907	Teleostei	FALSE	TRUE	TRUE	GCA_025770515.1	0
 Notechis_scutatus	Lepidosauria	8663	Other Vertebrates	FALSE	TRUE	TRUE	GCF_900518725.1	0
-Spodoptera_litura	Lepidoptera	69820	Lepido Diptera	FALSE	TRUE	FALSE	GCF_002706865.2	0
+Spodoptera_litura	Lepidoptera	69820	Mecopterida	FALSE	TRUE	FALSE	GCF_002706865.2	0
 Falco_cherrug	Aves	345164	Aves	FALSE	TRUE	TRUE	GCF_023634085.1	0
 Micropterus_dolomieu	Teleostei	147949	Teleostei	FALSE	TRUE	TRUE	GCF_021292245.1	0
-Papilio_xuthus	Lepidoptera	66420	Lepido Diptera	FALSE	TRUE	FALSE	GCF_000836235.2	0
+Papilio_xuthus	Lepidoptera	66420	Mecopterida	FALSE	TRUE	FALSE	GCF_000836235.2	0
 Protopterus_annectens	Vertebrates	7888	Other Vertebrates	FALSE	TRUE	TRUE	GCF_019279795.1	0
 Epinephelus_moara	Teleostei	300413	Teleostei	FALSE	TRUE	TRUE	GCF_006386435.1	0
 Homalodisca_vitripennis	Hemiptera	197043	Other Insecta	FALSE	FALSE	FALSE	GCF_021130785.1	0
 Trichuris_trichiura	Nematoda	36087	Nematoda	FALSE	FALSE	TRUE	GCA_000613005.1	0
 Tegillarca_granosa	Mollusca	220873	Other Invertebrates	FALSE	FALSE	TRUE	GCA_029721355.1	0
 Portunus_trituberculatus	Crustacea	210409	Other Invertebrates	FALSE	TRUE	FALSE	GCF_017591435.1	0
-Sarcophaga_bullata	Diptera	7385	Lepido Diptera	FALSE	TRUE	FALSE	GCA_005959815.1	0
-Helicoverpa_armigera	Lepidoptera	29058	Lepido Diptera	FALSE	TRUE	FALSE	GCF_023701775.1	0
+Sarcophaga_bullata	Diptera	7385	Mecopterida	FALSE	TRUE	FALSE	GCA_005959815.1	0
+Helicoverpa_armigera	Lepidoptera	29058	Mecopterida	FALSE	TRUE	FALSE	GCF_023701775.1	0
 Zalophus_californianus	Mammalia	9704	Mammalia	FALSE	TRUE	TRUE	GCF_009762305.2	0
 Chelonia_mydas	Testudines	8469	Other Vertebrates	FALSE	TRUE	TRUE	GCF_015237465.2	0
 Cercocebus_atys	Mammalia	9531	Mammalia	FALSE	TRUE	TRUE	GCF_000955945.1	0
 Geospiza_fortis	Aves	48883	Aves	FALSE	TRUE	TRUE	GCF_000277835.1	0
 Hypomesus_transpacificus	Teleostei	137520	Teleostei	FALSE	TRUE	TRUE	GCF_021917145.1	0
 Parasteatoda_tepidariorum	Arachnida	114398	Other Invertebrates	FALSE	TRUE	TRUE	GCF_000365465.3	0
-Teleopsis_dalmanni	Diptera	139649	Lepido Diptera	FALSE	FALSE	FALSE	GCF_002237135.1	0
+Teleopsis_dalmanni	Diptera	139649	Mecopterida	FALSE	FALSE	FALSE	GCF_002237135.1	0
 Orchesella_cincta	Invertebrates	48709	Other Invertebrates	FALSE	TRUE	FALSE	GCA_001718145.1	0
 Lytechinus_pictus	Echinodermata	7653	Other Invertebrates	FALSE	FALSE	TRUE	GCF_015342785.2	0
 Solea_senegalensis	Teleostei	28829	Teleostei	FALSE	TRUE	TRUE	GCF_019176455.1	0
@@ -493,7 +493,7 @@ Mytilus_californianus	Mollusca	6549	Other Invertebrates	FALSE	TRUE	TRUE	GCF_0218
 Chlorocebus_sabaeus	Mammalia	60711	Mammalia	FALSE	TRUE	TRUE	GCF_015252025.1	0
 Rattus_rattus	Mammalia	10117	Mammalia	FALSE	TRUE	TRUE	GCF_011064425.1	0
 Dermacentor_andersoni	Arachnida	34620	Other Invertebrates	FALSE	TRUE	TRUE	GCF_023375885.1	0
-Chilo_suppressalis	Lepidoptera	168631	Lepido Diptera	FALSE	TRUE	FALSE	GCA_902850365.2	0
+Chilo_suppressalis	Lepidoptera	168631	Mecopterida	FALSE	TRUE	FALSE	GCA_902850365.2	0
 Tenebrio_molitor	Coleoptera	7067	Other Insecta	FALSE	TRUE	FALSE	GCA_907166875.3	0
 Cyprinodon_variegatus	Teleostei	28743	Teleostei	FALSE	TRUE	TRUE	GCF_000732505.1	0
 Stegastes_partitus	Teleostei	144197	Teleostei	FALSE	TRUE	TRUE	GCF_000690725.1	0
@@ -504,11 +504,11 @@ Tupaia_chinensis	Mammalia	246437	Mammalia	FALSE	FALSE	FALSE	GCF_000334495.1	0
 Caretta_caretta	Testudines	8467	Other Vertebrates	FALSE	TRUE	TRUE	GCF_023653815.1	0
 Oryzias_melastigma	Teleostei	30732	Teleostei	FALSE	TRUE	TRUE	GCF_002922805.2	0
 Stegodyphus_mimosarum	Arachnida	407821	Other Invertebrates	FALSE	TRUE	FALSE	GCA_000611955.2	0
-Episyrphus_balteatus	Diptera	286459	Lepido Diptera	FALSE	TRUE	FALSE	GCF_945859705.1	0
+Episyrphus_balteatus	Diptera	286459	Mecopterida	FALSE	TRUE	FALSE	GCF_945859705.1	0
 Parus_major	Aves	9157	Aves	FALSE	TRUE	TRUE	GCF_001522545.3	0
 Agrilus_planipennis	Coleoptera	224129	Other Insecta	FALSE	TRUE	TRUE	GCF_000699045.2	0
 Coregonus_clupeaformis	Teleostei	59861	Teleostei	FALSE	FALSE	TRUE	GCF_020615455.1	0
-Helicoverpa_zea	Lepidoptera	7113	Lepido Diptera	FALSE	TRUE	FALSE	GCF_022581195.2	0
+Helicoverpa_zea	Lepidoptera	7113	Mecopterida	FALSE	TRUE	FALSE	GCF_022581195.2	0
 Microplitis_demolitor	Hymenoptera	69319	Hymenoptera	FALSE	TRUE	FALSE	GCF_026212275.2	0
 Anoplopoma_fimbria	Teleostei	229290	Teleostei	FALSE	TRUE	TRUE	GCF_027596085.1	0
 Nannospalax_galili	Mammalia	1026970	Mammalia	FALSE	TRUE	FALSE	GCF_000622305.1	0
@@ -517,7 +517,7 @@ Megalopta_genalis	Hymenoptera	115081	Hymenoptera	FALSE	TRUE	FALSE	GCF_011865705.
 Scyliorhinus_torazame	Chondrichthyes	75743	Other Vertebrates	FALSE	TRUE	TRUE	GCA_003427355.1	0
 Labeo_rohita	Teleostei	84645	Teleostei	FALSE	TRUE	TRUE	GCF_022985175.1	0
 Plakobranchus_ocellatus	Mollusca	259542	Other Invertebrates	FALSE	TRUE	FALSE	GCA_019648995.1	0
-Spodoptera_littoralis	Lepidoptera	7109	Lepido Diptera	FALSE	TRUE	FALSE	GCA_902850265.1	0
+Spodoptera_littoralis	Lepidoptera	7109	Mecopterida	FALSE	TRUE	FALSE	GCA_902850265.1	0
 Ictalurus_furcatus	Teleostei	66913	Teleostei	FALSE	TRUE	TRUE	GCF_023375685.1	0
 Seriola_dumerili	Teleostei	41447	Teleostei	FALSE	TRUE	TRUE	GCF_002260705.1	0
 Symphalangus_syndactylus	Mammalia	9590	Mammalia	FALSE	TRUE	TRUE	GCF_028878055.1	0
@@ -531,7 +531,7 @@ Bugula_neritina	Invertebrates	10212	Other Invertebrates	FALSE	FALSE	FALSE	GCA_01
 Tigriopus_californicus	Crustacea	6832	Other Invertebrates	FALSE	TRUE	FALSE	GCA_007210705.1	0
 Branchiostoma_belcheri	Cephalochordata	7741	Other Invertebrates	FALSE	TRUE	TRUE	GCF_001625305.1	0
 Salvelinus_fontinalis	Teleostei	8038	Teleostei	FALSE	FALSE	TRUE	GCF_029448725.1	0
-Anopheles_sinensis	Diptera	74873	Lepido Diptera	FALSE	TRUE	FALSE	GCA_000441895.2	0
+Anopheles_sinensis	Diptera	74873	Mecopterida	FALSE	TRUE	FALSE	GCA_000441895.2	0
 Oryx_dammah	Mammalia	59534	Mammalia	FALSE	TRUE	TRUE	GCF_014754425.2	0
 Pteropus_alecto	Mammalia	9402	Mammalia	FALSE	TRUE	TRUE	GCF_000325575.1	0
 Panonychus_citri	Arachnida	50023	Other Invertebrates	FALSE	FALSE	FALSE	GCF_014898815.1	0
@@ -551,20 +551,20 @@ Trichinella_pseudospiralis	Nematoda	6337	Nematoda	FALSE	FALSE	TRUE	GCA_001447645
 Elephantulus_edwardii	Mammalia	28737	Mammalia	FALSE	TRUE	TRUE	GCF_000299155.1	0
 Chrysochloris_asiatica	Mammalia	185453	Mammalia	FALSE	TRUE	TRUE	GCF_000296735.1	0
 Bursaphelenchus_xylophilus	Nematoda	6326	Nematoda	FALSE	TRUE	FALSE	GCA_904066235.2	0
-Zeugodacus_cucurbitae	Diptera	28588	Lepido Diptera	FALSE	TRUE	FALSE	GCF_028554725.1	0
+Zeugodacus_cucurbitae	Diptera	28588	Mecopterida	FALSE	TRUE	FALSE	GCF_028554725.1	0
 Cynoglossus_semilaevis	Teleostei	244447	Teleostei	FALSE	TRUE	TRUE	GCF_000523025.1	0
 Eptesicus_fuscus	Mammalia	29078	Mammalia	FALSE	TRUE	TRUE	GCF_027574615.1	0
-Anopheles_merus	Diptera	30066	Lepido Diptera	FALSE	TRUE	FALSE	GCF_017562075.2	0
-Anopheles_arabiensis	Diptera	7173	Lepido Diptera	FALSE	TRUE	FALSE	GCF_016920715.1	0
-Stomoxys_calcitrans	Diptera	35570	Lepido Diptera	FALSE	TRUE	TRUE	GCF_001015335.1	0
+Anopheles_merus	Diptera	30066	Mecopterida	FALSE	TRUE	FALSE	GCF_017562075.2	0
+Anopheles_arabiensis	Diptera	7173	Mecopterida	FALSE	TRUE	FALSE	GCF_016920715.1	0
+Stomoxys_calcitrans	Diptera	35570	Mecopterida	FALSE	TRUE	TRUE	GCF_001015335.1	0
 Adineta_ricciae	Invertebrates	249248	Other Invertebrates	FALSE	FALSE	FALSE	GCA_905250025.1	0
 Serinus_canaria	Aves	9135	Aves	FALSE	TRUE	TRUE	GCF_022539315.1	0
 Leiothrix_lutea	Aves	36275	Aves	FALSE	TRUE	TRUE	GCA_013400445.1	0
 Amphibalanus_amphitrite	Crustacea	1232801	Other Invertebrates	FALSE	FALSE	TRUE	GCF_019059575.1	0
-Phlebotomus_papatasi	Diptera	29031	Lepido Diptera	FALSE	TRUE	FALSE	GCF_024763615.1	0
+Phlebotomus_papatasi	Diptera	29031	Mecopterida	FALSE	TRUE	FALSE	GCF_024763615.1	0
 Daphnia_magna	Crustacea	35525	Other Invertebrates	FALSE	TRUE	TRUE	GCF_020631705.1	0
 Leucoraja_erinacea	Chondrichthyes	7782	Other Vertebrates	FALSE	TRUE	TRUE	GCF_028641065.1	0
-Drosophila_miranda	Diptera	7229	Lepido Diptera	FALSE	TRUE	FALSE	GCF_003369915.1	0
+Drosophila_miranda	Diptera	7229	Mecopterida	FALSE	TRUE	FALSE	GCF_003369915.1	0
 Condylura_cristata	Mammalia	143302	Mammalia	FALSE	TRUE	TRUE	GCF_000260355.1	0
 Anguilla_anguilla	Teleostei	7936	Teleostei	FALSE	TRUE	TRUE	GCF_013347855.1	0
 Paralichthys_olivaceus	Teleostei	8255	Teleostei	FALSE	TRUE	TRUE	GCF_001970005.1	0
@@ -573,7 +573,7 @@ Pongo_pygmaeus	Mammalia	9600	Mammalia	FALSE	TRUE	TRUE	GCF_028885625.1	0
 Hydatigera_taeniaeformis	Platyhelminthes	6205	Other Invertebrates	FALSE	FALSE	FALSE	GCA_900622495.1	0
 Strongylus_vulgaris	Nematoda	40348	Nematoda	FALSE	FALSE	TRUE	GCA_900624965.1	0
 Dendronephthya_gigantea	Cnidaria	151771	Other Invertebrates	FALSE	TRUE	FALSE	GCF_004324835.1	0
-Diatraea_saccharalis	Lepidoptera	40085	Lepido Diptera	FALSE	TRUE	FALSE	GCA_918026875.4	0
+Diatraea_saccharalis	Lepidoptera	40085	Mecopterida	FALSE	TRUE	FALSE	GCA_918026875.4	0
 Sinocyclocheilus_grahami	Teleostei	75366	Teleostei	FALSE	FALSE	TRUE	GCF_001515645.1	0
 Dermatophagoides_farinae	Arachnida	6954	Other Invertebrates	FALSE	TRUE	FALSE	GCF_020809275.1	0
 Angiostrongylus_costaricensis	Nematoda	334426	Nematoda	FALSE	TRUE	TRUE	GCA_900624975.1	0
@@ -595,7 +595,7 @@ Toxocara_canis	Nematoda	6265	Nematoda	FALSE	TRUE	TRUE	GCA_000803305.1	0
 Panthera_uncia	Mammalia	29064	Mammalia	FALSE	TRUE	TRUE	GCF_023721935.1	0
 Panthera_pardus	Mammalia	9691	Mammalia	FALSE	TRUE	TRUE	GCF_024362965.1	0
 Xyrauchen_texanus	Teleostei	154827	Teleostei	FALSE	FALSE	TRUE	GCF_025860055.1	0
-Lucilia_sericata	Diptera	13632	Lepido Diptera	FALSE	TRUE	TRUE	GCF_015586225.1	0
+Lucilia_sericata	Diptera	13632	Mecopterida	FALSE	TRUE	TRUE	GCF_015586225.1	0
 Hippoglossus_stenolepis	Teleostei	195615	Teleostei	FALSE	TRUE	TRUE	GCF_022539355.2	0
 Trichobilharzia_regenti	Platyhelminthes	157069	Other Invertebrates	FALSE	TRUE	FALSE	GCA_944472135.2	0
 Mauremys_mutica	Testudines	74926	Other Vertebrates	FALSE	TRUE	TRUE	GCF_020497125.1	0
@@ -628,7 +628,7 @@ Muntiacus_muntjak	Mammalia	9888	Mammalia	FALSE	TRUE	TRUE	GCA_008782695.1	0
 Polyodon_spathula	Vertebrates	7913	Other Vertebrates	FALSE	FALSE	TRUE	GCF_017654505.1	0
 Caranx_melampygus	Teleostei	181461	Teleostei	FALSE	TRUE	TRUE	GCA_019059645.1	0
 Ixodes_persulcatus	Arachnida	34615	Other Invertebrates	FALSE	TRUE	FALSE	GCA_013358835.2	0
-Bombyx_mandarina	Lepidoptera	7092	Lepido Diptera	FALSE	TRUE	FALSE	GCF_003987935.1	0
+Bombyx_mandarina	Lepidoptera	7092	Mecopterida	FALSE	TRUE	FALSE	GCF_003987935.1	0
 Vombatus_ursinus	Mammalia	29139	Mammalia	FALSE	TRUE	TRUE	GCF_900497805.2	0
 Mugil_cephalus	Teleostei	48193	Teleostei	FALSE	TRUE	TRUE	GCF_022458985.1	0
 Trichosurus_vulpecula	Mammalia	9337	Mammalia	FALSE	TRUE	TRUE	GCF_011100635.1	0
@@ -639,7 +639,7 @@ Dromiciops_gliroides	Mammalia	33562	Mammalia	FALSE	TRUE	TRUE	GCF_019393635.1	0
 Albula_glossodonta	Teleostei	121402	Teleostei	FALSE	FALSE	TRUE	GCA_019788955.1	0
 Megalops_cyprinoides	Teleostei	118141	Teleostei	FALSE	TRUE	TRUE	GCF_013368585.1	0
 Megalops_atlanticus	Teleostei	7932	Teleostei	FALSE	TRUE	TRUE	GCA_019176425.1	0
-Drosophila_rhopaloa	Diptera	1041015	Lepido Diptera	FALSE	TRUE	FALSE	GCF_018152115.1	0
+Drosophila_rhopaloa	Diptera	1041015	Mecopterida	FALSE	TRUE	FALSE	GCF_018152115.1	0
 Strongyloides_ratti	Nematoda	34506	Nematoda	FALSE	TRUE	TRUE	GCF_001040885.1	0
 Lytechinus_variegatus	Echinodermata	7654	Other Invertebrates	FALSE	TRUE	TRUE	GCF_018143015.1	0
 Galendromus_occidentalis	Arachnida	34638	Other Invertebrates	FALSE	TRUE	FALSE	GCF_000255335.2	0
@@ -648,24 +648,24 @@ Neolamprologus_brichardi	Teleostei	32507	Teleostei	FALSE	TRUE	TRUE	GCF_000239395
 Haplochromis_burtoni	Teleostei	8153	Teleostei	FALSE	TRUE	TRUE	GCF_018398535.1	0
 Latimeria_chalumnae	Vertebrates	7897	Other Vertebrates	FALSE	FALSE	TRUE	GCF_000225785.1	0
 Caenorhabditis_angaria	Nematoda	860376	Nematoda	FALSE	TRUE	FALSE	GCA_947459285.1	0
-Chironomus_riparius	Diptera	315576	Lepido Diptera	FALSE	TRUE	FALSE	GCA_917627325.4	0
+Chironomus_riparius	Diptera	315576	Mecopterida	FALSE	TRUE	FALSE	GCA_917627325.4	0
 Nilaparvata_lugens	Hemiptera	108931	Other Insecta	FALSE	TRUE	FALSE	GCF_014356525.2	0
 Patiria_miniata	Echinodermata	46514	Other Invertebrates	FALSE	TRUE	TRUE	GCF_015706575.1	0
 Rhipicephalus_microplus	Arachnida	6941	Other Invertebrates	FALSE	TRUE	TRUE	GCF_013339725.1	0
 Cricetulus_griseus	Mammalia	10029	Mammalia	FALSE	FALSE	TRUE	GCF_000223135.1	0
 Rhipicephalus_sanguineus	Arachnida	34632	Other Invertebrates	FALSE	TRUE	FALSE	GCF_013339695.2	0
-Rhagoletis_pomonella	Diptera	28610	Lepido Diptera	FALSE	FALSE	TRUE	GCF_013731165.1	0
+Rhagoletis_pomonella	Diptera	28610	Mecopterida	FALSE	FALSE	TRUE	GCF_013731165.1	0
 Amphimedon_queenslandica	Invertebrates	400682	Other Invertebrates	FALSE	TRUE	FALSE	GCF_000090795.2	0
 Dicentrarchus_labrax	Teleostei	13489	Teleostei	FALSE	TRUE	TRUE	GCF_905237075.1	0
 Ctenopharyngodon_idella	Teleostei	7959	Teleostei	FALSE	TRUE	TRUE	GCF_019924925.1	0
 Maylandia_zebra	Teleostei	106582	Teleostei	FALSE	TRUE	TRUE	GCF_000238955.4	0
-Anopheles_darlingi	Diptera	43151	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734745.1	0
+Anopheles_darlingi	Diptera	43151	Mecopterida	FALSE	TRUE	FALSE	GCF_943734745.1	0
 Galeopterus_variegatus	Mammalia	482537	Mammalia	FALSE	TRUE	TRUE	GCF_000696425.1	0
 Priapulus_caudatus	Invertebrates	37621	Other Invertebrates	FALSE	TRUE	FALSE	GCF_000485595.1	0
 Limulus_polyphemus	Invertebrates	6850	Other Invertebrates	FALSE	TRUE	TRUE	GCF_000517525.1	0
 Dipodomys_ordii	Mammalia	10020	Mammalia	FALSE	TRUE	TRUE	GCF_000151885.1	0
 Ochotona_princeps	Mammalia	9978	Mammalia	FALSE	TRUE	TRUE	GCF_014633375.1	0
-Lutzomyia_longipalpis	Diptera	7200	Lepido Diptera	FALSE	TRUE	TRUE	GCF_024334085.1	0
+Lutzomyia_longipalpis	Diptera	7200	Mecopterida	FALSE	TRUE	TRUE	GCF_024334085.1	0
 Oryzias_latipes	Teleostei	8090	Teleostei	FALSE	TRUE	TRUE	GCF_002234675.1	0
 Ictidomys_tridecemlineatus	Mammalia	43179	Mammalia	FALSE	TRUE	TRUE	GCF_016881025.1	0
 Otolemur_garnettii	Mammalia	30611	Mammalia	FALSE	TRUE	TRUE	GCF_000181295.1	0
@@ -679,10 +679,10 @@ Ancylostoma_duodenale	Nematoda	51022	Nematoda	FALSE	FALSE	TRUE	GCA_000816745.1	0
 Ancylostoma_caninum	Nematoda	29170	Nematoda	FALSE	TRUE	TRUE	GCA_003336725.1	0
 Daphnia_pulex	Crustacea	6669	Other Invertebrates	FALSE	TRUE	TRUE	GCF_021134715.1	0
 Petromyzon_marinus	Vertebrates	7757	Other Vertebrates	FALSE	TRUE	TRUE	GCF_010993605.1	0
-Drosophila_mojavensis	Diptera	7230	Lepido Diptera	FALSE	TRUE	FALSE	GCF_018153725.1	0
+Drosophila_mojavensis	Diptera	7230	Mecopterida	FALSE	TRUE	FALSE	GCF_018153725.1	0
 Caenorhabditis_brenneri	Nematoda	135651	Nematoda	FALSE	FALSE	FALSE	GCA_000143925.2	0
 Caenorhabditis_remanei	Nematoda	31234	Nematoda	FALSE	TRUE	FALSE	GCF_010183535.1	0
-Drosophila_willistoni	Diptera	7260	Lepido Diptera	FALSE	TRUE	FALSE	GCF_018902025.1	0
+Drosophila_willistoni	Diptera	7260	Mecopterida	FALSE	TRUE	FALSE	GCF_018902025.1	0
 Pristionchus_pacificus	Nematoda	54126	Nematoda	FALSE	TRUE	FALSE	GCA_000180635.4	0
 Trichinella_spiralis	Nematoda	6334	Nematoda	FALSE	FALSE	TRUE	GCF_000181795.1	0
 Schistosoma_mansoni	Platyhelminthes	6183	Other Invertebrates	FALSE	TRUE	TRUE	GCF_000237925.1	0
@@ -692,7 +692,7 @@ Cavia_porcellus	Mammalia	10141	Mammalia	FALSE	TRUE	TRUE	GCF_000151735.1	0
 Nematostella_vectensis	Cnidaria	45351	Other Invertebrates	FALSE	TRUE	TRUE	GCF_932526225.1	0
 Sorex_araneus	Mammalia	42254	Mammalia	FALSE	TRUE	TRUE	GCF_027595985.1	0
 Tetraodon_nigroviridis	Teleostei	99883	Teleostei	FALSE	TRUE	TRUE	GCA_000180735.1	0
-Drosophila_yakuba	Diptera	7245	Lepido Diptera	FALSE	TRUE	FALSE	GCF_016746365.2	0
+Drosophila_yakuba	Diptera	7245	Mecopterida	FALSE	TRUE	FALSE	GCF_016746365.2	0
 Vidua_chalybeata	Aves	81927	Aves	FALSE	TRUE	TRUE	GCF_026979565.1	0
 Arenaria_interpres	Aves	54971	Aves	FALSE	TRUE	TRUE	GCA_013399435.1	0
 Meleagris_gallopavo	Aves	9103	Aves	FALSE	TRUE	TRUE	GCF_000146605.3	0
@@ -761,19 +761,19 @@ Tribolium_castaneum	Coleoptera	7070	Other Insecta	TRUE	TRUE	TRUE	GCF_000002335.3
 Dendroctonus_ponderosae	Coleoptera	77166	Other Insecta	TRUE	TRUE	TRUE	GCF_000355655.1	30
 Anoplophora_glabripennis	Coleoptera	217634	Other Insecta	TRUE	TRUE	TRUE	GCF_000390285.2	20
 Leptinotarsa_decemlineata	Coleoptera	7539	Other Insecta	TRUE	TRUE	TRUE	GCF_000500325.1	21
-Plutella_xylostella	Lepidoptera	51655	Lepido Diptera	TRUE	FALSE	TRUE	GCF_000330985.1	15
-Bombyx_mori	Lepidoptera	7091	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000151625.1	14
-Danaus_plexippus	Lepidoptera	13037	Lepido Diptera	TRUE	TRUE	FALSE	GCA_000235995.2	1
-Aedes_aegypti	Diptera	7159	Lepido Diptera	TRUE	TRUE	TRUE	GCF_002204515.2	27
-Culex_quinquefasciatus	Diptera	7176	Lepido Diptera	TRUE	TRUE	FALSE	GCF_000209185.1	8
-Anopheles_gambiae	Diptera	7165	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000005575.2	6
-Drosophila_grimshawi	Diptera	7222	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000005155.2	30
-Drosophila_pseudoobscura	Diptera	7237	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000001765.3	32
-Drosophila_melanogaster	Diptera	7227	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000001215.4	129
-Drosophila_suzukii	Diptera	28584	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000472105.1	23
-Ceratitis_capitata	Diptera	7213	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000347755.3	29
-Lucilia_cuprina	Diptera	7375	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000699065.1	23
-Musca_domestica	Diptera	7370	Lepido Diptera	TRUE	TRUE	TRUE	GCF_000371365.1	12
+Plutella_xylostella	Lepidoptera	51655	Mecopterida	TRUE	FALSE	TRUE	GCF_000330985.1	15
+Bombyx_mori	Lepidoptera	7091	Mecopterida	TRUE	TRUE	TRUE	GCF_000151625.1	14
+Danaus_plexippus	Lepidoptera	13037	Mecopterida	TRUE	TRUE	FALSE	GCA_000235995.2	1
+Aedes_aegypti	Diptera	7159	Mecopterida	TRUE	TRUE	TRUE	GCF_002204515.2	27
+Culex_quinquefasciatus	Diptera	7176	Mecopterida	TRUE	TRUE	FALSE	GCF_000209185.1	8
+Anopheles_gambiae	Diptera	7165	Mecopterida	TRUE	TRUE	TRUE	GCF_000005575.2	6
+Drosophila_grimshawi	Diptera	7222	Mecopterida	TRUE	TRUE	TRUE	GCF_000005155.2	30
+Drosophila_pseudoobscura	Diptera	7237	Mecopterida	TRUE	TRUE	TRUE	GCF_000001765.3	32
+Drosophila_melanogaster	Diptera	7227	Mecopterida	TRUE	TRUE	TRUE	GCF_000001215.4	129
+Drosophila_suzukii	Diptera	28584	Mecopterida	TRUE	TRUE	TRUE	GCF_000472105.1	23
+Ceratitis_capitata	Diptera	7213	Mecopterida	TRUE	TRUE	TRUE	GCF_000347755.3	29
+Lucilia_cuprina	Diptera	7375	Mecopterida	TRUE	TRUE	TRUE	GCF_000699065.1	23
+Musca_domestica	Diptera	7370	Mecopterida	TRUE	TRUE	TRUE	GCF_000371365.1	12
 Enhydra_lutris	Mammalia	34882	Mammalia	TRUE	TRUE	TRUE	GCF_002288905.1	4
 Carassius_auratus	Teleostei	7957	Teleostei	TRUE	FALSE	TRUE	GCF_003368295.1	49
 Motacilla_alba	Aves	45807	Aves	TRUE	TRUE	TRUE	GCF_015832195.1	8
@@ -799,7 +799,7 @@ Anas_platyrhynchos	Aves	8839	Aves	TRUE	TRUE	TRUE	GCF_015476345.1	50
 Odocoileus_virginianus	Mammalia	9874	Mammalia	TRUE	TRUE	TRUE	GCF_002102435.1	31
 Diabrotica_virgifera	Coleoptera	50389	Other Insecta	TRUE	TRUE	TRUE	GCF_003013835.1	50
 Trachemys_scripta	Testudines	34903	Other Vertebrates	TRUE	TRUE	TRUE	GCF_013100865.1	50
-Glossina_fuscipes	Diptera	7396	Lepido Diptera	TRUE	TRUE	FALSE	GCF_014805625.1	9
+Glossina_fuscipes	Diptera	7396	Mecopterida	TRUE	TRUE	FALSE	GCF_014805625.1	9
 Ceratosolen_solmsi	Hymenoptera	142686	Hymenoptera	TRUE	TRUE	FALSE	GCF_000503995.1	20
 Bombus_vancouverensis	Hymenoptera	2705177	Hymenoptera	TRUE	TRUE	FALSE	GCF_011952275.1	7
 Peromyscus_maniculatus	Mammalia	10042	Mammalia	TRUE	TRUE	TRUE	GCF_000500345.1	50
@@ -820,7 +820,7 @@ Cloeon_dipterum	Ephemeroptera	197152	Other Insecta	TRUE	TRUE	TRUE	GCA_902829235.
 Gymnodraco_acuticeps	Teleostei	8218	Teleostei	TRUE	TRUE	TRUE	GCF_902827175.1	50
 Pseudochaenichthys_georgianus	Teleostei	52239	Teleostei	TRUE	TRUE	TRUE	GCF_902827115.1	35
 Molothrus_ater	Aves	84834	Aves	TRUE	TRUE	TRUE	GCF_012460135.1	31
-Zerene_cesonia	Lepidoptera	33412	Lepido Diptera	TRUE	TRUE	FALSE	GCF_012273895.1	24
+Zerene_cesonia	Lepidoptera	33412	Mecopterida	TRUE	TRUE	FALSE	GCF_012273895.1	24
 Osmia_lignaria	Hymenoptera	473952	Hymenoptera	TRUE	TRUE	TRUE	GCF_012274295.1	41
 Bombus_vosnesenskii	Hymenoptera	207650	Hymenoptera	TRUE	TRUE	TRUE	GCF_011952255.1	50
 Bombus_bifarius	Hymenoptera	103933	Hymenoptera	TRUE	TRUE	TRUE	GCF_011952205.1	6
@@ -846,7 +846,7 @@ Gopherus_evgoodei	Testudines	1825980	Other Vertebrates	TRUE	TRUE	TRUE	GCF_007399
 Archocentrus_centrarchus	Teleostei	63155	Teleostei	TRUE	TRUE	TRUE	GCF_007364275.1	36
 Dermochelys_coriacea	Testudines	27794	Other Vertebrates	TRUE	TRUE	TRUE	GCF_009764565.2	13
 Thrips_palmi	Thysanoptera	161013	Other Insecta	TRUE	TRUE	TRUE	GCF_012932325.1	22
-Eumeta_japonica	Lepidoptera	151549	Lepido Diptera	TRUE	TRUE	FALSE	GCA_005406025.1	8
+Eumeta_japonica	Lepidoptera	151549	Mecopterida	TRUE	TRUE	FALSE	GCA_005406025.1	8
 Nylanderia_fulva	Hymenoptera	613905	Hymenoptera	TRUE	TRUE	FALSE	GCF_005281655.1	40
 Varanus_komodoensis	Lepidosauria	61221	Other Vertebrates	TRUE	TRUE	TRUE	GCA_004798865.1	7
 Anarrhichthys_ocellatus	Teleostei	433405	Teleostei	TRUE	TRUE	TRUE	GCF_004355925.1	11
@@ -855,7 +855,7 @@ Phyllostomus_discolor	Mammalia	89673	Mammalia	TRUE	TRUE	TRUE	GCF_004126475.2	8
 Onychomys_torridus	Mammalia	38674	Mammalia	TRUE	TRUE	TRUE	GCF_903995425.1	30
 Suricata_suricatta	Mammalia	37032	Mammalia	TRUE	TRUE	TRUE	GCF_006229205.1	21
 Strigops_habroptila	Aves	2489341	Aves	TRUE	TRUE	TRUE	GCF_004027225.2	5
-Drosophila_guanche	Diptera	7266	Lepido Diptera	TRUE	TRUE	FALSE	GCF_900245975.1	12
+Drosophila_guanche	Diptera	7266	Mecopterida	TRUE	TRUE	FALSE	GCF_900245975.1	12
 Anabarilius_grahami	Teleostei	495550	Teleostei	TRUE	FALSE	TRUE	GCA_003731715.1	13
 Marmota_flaviventris	Mammalia	93162	Mammalia	TRUE	TRUE	TRUE	GCF_003676075.2	43
 Electrophorus_electricus	Teleostei	8005	Teleostei	TRUE	TRUE	TRUE	GCF_013358815.1	12
@@ -864,11 +864,11 @@ Apteryx_rowi	Aves	308060	Aves	TRUE	TRUE	TRUE	GCF_003343035.1	16
 Malaclemys_terrapin	Testudines	8485	Other Vertebrates	FALSE	TRUE	TRUE	GCF_027887155.1	0
 Ceratotherium_simum	Mammalia	9807	Mammalia	TRUE	TRUE	TRUE	GCF_000283155.1	1
 Micropterus_salmoides	Teleostei	27706	Teleostei	TRUE	TRUE	TRUE	GCF_014851395.1	10
-Drosophila_subpulchrella	Diptera	1486046	Lepido Diptera	TRUE	TRUE	FALSE	GCF_014743375.2	10
+Drosophila_subpulchrella	Diptera	1486046	Mecopterida	TRUE	TRUE	FALSE	GCF_014743375.2	10
 Molossus_molossus	Mammalia	27622	Mammalia	TRUE	TRUE	TRUE	GCF_014108415.1	9
 Pipistrellus_kuhlii	Mammalia	59472	Mammalia	TRUE	TRUE	TRUE	GCF_014108245.1	6
-Arctia_plantaginis	Lepidoptera	874455	Lepido Diptera	TRUE	TRUE	FALSE	GCA_902825455.1	50
-Contarinia_nasturtii	Diptera	265458	Lepido Diptera	TRUE	TRUE	TRUE	GCF_009176525.2	8
+Arctia_plantaginis	Lepidoptera	874455	Mecopterida	TRUE	TRUE	FALSE	GCA_902825455.1	50
+Contarinia_nasturtii	Diptera	265458	Mecopterida	TRUE	TRUE	TRUE	GCF_009176525.2	8
 Talpa_occidentalis	Mammalia	50954	Mammalia	TRUE	TRUE	TRUE	GCF_014898055.1	19
 Grammomys_surdaster	Mammalia	491861	Mammalia	TRUE	TRUE	FALSE	GCF_004785775.1	4
 Pipra_filicauda	Aves	649802	Aves	TRUE	TRUE	TRUE	GCF_003945595.2	36
@@ -893,8 +893,8 @@ Gekko_japonicus	Lepidosauria	146911	Other Vertebrates	TRUE	TRUE	TRUE	GCF_0014477
 Pantherophis_guttatus	Lepidosauria	94885	Other Vertebrates	TRUE	TRUE	TRUE	GCF_001185365.1	35
 Sinocyclocheilus_rhinocerous	Teleostei	307959	Teleostei	TRUE	FALSE	TRUE	GCF_001515625.1	4
 Sinocyclocheilus_anshuiensis	Teleostei	1608454	Teleostei	TRUE	FALSE	TRUE	GCF_001515605.1	4
-Hermetia_illucens	Diptera	343691	Lepido Diptera	TRUE	TRUE	TRUE	GCF_905115235.1	50
-Scaptodrosophila_lebanonensis	Diptera	7225	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003285725.1	6
+Hermetia_illucens	Diptera	343691	Mecopterida	TRUE	TRUE	TRUE	GCF_905115235.1	50
+Scaptodrosophila_lebanonensis	Diptera	7225	Mecopterida	TRUE	TRUE	FALSE	GCF_003285725.1	6
 Zootoca_vivipara	Lepidosauria	8524	Other Vertebrates	TRUE	TRUE	TRUE	GCF_011800845.1	5
 Manis_javanica	Mammalia	9974	Mammalia	TRUE	TRUE	TRUE	GCF_014570535.1	42
 Sander_lucioperca	Teleostei	283035	Teleostei	TRUE	TRUE	TRUE	GCF_008315115.2	17
@@ -920,7 +920,7 @@ Trichechus_manatus	Mammalia	9778	Mammalia	TRUE	TRUE	TRUE	GCF_000243295.1	11
 Caenorhabditis_elegans	Nematoda	6239	Nematoda	TRUE	TRUE	TRUE	GCF_000002985.6	50
 Meriones_unguiculatus	Mammalia	10047	Mammalia	TRUE	TRUE	TRUE	GCF_002204375.1	34
 Zonotrichia_albicollis	Aves	44394	Aves	TRUE	FALSE	TRUE	GCF_000385455.1	50
-Bactrocera_oleae	Diptera	104688	Lepido Diptera	TRUE	TRUE	FALSE	GCF_001188975.1	48
+Bactrocera_oleae	Diptera	104688	Mecopterida	TRUE	TRUE	FALSE	GCF_001188975.1	48
 Bagarius_yarrelli	Teleostei	175774	Teleostei	TRUE	TRUE	TRUE	GCA_005784505.1	11
 Gigantopelta_aegis	Mollusca	1735272	Other Invertebrates	TRUE	TRUE	FALSE	GCF_016097555.1	37
 Trichonephila_clavipes	Arachnida	2585209	Other Invertebrates	TRUE	FALSE	FALSE	GCA_002102615.1	22
@@ -956,7 +956,7 @@ Lingula_anatina	Brachiopoda	7574	Other Invertebrates	TRUE	FALSE	TRUE	GCF_0010393
 Betta_splendens	Teleostei	158456	Teleostei	TRUE	TRUE	TRUE	GCF_900634795.3	50
 Onychostruthus_taczanowskii	Aves	356909	Aves	TRUE	TRUE	FALSE	GCF_017590055.1	11
 Numida_meleagris	Aves	8996	Aves	TRUE	TRUE	TRUE	GCF_002078875.1	50
-Papilio_machaon	Lepidoptera	76193	Lepido Diptera	TRUE	TRUE	FALSE	GCF_912999745.1	10
+Papilio_machaon	Lepidoptera	76193	Mecopterida	TRUE	TRUE	FALSE	GCF_912999745.1	10
 Mustela_putorius	Mammalia	9668	Mammalia	TRUE	TRUE	TRUE	GCF_011764305.1	50
 Lates_calcarifer	Teleostei	8187	Teleostei	TRUE	TRUE	TRUE	GCF_001640805.1	50
 Takifugu_flavidus	Teleostei	433684	Teleostei	TRUE	TRUE	TRUE	GCA_003711565.2	10
@@ -970,7 +970,7 @@ Penaeus_vannamei	Crustacea	6689	Other Invertebrates	FALSE	FALSE	TRUE	GCF_0037890
 Echinococcus_granulosus	Platyhelminthes	6210	Other Invertebrates	TRUE	TRUE	TRUE	GCF_000524195.1	50
 Schistosoma_haematobium	Platyhelminthes	6185	Other Invertebrates	TRUE	TRUE	TRUE	GCF_000699445.2	40
 Acropora_digitifera	Cnidaria	70779	Other Invertebrates	TRUE	TRUE	FALSE	GCF_000222465.1	50
-Pieris_rapae	Lepidoptera	64459	Lepido Diptera	TRUE	TRUE	TRUE	GCF_905147795.1	50
+Pieris_rapae	Lepidoptera	64459	Mecopterida	TRUE	TRUE	TRUE	GCF_905147795.1	50
 Coptotermes_formosanus	Blattodea	36987	Other Insecta	TRUE	TRUE	TRUE	GCA_013340265.1	18
 Myotis_lucifugus	Mammalia	59463	Mammalia	TRUE	TRUE	TRUE	GCF_000147115.1	50
 Anolis_carolinensis	Lepidosauria	28377	Other Vertebrates	TRUE	FALSE	TRUE	GCF_000090745.1	50
@@ -982,13 +982,13 @@ Microcebus_murinus	Mammalia	30608	Mammalia	TRUE	FALSE	TRUE	GCF_000165445.2	30
 Dictyocaulus_viviparus	Nematoda	29172	Nematoda	TRUE	TRUE	TRUE	GCA_000816705.1	31
 Bubalus_bubalis	Mammalia	89462	Mammalia	FALSE	TRUE	TRUE	GCF_019923935.1	0
 Oesophagostomum_dentatum	Nematoda	61180	Nematoda	TRUE	FALSE	TRUE	GCA_000797555.1	34
-Melitaea_cinxia	Lepidoptera	113334	Lepido Diptera	TRUE	TRUE	FALSE	GCF_905220565.1	50
+Melitaea_cinxia	Lepidoptera	113334	Mecopterida	TRUE	TRUE	FALSE	GCF_905220565.1	50
 Clonorchis_sinensis	Platyhelminthes	79923	Other Invertebrates	TRUE	TRUE	TRUE	GCA_003604175.2	10
 Acropora_millepora	Cnidaria	45264	Other Invertebrates	TRUE	TRUE	TRUE	GCF_013753865.1	50
-Drosophila_mauritiana	Diptera	7226	Lepido Diptera	TRUE	TRUE	FALSE	GCF_004382145.1	50
-Drosophila_sechellia	Diptera	7238	Lepido Diptera	TRUE	TRUE	FALSE	GCF_004382195.2	50
-Drosophila_simulans	Diptera	7240	Lepido Diptera	TRUE	TRUE	FALSE	GCF_016746395.2	12
-Drosophila_erecta	Diptera	7220	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003286155.1	46
+Drosophila_mauritiana	Diptera	7226	Mecopterida	TRUE	TRUE	FALSE	GCF_004382145.1	50
+Drosophila_sechellia	Diptera	7238	Mecopterida	TRUE	TRUE	FALSE	GCF_004382195.2	50
+Drosophila_simulans	Diptera	7240	Mecopterida	TRUE	TRUE	FALSE	GCF_016746395.2	12
+Drosophila_erecta	Diptera	7220	Mecopterida	TRUE	TRUE	FALSE	GCF_003286155.1	46
 Acanthocheilonema_viteae	Nematoda	6277	Nematoda	TRUE	TRUE	FALSE	GCA_900537255.1	7
 Varroa_destructor	Arachnida	109461	Other Invertebrates	TRUE	TRUE	FALSE	GCF_002443255.1	50
 Loa_loa	Nematoda	7209	Nematoda	TRUE	TRUE	TRUE	GCF_000183805.2	1
@@ -1002,7 +1002,7 @@ Scophthalmus_maximus	Teleostei	52904	Teleostei	TRUE	TRUE	TRUE	GCF_022379125.1	50
 Nothobranchius_furzeri	Teleostei	105023	Teleostei	TRUE	TRUE	TRUE	GCF_001465895.1	50
 Diaphorina_citri	Hemiptera	121845	Other Insecta	TRUE	TRUE	TRUE	GCF_000475195.1	50
 Bemisia_tabaci	Hemiptera	7038	Other Insecta	TRUE	TRUE	FALSE	GCF_001854935.1	50
-Mamestra_configurata	Lepidoptera	174822	Lepido Diptera	FALSE	FALSE	FALSE	GCA_002192655.3	0
+Mamestra_configurata	Lepidoptera	174822	Mecopterida	FALSE	FALSE	FALSE	GCA_002192655.3	0
 Sebastes_umbrosus	Teleostei	72105	Teleostei	FALSE	TRUE	TRUE	GCF_015220745.1	0
 Cebus_imitator	Mammalia	2715852	Mammalia	FALSE	TRUE	FALSE	GCF_001604975.1	0
 Aphidius_gifuensis	Hymenoptera	684658	Hymenoptera	FALSE	TRUE	FALSE	GCF_014905175.1	0
@@ -1011,7 +1011,7 @@ Sturnira_hondurensis	Mammalia	192404	Mammalia	FALSE	TRUE	FALSE	GCF_014824575.2	0
 Oppiella_nova	Arachnida	334625	Other Invertebrates	TRUE	FALSE	FALSE	GCA_905397405.1	10
 Medioppia_subpectinata	Arachnida	1979941	Other Invertebrates	TRUE	FALSE	FALSE	GCA_905368565.1	10
 Lucifuga_dentata	Teleostei	670423	Teleostei	FALSE	TRUE	TRUE	GCA_014773175.1	0
-Bradysia_coprophila	Diptera	38358	Lepido Diptera	TRUE	TRUE	FALSE	GCF_014529535.1	24
+Bradysia_coprophila	Diptera	38358	Mecopterida	TRUE	TRUE	FALSE	GCF_014529535.1	24
 Bursaphelenchus_okinawaensis	Nematoda	465554	Nematoda	FALSE	TRUE	FALSE	GCA_904066225.2	0
 Dimorphilus_gyrociliatus	Annelida	2664684	Other Invertebrates	TRUE	TRUE	FALSE	GCA_904063045.1	8
 Acomys_russatus	Mammalia	60746	Mammalia	TRUE	TRUE	TRUE	GCF_903995435.1	36
@@ -1064,22 +1064,22 @@ Pomphorhynchus_laevis	Invertebrates	141832	Other Invertebrates	TRUE	FALSE	TRUE	G
 Batillaria_attramentaria	Mollusca	370345	Other Invertebrates	TRUE	FALSE	FALSE	GCA_018292915.1	36
 Trichogramma_brassicae	Hymenoptera	86971	Hymenoptera	FALSE	FALSE	FALSE	GCA_902806795.1	0
 Teleogryllus_occipitalis	Invertebrates	470939	Other Insecta	FALSE	FALSE	FALSE	GCA_011170035.1	0
-Drosophila_gunungcola	Diptera	103775	Lepido Diptera	TRUE	TRUE	FALSE	GCF_025200985.1	5
+Drosophila_gunungcola	Diptera	103775	Mecopterida	TRUE	TRUE	FALSE	GCF_025200985.1	5
 Phyllotreta_striolata	Coleoptera	444603	Other Insecta	TRUE	TRUE	FALSE	GCA_918026865.1	6
 Polistes_fuscatus	Hymenoptera	30207	Hymenoptera	TRUE	TRUE	TRUE	GCF_010416935.1	50
 Myxobolus_squamalis	Cnidaria	59785	Other Invertebrates	FALSE	FALSE	FALSE	GCA_010108815.1	0
 Eudyptes_chrysolophus	Aves	79627	Aves	FALSE	TRUE	TRUE	GCA_010084205.1	0
-Colias_croceus	Lepidoptera	72248	Lepido Diptera	TRUE	TRUE	FALSE	GCF_905220415.1	31
+Colias_croceus	Lepidoptera	72248	Mecopterida	TRUE	TRUE	FALSE	GCF_905220415.1	31
 Henneguya_salminicola	Cnidaria	69463	Other Invertebrates	FALSE	FALSE	FALSE	GCA_009887335.1	0
 Sparganum_proliferum	Platyhelminthes	64606	Other Invertebrates	FALSE	TRUE	FALSE	GCA_902702955.1	0
 Sciurus_carolinensis	Mammalia	30640	Mammalia	TRUE	TRUE	TRUE	GCF_902686445.1	38
-Maniola_jurtina	Lepidoptera	191418	Lepido Diptera	TRUE	TRUE	FALSE	GCF_905333055.1	27
+Maniola_jurtina	Lepidoptera	191418	Mecopterida	TRUE	TRUE	FALSE	GCF_905333055.1	27
 Armadillidium_nasatum	Crustacea	96803	Other Invertebrates	FALSE	TRUE	FALSE	GCA_009176605.1	0
 Thalassophryne_amazonica	Teleostei	390379	Teleostei	FALSE	TRUE	TRUE	GCF_902500255.1	0
 Cinara_cedri	Hemiptera	506608	Other Insecta	FALSE	TRUE	FALSE	GCA_902439185.1	0
 Phocoena_sinus	Mammalia	42100	Mammalia	FALSE	TRUE	TRUE	GCF_008692025.1	0
 Octopus_sinensis	Mollusca	2607531	Other Invertebrates	TRUE	TRUE	FALSE	GCF_006345805.1	2
-Drosophila_bunnanda	Diptera	244254	Lepido Diptera	FALSE	TRUE	FALSE	GCA_021223745.1	0
+Drosophila_bunnanda	Diptera	244254	Mecopterida	FALSE	TRUE	FALSE	GCA_021223745.1	0
 Danionella_translucida	Teleostei	623744	Teleostei	TRUE	TRUE	TRUE	GCA_007224835.1	3
 Timema_podura	Invertebrates	61482	Other Insecta	TRUE	TRUE	FALSE	GCA_905359515.1	32
 Sphaeramia_orbicularis	Teleostei	375764	Teleostei	FALSE	TRUE	TRUE	GCF_902148855.1	0
@@ -1093,9 +1093,9 @@ Rhagologus_leucostigma	Aves	156170	Aves	FALSE	TRUE	TRUE	GCA_013397725.1	0
 Trinorchestia_longiramus	Crustacea	1923959	Other Invertebrates	TRUE	TRUE	FALSE	GCA_006783055.1	2
 Paragonimus_heterotremus	Platyhelminthes	100268	Other Invertebrates	TRUE	TRUE	FALSE	GCA_013368495.1	4
 Neodiprion_pinetum	Hymenoptera	441929	Hymenoptera	FALSE	TRUE	FALSE	GCF_021155775.1	0
-Tuta_absoluta	Lepidoptera	702717	Lepido Diptera	TRUE	TRUE	FALSE	GCA_027580185.1	32
+Tuta_absoluta	Lepidoptera	702717	Mecopterida	TRUE	TRUE	FALSE	GCA_027580185.1	32
 Temnothorax_longispinosus	Hymenoptera	300112	Hymenoptera	FALSE	TRUE	FALSE	GCA_004794745.1	0
-Drosophila_innubila	Diptera	198719	Lepido Diptera	TRUE	TRUE	FALSE	GCF_004354385.1	50
+Drosophila_innubila	Diptera	198719	Mecopterida	TRUE	TRUE	FALSE	GCF_004354385.1	50
 Schistosoma_bovis	Platyhelminthes	6184	Other Invertebrates	TRUE	TRUE	FALSE	GCA_944470425.1	14
 Gouania_willdenowi	Teleostei	441366	Teleostei	FALSE	TRUE	TRUE	GCF_900634775.1	0
 Parambassis_ranga	Teleostei	210632	Teleostei	FALSE	TRUE	TRUE	GCF_900634625.1	0
@@ -1106,7 +1106,7 @@ Chloebia_gouldiae	Aves	44316	Aves	TRUE	TRUE	TRUE	GCA_003676055.1	9
 Rhopalosiphum_maidis	Hemiptera	43146	Other Insecta	FALSE	TRUE	TRUE	GCF_003676215.2	0
 Chelonoidis_abingdonii	Testudines	106734	Other Vertebrates	FALSE	TRUE	TRUE	GCF_003597395.1	0
 Pseudonaja_textilis	Lepidosauria	8673	Other Vertebrates	FALSE	TRUE	FALSE	GCF_900518735.1	0
-Hyposmocoma_kahamanoa	Lepidoptera	1477025	Lepido Diptera	FALSE	TRUE	FALSE	GCF_003589595.1	0
+Hyposmocoma_kahamanoa	Lepidoptera	1477025	Mecopterida	FALSE	TRUE	FALSE	GCF_003589595.1	0
 Coccinella_septempunctata	Coleoptera	41139	Other Insecta	TRUE	TRUE	TRUE	GCF_907165205.1	50
 Harmonia_axyridis	Coleoptera	115357	Other Insecta	TRUE	TRUE	TRUE	GCF_914767665.1	50
 Sipha_flava	Hemiptera	143950	Other Insecta	FALSE	TRUE	FALSE	GCF_003268045.1	0
@@ -1114,18 +1114,18 @@ Pygoscelis_papua	Aves	30457	Aves	FALSE	TRUE	TRUE	GCA_010090195.1	0
 Simochromis_diagramma	Teleostei	43689	Teleostei	TRUE	TRUE	TRUE	GCF_900408965.1	43
 Temnothorax_curvispinosus	Hymenoptera	300111	Hymenoptera	FALSE	TRUE	FALSE	GCF_003070985.1	0
 Haemaphysalis_longicornis	Arachnida	44386	Other Invertebrates	FALSE	FALSE	FALSE	GCA_013339765.2	0
-Choristoneura_fumiferana	Lepidoptera	7141	Lepido Diptera	FALSE	TRUE	FALSE	GCA_025370935.1	0
+Choristoneura_fumiferana	Lepidoptera	7141	Mecopterida	FALSE	TRUE	FALSE	GCA_025370935.1	0
 Styela_clava	Invertebrates	7725	Other Invertebrates	TRUE	TRUE	TRUE	GCF_013122585.1	22
-Vanessa_tameamea	Lepidoptera	334116	Lepido Diptera	FALSE	TRUE	FALSE	GCF_002938995.1	0
-Anopheles_aquasalis	Diptera	42839	Lepido Diptera	TRUE	TRUE	FALSE	GCF_943734665.1	14
+Vanessa_tameamea	Lepidoptera	334116	Mecopterida	FALSE	TRUE	FALSE	GCF_002938995.1	0
+Anopheles_aquasalis	Diptera	42839	Mecopterida	TRUE	TRUE	FALSE	GCF_943734665.1	14
 Trichobilharzia_szidati	Platyhelminthes	157070	Other Invertebrates	TRUE	FALSE	FALSE	GCA_944472155.1	8
-Dendrolimus_kikuchii	Lepidoptera	765133	Lepido Diptera	FALSE	TRUE	FALSE	GCA_019925095.2	0
+Dendrolimus_kikuchii	Lepidoptera	765133	Mecopterida	FALSE	TRUE	FALSE	GCA_019925095.2	0
 Apis_laboriosa	Hymenoptera	183418	Hymenoptera	FALSE	TRUE	FALSE	GCF_014066325.1	0
-Drosophila_subobscura	Diptera	7241	Lepido Diptera	FALSE	TRUE	FALSE	GCF_008121235.1	0
-Leptidea_sinapis	Lepidoptera	189913	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905404315.1	0
+Drosophila_subobscura	Diptera	7241	Mecopterida	FALSE	TRUE	FALSE	GCF_008121235.1	0
+Leptidea_sinapis	Lepidoptera	189913	Mecopterida	FALSE	TRUE	FALSE	GCF_905404315.1	0
 Varroa_jacobsoni	Arachnida	62625	Other Invertebrates	FALSE	TRUE	FALSE	GCF_002532875.1	0
 Diploscapter_pachys	Nematoda	2018661	Nematoda	TRUE	FALSE	FALSE	GCA_002287525.1	2
-Drosophila_obscura	Diptera	7282	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018151105.1	34
+Drosophila_obscura	Diptera	7282	Mecopterida	TRUE	TRUE	FALSE	GCF_018151105.1	34
 Lagenorhynchus_obliquidens	Mammalia	90247	Mammalia	FALSE	TRUE	TRUE	GCF_003676395.1	0
 Vespa_velutina	Hymenoptera	202808	Hymenoptera	FALSE	TRUE	FALSE	GCF_912470025.1	0
 Ooceraea_biroi	Hymenoptera	2015173	Hymenoptera	FALSE	TRUE	FALSE	GCF_003672135.1	0
@@ -1133,13 +1133,13 @@ Paramuricea_clavata	Cnidaria	317549	Other Invertebrates	TRUE	TRUE	FALSE	GCA_9027
 Tropilaelaps_mercedesae	Arachnida	418985	Other Invertebrates	FALSE	TRUE	FALSE	GCA_002081605.1	0
 Pseudomyrmex_gracilis	Hymenoptera	219809	Hymenoptera	FALSE	TRUE	FALSE	GCF_002006095.1	0
 Aethina_tumida	Coleoptera	116153	Other Insecta	FALSE	TRUE	TRUE	GCF_024364675.1	0
-Clunio_marinus	Diptera	568069	Lepido Diptera	TRUE	TRUE	TRUE	GCA_900005825.1	15
+Clunio_marinus	Diptera	568069	Mecopterida	TRUE	TRUE	TRUE	GCA_900005825.1	15
 Ischnura_elegans	Invertebrates	197161	Other Insecta	TRUE	TRUE	FALSE	GCF_921293095.1	50
 Phodopus_roborovskii	Mammalia	109678	Mammalia	FALSE	TRUE	TRUE	GCF_943737965.1	0
 Triplophysa_tibetana	Teleostei	1572043	Teleostei	FALSE	TRUE	TRUE	GCA_008369825.1	0
 Carlito_syrichta	Mammalia	1868482	Mammalia	FALSE	TRUE	TRUE	GCF_000164805.1	0
-Drosophila_navojoa	Diptera	7232	Lepido Diptera	TRUE	TRUE	FALSE	GCF_001654015.2	4
-Drosophila_arizonae	Diptera	7263	Lepido Diptera	TRUE	TRUE	FALSE	GCF_001654025.1	50
+Drosophila_navojoa	Diptera	7232	Mecopterida	TRUE	TRUE	FALSE	GCF_001654015.2	4
+Drosophila_arizonae	Diptera	7263	Mecopterida	TRUE	TRUE	FALSE	GCF_001654025.1	50
 Ceratina_calcarata	Hymenoptera	156304	Hymenoptera	FALSE	TRUE	FALSE	GCF_001652005.1	0
 Intoshia_linei	Invertebrates	1819745	Other Invertebrates	TRUE	FALSE	FALSE	GCA_001642005.1	2
 Trachymyrmex_zeteki	Hymenoptera	64791	Hymenoptera	FALSE	TRUE	FALSE	GCF_001594055.1	0
@@ -1148,28 +1148,28 @@ Trachymyrmex_cornetzi	Hymenoptera	471704	Hymenoptera	FALSE	TRUE	FALSE	GCF_001594
 Cyphomyrmex_costatus	Hymenoptera	456900	Hymenoptera	FALSE	TRUE	FALSE	GCF_001594065.1	0
 Atta_colombica	Hymenoptera	520822	Hymenoptera	FALSE	TRUE	FALSE	GCF_001594045.1	0
 Ditylenchus_destructor	Nematoda	166010	Nematoda	FALSE	TRUE	FALSE	GCA_022814885.1	0
-Bactrocera_latifrons	Diptera	174628	Lepido Diptera	TRUE	TRUE	FALSE	GCF_001853355.1	9
+Bactrocera_latifrons	Diptera	174628	Mecopterida	TRUE	TRUE	FALSE	GCF_001853355.1	9
 Falco_rusticolus	Aves	120794	Aves	FALSE	TRUE	TRUE	GCF_015220075.1	0
 Stegostoma_fasciatum	Chondrichthyes	378071	Other Vertebrates	TRUE	TRUE	TRUE	GCF_022316705.1	24
-Galleria_mellonella	Lepidoptera	7137	Lepido Diptera	FALSE	TRUE	FALSE	GCF_026898425.1	0
+Galleria_mellonella	Lepidoptera	7137	Mecopterida	FALSE	TRUE	FALSE	GCF_026898425.1	0
 Trichinella_patagoniensis	Nematoda	990121	Nematoda	TRUE	TRUE	FALSE	GCA_001447655.1	5
 Leopardus_geoffroyi	Mammalia	46844	Mammalia	FALSE	TRUE	TRUE	GCF_018350155.1	0
 Prionailurus_viverrinus	Mammalia	61388	Mammalia	FALSE	TRUE	TRUE	GCF_022837055.1	0
 Turdus_rufiventris	Aves	311356	Aves	FALSE	TRUE	TRUE	GCA_013186435.1	0
-Anopheles_coluzzii	Diptera	1518534	Lepido Diptera	TRUE	TRUE	FALSE	GCF_943734685.1	50
+Anopheles_coluzzii	Diptera	1518534	Mecopterida	TRUE	TRUE	FALSE	GCF_943734685.1	50
 Upupa_epops	Aves	57439	Aves	FALSE	TRUE	TRUE	GCA_013397515.1	0
 Melanotaenia_boesemani	Teleostei	1250792	Teleostei	FALSE	TRUE	TRUE	GCF_017639745.1	0
 Diachasma_alloeum	Hymenoptera	454923	Hymenoptera	FALSE	TRUE	TRUE	GCF_001412515.2	0
-Polypedilum_vanderplanki	Diptera	319348	Lepido Diptera	TRUE	TRUE	FALSE	GCA_018290095.1	50
+Polypedilum_vanderplanki	Diptera	319348	Mecopterida	TRUE	TRUE	FALSE	GCA_018290095.1	50
 Apodemus_sylvaticus	Mammalia	10129	Mammalia	FALSE	TRUE	TRUE	GCF_947179515.1	0
 Lamellibrachia_satsuma	Annelida	104711	Other Invertebrates	TRUE	TRUE	FALSE	GCA_022478865.1	2
 Neodiprion_lecontei	Hymenoptera	441921	Hymenoptera	FALSE	TRUE	FALSE	GCF_021901455.1	0
-Amyelois_transitella	Lepidoptera	680683	Lepido Diptera	FALSE	TRUE	FALSE	GCF_001186105.1	0
+Amyelois_transitella	Lepidoptera	680683	Mecopterida	FALSE	TRUE	FALSE	GCF_001186105.1	0
 Kudoa_iwatai	Cnidaria	269814	Other Invertebrates	FALSE	FALSE	FALSE	GCA_001407235.2	0
 Scortum_barcoo	Teleostei	214431	Teleostei	FALSE	TRUE	TRUE	GCA_023238725.1	0
 Pristis_pectinata	Chondrichthyes	685728	Other Vertebrates	TRUE	TRUE	TRUE	GCF_009764475.1	7
 Vespa_mandarinia	Hymenoptera	7446	Hymenoptera	FALSE	TRUE	TRUE	GCF_014083535.2	0
-Drosophila_busckii	Diptera	30019	Lepido Diptera	TRUE	TRUE	FALSE	GCF_011750605.1	3
+Drosophila_busckii	Diptera	30019	Mecopterida	TRUE	TRUE	FALSE	GCF_011750605.1	3
 Monomorium_pharaonis	Hymenoptera	307658	Hymenoptera	FALSE	TRUE	TRUE	GCF_013373865.1	0
 Wasmannia_auropunctata	Hymenoptera	64793	Hymenoptera	FALSE	TRUE	FALSE	GCF_000956235.1	0
 Schistosoma_margrebowiei	Platyhelminthes	48269	Other Invertebrates	FALSE	TRUE	FALSE	GCA_944470205.1	0
@@ -1193,8 +1193,8 @@ Aphelenchoides_besseyi	Nematoda	269767	Nematoda	TRUE	FALSE	FALSE	GCA_024699855.1
 Mus_caroli	Mammalia	10089	Mammalia	FALSE	TRUE	TRUE	GCF_900094665.1	0
 Passer_montanus	Aves	9160	Aves	FALSE	TRUE	TRUE	GCF_014805655.1	0
 Anabas_testudineus	Teleostei	64144	Teleostei	FALSE	TRUE	TRUE	GCF_900324465.2	0
-Anopheles_cruzii	Diptera	68878	Lepido Diptera	FALSE	TRUE	FALSE	GCF_943734635.1	0
-Papilio_polytes	Lepidoptera	76194	Lepido Diptera	FALSE	TRUE	TRUE	GCF_000836215.1	0
+Anopheles_cruzii	Diptera	68878	Mecopterida	FALSE	TRUE	FALSE	GCF_943734635.1	0
+Papilio_polytes	Lepidoptera	76194	Mecopterida	FALSE	TRUE	TRUE	GCF_000836215.1	0
 Aythya_fuligula	Aves	219594	Aves	FALSE	TRUE	TRUE	GCF_009819795.1	0
 Hemibagrus_wyckioides	Teleostei	337641	Teleostei	FALSE	TRUE	TRUE	GCA_019097595.1	0
 Opisthorchis_viverrini	Platyhelminthes	6198	Other Invertebrates	FALSE	TRUE	FALSE	GCF_000715545.1	0
@@ -1214,7 +1214,7 @@ Egretta_garzetta	Aves	188379	Aves	FALSE	TRUE	TRUE	GCF_000687185.1	0
 Mastacembelus_armatus	Teleostei	205130	Teleostei	FALSE	TRUE	TRUE	GCF_900324485.2	0
 Trachypithecus_francoisi	Mammalia	54180	Mammalia	FALSE	TRUE	TRUE	GCF_009764315.1	0
 Aix_galericulata	Aves	8832	Aves	FALSE	TRUE	TRUE	GCA_024635365.1	0
-Drosophila_santomea	Diptera	129105	Lepido Diptera	TRUE	TRUE	FALSE	GCF_016746245.2	18
+Drosophila_santomea	Diptera	129105	Mecopterida	TRUE	TRUE	FALSE	GCF_016746245.2	18
 Onychostoma_macrolepis	Teleostei	369639	Teleostei	FALSE	TRUE	TRUE	GCA_012432095.1	0
 Sagittarius_serpentarius	Aves	56258	Aves	FALSE	TRUE	TRUE	GCA_013399415.1	0
 Propithecus_coquereli	Mammalia	379532	Mammalia	FALSE	TRUE	TRUE	GCF_000956105.1	0
@@ -1228,7 +1228,7 @@ Monopterus_albus	Teleostei	43700	Teleostei	FALSE	TRUE	TRUE	GCF_001952655.1	0
 Apolygus_lucorum	Hemiptera	248454	Other Insecta	FALSE	TRUE	FALSE	GCA_009739505.2	0
 Poecilia_reticulata	Teleostei	8081	Teleostei	FALSE	TRUE	TRUE	GCF_000633615.1	0
 Meles_meles	Mammalia	9662	Mammalia	FALSE	TRUE	TRUE	GCF_922984935.1	0
-Ostrinia_furnacalis	Lepidoptera	93504	Lepido Diptera	FALSE	TRUE	FALSE	GCF_004193835.1	0
+Ostrinia_furnacalis	Lepidoptera	93504	Mecopterida	FALSE	TRUE	FALSE	GCF_004193835.1	0
 Kryptolebias_marmoratus	Teleostei	37003	Teleostei	FALSE	TRUE	TRUE	GCF_001649575.2	0
 Pyrgilauda_ruficollis	Aves	221976	Aves	FALSE	TRUE	FALSE	GCF_017590135.1	0
 Nesidiocoris_tenuis	Hemiptera	355587	Other Insecta	FALSE	FALSE	FALSE	GCA_902806785.1	0
@@ -1248,7 +1248,7 @@ Echinococcus_multilocularis	Platyhelminthes	6211	Other Invertebrates	FALSE	FALSE
 Lacerta_agilis	Lepidosauria	80427	Other Vertebrates	TRUE	TRUE	FALSE	GCF_009819535.1	4
 Fasciolopsis_buski	Platyhelminthes	27845	Other Invertebrates	FALSE	TRUE	TRUE	GCA_008360955.1	0
 Carassius_gibelio	Teleostei	101364	Teleostei	FALSE	FALSE	TRUE	GCF_023724105.1	0
-Trichoplusia_ni	Lepidoptera	7111	Lepido Diptera	FALSE	TRUE	FALSE	GCF_003590095.1	0
+Trichoplusia_ni	Lepidoptera	7111	Mecopterida	FALSE	TRUE	FALSE	GCF_003590095.1	0
 Pygoscelis_antarcticus	Aves	79643	Aves	FALSE	TRUE	TRUE	GCA_010078415.1	0
 Protobothrops_mucrosquamatus	Lepidosauria	103944	Other Vertebrates	TRUE	TRUE	FALSE	GCF_001527695.2	50
 Python_bivittatus	Lepidosauria	176946	Other Vertebrates	TRUE	TRUE	FALSE	GCF_000186305.1	50
@@ -1270,7 +1270,7 @@ Melopsittacus_undulatus	Aves	13146	Aves	FALSE	TRUE	TRUE	GCF_012275295.1	0
 Xiphophorus_maculatus	Teleostei	8083	Teleostei	FALSE	TRUE	TRUE	GCF_002775205.1	0
 Crassostrea_gigas	Mollusca	29159	Other Invertebrates	TRUE	TRUE	TRUE	GCF_902806645.1	50
 Dirofilaria_immitis	Nematoda	6287	Nematoda	TRUE	TRUE	TRUE	GCA_024305405.1	43
-Bactrocera_dorsalis	Diptera	27457	Lepido Diptera	TRUE	TRUE	FALSE	GCF_023373825.1	50
+Bactrocera_dorsalis	Diptera	27457	Mecopterida	TRUE	TRUE	FALSE	GCF_023373825.1	50
 Notothenia_coriiceps	Teleostei	8208	Teleostei	FALSE	TRUE	TRUE	GCF_000735185.1	0
 Hymenochirus_boettgeri	Amphibia	247094	Other Vertebrates	TRUE	TRUE	FALSE	GCA_019447015.1	10
 Camelus_bactrianus	Mammalia	9837	Mammalia	FALSE	FALSE	TRUE	GCF_000767855.1	0
@@ -1294,7 +1294,7 @@ Collichthys_lucidus	Teleostei	240159	Teleostei	FALSE	FALSE	TRUE	GCA_004119915.2	
 Thunnus_maccoyii	Teleostei	8240	Teleostei	FALSE	TRUE	TRUE	GCF_910596095.1	0
 Thunnus_albacares	Teleostei	8236	Teleostei	FALSE	TRUE	TRUE	GCF_914725855.1	0
 Ciona_intestinalis	Invertebrates	7719	Other Invertebrates	TRUE	TRUE	TRUE	GCF_000224145.3	48
-Aedes_albopictus	Diptera	7160	Lepido Diptera	TRUE	FALSE	TRUE	GCF_006496715.1	49
+Aedes_albopictus	Diptera	7160	Mecopterida	TRUE	FALSE	TRUE	GCF_006496715.1	49
 Brugia_malayi	Nematoda	6279	Nematoda	TRUE	TRUE	TRUE	GCF_000002995.4	50
 Caenorhabditis_briggsae	Nematoda	6238	Nematoda	TRUE	TRUE	FALSE	GCF_000004555.2	50
 Sphaeroforma_arctica	Eukaryote	72019	Other Invertebrates	FALSE	FALSE	FALSE	GCF_001186125.1	0
@@ -1331,23 +1331,23 @@ Poecilia_formosa	Teleostei	48698	Teleostei	FALSE	TRUE	TRUE	GCF_000485575.1	0
 Xiphophorus_couchianus	Teleostei	32473	Teleostei	FALSE	TRUE	TRUE	GCF_001444195.1	0
 Xiphophorus_hellerii	Teleostei	8084	Teleostei	FALSE	TRUE	TRUE	GCF_003331165.1	0
 Sarcophilus_harrisii	Mammalia	9305	Mammalia	FALSE	TRUE	TRUE	GCF_902635505.1	0
-Anopheles_albimanus	Diptera	7167	Lepido Diptera	TRUE	TRUE	FALSE	GCF_013758885.1	50
-Anopheles_stephensi	Diptera	30069	Lepido Diptera	TRUE	TRUE	FALSE	GCF_013141755.1	50
-Anopheles_funestus	Diptera	62324	Lepido Diptera	TRUE	TRUE	FALSE	GCF_943734845.2	41
-Drosophila_hydei	Diptera	7224	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003285905.1	30
-Drosophila_serrata	Diptera	7274	Lepido Diptera	TRUE	TRUE	FALSE	GCF_002093755.1	11
-Drosophila_albomicans	Diptera	7291	Lepido Diptera	TRUE	TRUE	FALSE	GCF_009650485.2	28
-Drosophila_novamexicana	Diptera	47314	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003285875.2	50
-Drosophila_persimilis	Diptera	7234	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003286085.1	50
-Drosophila_ananassae	Diptera	7217	Lepido Diptera	FALSE	TRUE	FALSE	GCF_017639315.1	0
-Drosophila_virilis	Diptera	7244	Lepido Diptera	TRUE	TRUE	FALSE	GCF_003285735.1	50
-Drosophila_biarmipes	Diptera	125945	Lepido Diptera	TRUE	TRUE	FALSE	GCF_025231255.1	14
-Drosophila_elegans	Diptera	30023	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018152505.1	19
-Drosophila_ficusphila	Diptera	30025	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018152265.1	7
-Drosophila_eugracilis	Diptera	29029	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018153835.1	7
-Drosophila_kikkawai	Diptera	30033	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018152535.1	5
-Drosophila_bipectinata	Diptera	42026	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018153845.1	5
-Drosophila_takahashii	Diptera	29030	Lepido Diptera	TRUE	TRUE	FALSE	GCF_018152695.1	5
+Anopheles_albimanus	Diptera	7167	Mecopterida	TRUE	TRUE	FALSE	GCF_013758885.1	50
+Anopheles_stephensi	Diptera	30069	Mecopterida	TRUE	TRUE	FALSE	GCF_013141755.1	50
+Anopheles_funestus	Diptera	62324	Mecopterida	TRUE	TRUE	FALSE	GCF_943734845.2	41
+Drosophila_hydei	Diptera	7224	Mecopterida	TRUE	TRUE	FALSE	GCF_003285905.1	30
+Drosophila_serrata	Diptera	7274	Mecopterida	TRUE	TRUE	FALSE	GCF_002093755.1	11
+Drosophila_albomicans	Diptera	7291	Mecopterida	TRUE	TRUE	FALSE	GCF_009650485.2	28
+Drosophila_novamexicana	Diptera	47314	Mecopterida	TRUE	TRUE	FALSE	GCF_003285875.2	50
+Drosophila_persimilis	Diptera	7234	Mecopterida	TRUE	TRUE	FALSE	GCF_003286085.1	50
+Drosophila_ananassae	Diptera	7217	Mecopterida	FALSE	TRUE	FALSE	GCF_017639315.1	0
+Drosophila_virilis	Diptera	7244	Mecopterida	TRUE	TRUE	FALSE	GCF_003285735.1	50
+Drosophila_biarmipes	Diptera	125945	Mecopterida	TRUE	TRUE	FALSE	GCF_025231255.1	14
+Drosophila_elegans	Diptera	30023	Mecopterida	TRUE	TRUE	FALSE	GCF_018152505.1	19
+Drosophila_ficusphila	Diptera	30025	Mecopterida	TRUE	TRUE	FALSE	GCF_018152265.1	7
+Drosophila_eugracilis	Diptera	29029	Mecopterida	TRUE	TRUE	FALSE	GCF_018153835.1	7
+Drosophila_kikkawai	Diptera	30033	Mecopterida	TRUE	TRUE	FALSE	GCF_018152535.1	5
+Drosophila_bipectinata	Diptera	42026	Mecopterida	TRUE	TRUE	FALSE	GCF_018153845.1	5
+Drosophila_takahashii	Diptera	29030	Mecopterida	TRUE	TRUE	FALSE	GCF_018152695.1	5
 Ephemera_danica	Ephemeroptera	1049336	Other Insecta	TRUE	FALSE	FALSE	GCA_000507165.2	50
 Coturnix_japonica	Aves	93934	Aves	FALSE	TRUE	TRUE	GCF_001577835.2	0
 Lagopus_leucura	Aves	30410	Aves	FALSE	TRUE	TRUE	GCF_019238085.1	0
@@ -1360,14 +1360,14 @@ Frieseomelitta_varia	Hymenoptera	561572	Hymenoptera	FALSE	TRUE	FALSE	GCF_0113929
 Xiphias_gladius	Teleostei	8245	Teleostei	FALSE	TRUE	TRUE	GCF_016859285.1	0
 Cheilinus_undulatus	Teleostei	241271	Teleostei	FALSE	TRUE	TRUE	GCF_018320785.1	0
 Haliotis_rubra	Mollusca	36100	Other Invertebrates	FALSE	TRUE	TRUE	GCF_003918875.1	0
-Spodoptera_exigua	Lepidoptera	7107	Lepido Diptera	FALSE	TRUE	TRUE	GCA_902829305.4	0
-Spodoptera_frugiperda	Lepidoptera	7108	Lepido Diptera	FALSE	TRUE	FALSE	GCF_023101765.2	0
-Maniola_hyperantus	Lepidoptera	2795564	Lepido Diptera	FALSE	TRUE	FALSE	GCF_902806685.1	0
-Bicyclus_anynana	Lepidoptera	110368	Lepido Diptera	FALSE	TRUE	TRUE	GCF_947172395.1	0
-Vanessa_cardui	Lepidoptera	171605	Lepido Diptera	FALSE	TRUE	TRUE	GCF_905220365.1	0
-Nymphalis_io	Lepidoptera	171585	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905147045.1	0
-Vanessa_atalanta	Lepidoptera	42275	Lepido Diptera	FALSE	TRUE	FALSE	GCF_905147765.1	0
-Manduca_sexta	Lepidoptera	7130	Lepido Diptera	FALSE	TRUE	FALSE	GCF_014839805.1	0
+Spodoptera_exigua	Lepidoptera	7107	Mecopterida	FALSE	TRUE	TRUE	GCA_902829305.4	0
+Spodoptera_frugiperda	Lepidoptera	7108	Mecopterida	FALSE	TRUE	FALSE	GCF_023101765.2	0
+Maniola_hyperantus	Lepidoptera	2795564	Mecopterida	FALSE	TRUE	FALSE	GCF_902806685.1	0
+Bicyclus_anynana	Lepidoptera	110368	Mecopterida	FALSE	TRUE	TRUE	GCF_947172395.1	0
+Vanessa_cardui	Lepidoptera	171605	Mecopterida	FALSE	TRUE	TRUE	GCF_905220365.1	0
+Nymphalis_io	Lepidoptera	171585	Mecopterida	FALSE	TRUE	FALSE	GCF_905147045.1	0
+Vanessa_atalanta	Lepidoptera	42275	Mecopterida	FALSE	TRUE	FALSE	GCF_905147765.1	0
+Manduca_sexta	Lepidoptera	7130	Mecopterida	FALSE	TRUE	FALSE	GCF_014839805.1	0
 Larimichthys_crocea	Teleostei	215358	Teleostei	FALSE	TRUE	TRUE	GCF_000972845.2	0
 Scleropages_formosus	Teleostei	113540	Teleostei	FALSE	TRUE	TRUE	GCF_900964775.1	0
 Crassostrea_virginica	Mollusca	6565	Other Invertebrates	TRUE	FALSE	TRUE	GCF_002022765.2	50

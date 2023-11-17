@@ -470,7 +470,7 @@ server <- function(input, output,session) {
     }
     node_metadata = data.frame(node=tree$edge[,2],color=edge_clade)
     
-    node_metadata$color = factor(node_metadata$color, levels = c("Embryophyta","Lepido Diptera","Hymenoptera",
+    node_metadata$color = factor(node_metadata$color, levels = c("Embryophyta","Mecopterida","Hymenoptera",
                                                                  "Other Insecta","Nematoda","Other Invertebrates",
                                                                  "Mammalia","Aves","Teleostei","Other Vertebrates"))
     

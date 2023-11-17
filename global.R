@@ -99,7 +99,7 @@ GLS <- function(dataframe=shorebird){
 }
 
 
-Clade_color = c("Other Invertebrates"="#f5b48a","Lepido Diptera"="red","Other Vertebrates"="#A6CEE3","Other Insecta"="#FF7F00",
+Clade_color = c("Other Invertebrates"="#f5b48a","Mecopterida"="red","Other Vertebrates"="#A6CEE3","Other Insecta"="#FF7F00",
                 Nematoda="#B2DF8A",Teleostei="#1F78B4",Hymenoptera="#ba8e18",Aves="#5b5b5b",Mammalia="#66281A",Embryophyta="#33A02C"
 )
 
@@ -112,7 +112,7 @@ for (file in list.files("www/species_informations_tables",full.names = T,pattern
   dt = read.delim(file,header = T)
   data_by_species = merge(dt,data_by_species, by.x = "species", by.y = "species", all.x = TRUE, all.y = TRUE)
 }
-data_by_species$clade.qual = factor(data_by_species$clade.qual, levels = c("Embryophyta","Lepido Diptera","Hymenoptera",
+data_by_species$clade.qual = factor(data_by_species$clade.qual, levels = c("Embryophyta","Mecopterida","Hymenoptera",
                                                                            "Other Insecta","Nematoda","Other Invertebrates",
                                                                            "Mammalia","Aves","Teleostei","Other Vertebrates"))
 
