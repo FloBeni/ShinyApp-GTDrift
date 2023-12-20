@@ -5,7 +5,7 @@ Life-history traits	Body length (cm)	length_cm.quant	For body length, when sex-s
 Life-history traits	Weight (kg)	weight_kg.quant	For body weight, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
 Life-history traits	RGBIF Observation	RGBIF_observation.quant	Observation on GBIF	TRUE
 				
-Genome characteristics	Genome size	genome_size.quant	The number of A T C and G in the genome fasta	TRUE
+Genome characteristics	Genome size (Mb)	genome_size.quant	The number of A T C and G in the genome fasta	TRUE
 Genome characteristics	GC content	GC_content_proportion.quant	The fraction of GC content within the genome	TRUE
 Genome characteristics	No of protein annotated	No_prot_annot.quant	Number of protein annotated	TRUE
 				
