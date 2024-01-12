@@ -203,8 +203,8 @@ server <- function(input, output,session) {
         gls = GLS(shorebird)
         p = p + geom_abline(slope=1,intercept=0,alpha = .6) +
           ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y ~ lm_x)),
-                        " / PGLS:",lm_eqn(pgls(pgls_y~pgls_x,shorebird))
-                        # "/ Best",gls[[3]],":",lm_eqn(gls[[2]])
+                        " / PGLS:",lm_eqn(pgls(pgls_y~pgls_x,shorebird)),
+                        "/ Best",gls[[3]],":",lm_eqn(gls[[2]])
           ))
       } else { 
         p = p + geom_abline(slope=1,intercept=0,alpha = .6)+ ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y~lm_x))))

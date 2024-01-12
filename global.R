@@ -58,43 +58,44 @@ setSliderColor <- function(color, sliderId) {
 
 
 GLS <- function(dataframe=shorebird){
-  # aic = 1000000
-  # dt = data.frame()
-  # for (model in c("LM","lambda","OUfixedRoot","OUrandomRoot","BM")){
-  #   for (measurement_error in c(T,F)){
-  #     if (model == "LM"){
-  #       fit = lm(pgls_y~pgls_x, data = dataframe$data)
-  #       measurement_error = NA
-  #     } else if (model != "lambda"){
-  #       fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model,measurement_error=measurement_error)
-  #     } else{ fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model)
-  #     measurement_error = NA}
-  #     a = summary(fit)
-  #     if (length(a$optpar)==0){a$optpar=NA}
-  #     if (length(a$aic)==0){a$aic=NA
-  #     a$logLik=NA
-  #     a$optpar=NA
-  #     a$sigma2=NA}
-  #     
-  #     dt = rbind(dt,data.frame(
-  #       model,
-  #       measurement_error,
-  #       p_val_slope = a$coefficients[2,4],
-  #       r.squared = a$r.squared,
-  #       adj.r.squared = a$adj.r.squared,
-  #       aic = a$aic,
-  #       logLik = a$logLik,
-  #       optpar = a$optpar,
-  #       sigma2 = a$sigma2
-  #     ))
-  #     if ( !is.na(a$aic < aic) & a$aic < aic ){ best_fit_model = fit
-  #     best_model = model
-  #     aic = a$aic}
-  #   }
-  # }
-  # dt = dt[!duplicated(dt$aic),]
-  # dt = dt[order(dt$aic),]
-  # return(list(dt,best_fit_model,best_model))
+  aic = 1000000
+  dt = data.frame()
+  for (model in c("LM","lambda","OUfixedRoot","OUrandomRoot","BM")){
+    for (measurement_error in c(T,F)){
+      if (model == "LM"){
+        fit = lm(pgls_y~pgls_x, data = dataframe$data)
+        measurement_error = NA
+      } else if (model != "lambda"){
+        fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model,measurement_error=measurement_error)
+      } else{ fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model)
+      measurement_error = NA}
+      a = summary(fit)
+      if (length(a$optpar)==0){a$optpar=NA}
+      if (length(a$aic)==0){a$aic=AIC(fit)
+      a$logLik=NA
+      a$optpar=NA
+      a$sigma2=NA}
+
+      dt = rbind(dt,data.frame(
+        model,
+        measurement_error,
+        p_val_slope = a$coefficients[2,4],
+        r.squared = a$r.squared,
+        adj.r.squared = a$adj.r.squared,
+        aic = a$aic,
+        logLik = a$logLik,
+        optpar = a$optpar,
+        sigma2 = a$sigma2
+      ))
+      if ( !is.na(a$aic < aic) & a$aic < aic ){ best_fit_model = fit
+      best_model = model
+      aic = a$aic}
+    }
+  }
+  dt = dt[!duplicated(dt$aic),]
+  dt = dt[order(dt$aic),]
+  print(dt)
+  return(list(dt,best_fit_model,best_model))
   return(list(0,0,0))
 }
 
