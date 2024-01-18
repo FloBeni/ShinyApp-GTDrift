@@ -3,8 +3,3 @@
 .RData
 .Ruserdata
 www/species_images/*.png
-www/database/Transcriptomic/A*
-www/database/Transcriptomic/C*
-www/database/Transcriptomic/B*
-www/database/Transcriptomic/D*
-www/database/Transcriptomic/E*
