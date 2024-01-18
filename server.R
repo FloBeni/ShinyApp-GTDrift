@@ -470,9 +470,7 @@ server <- function(input, output,session) {
     }
     node_metadata = data.frame(node=tree$edge[,2],color=edge_clade)
     
-    node_metadata$color = factor(node_metadata$color, levels = c("Embryophyta","Mecopterida","Hymenoptera",
-                                                                 "Other Insecta","Nematoda","Other Invertebrates",
-                                                                 "Mammalia","Aves","Teleostei","Other Vertebrates"))
+    node_metadata$color = factor(node_metadata$color, levels = names(Clade_color))
     
     p = ggtree(tree, layout=input$layout_tree,size=1)  
     p <- p %<+% node_metadata  + aes(color=color) + 
