@@ -19,6 +19,6 @@ There are 6 tabs.
 
 -   The tab 'Intra-species Axis' described the variables that are proposed in the 'Intra-species graphics' tab.
   
--   In the 'Gene structure' tab, you can explore the introns detected in RNA-seq alignments for a specific gene. The introns are color-coded based on categories such as their location within the CDS or outside of it, as well as whether they are major or minor introns (as described in the original paper's methodology).
+-   In the 'Gene structure' tab, you can explore the introns detected in RNA-seq alignments for a specific gene. The introns are color-coded based on categories such as their location within the CDS or outside of it, as well as whether they are major-isoform or minor-isoform introns (as described in the original paper's methodology).
 
 -   'Phylogenetic tree' tab facilitates the examination of phylogenetic trees used for Phylogenetic Generalized Least Squares regression within 'Inter-species graphics' tab.
