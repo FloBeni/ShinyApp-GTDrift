@@ -7,7 +7,8 @@ server <- function(input, output,session) {
   
   
   # Block mount image
-  addResourcePath(prefix = "imgResources", directoryPath = "www/species_images/")
+  # addResourcePath(prefix = "imgResources", directoryPath = "www/species_images/")
+  addResourcePath(prefix = "imgResources", directoryPath = "www/phylopic/")
   
   hover_event <- reactive({
     event_data(event = "plotly_hover", source = "hoverplotsource")
@@ -245,7 +246,8 @@ server <- function(input, output,session) {
   
   output$species_image_intra <- renderImage({
     secies_name <- str_replace(input$species_selected_intra," ","_")
-    list(src=paste("www/species_images/",
+    # list(src=paste("www/species_images/",
+    list(src=paste("www/phylopic/",
                    secies_name,".png",sep=""))
   },deleteFile=FALSE)
   
@@ -367,7 +369,8 @@ server <- function(input, output,session) {
   
   output$species_image <- renderImage({
     secies_name <- str_replace(input$species_gene_struct," ","_")
-    list(src=paste("www/species_images/",
+    list(src=paste("www/phylopic/",
+                   # list(src=paste("www/species_images/",
                    secies_name,".png",sep=""))
   } , deleteFile=FALSE)
   
