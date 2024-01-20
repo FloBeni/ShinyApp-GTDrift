@@ -1,8 +1,11 @@
 library(rphylopic)
 library(imager)
+library(stringr)
 
 list_species = read.delim("www/database/list_species.tab")
 taxonomy = read.delim("www/taxonomy.tab")
+
+list_species = list_species[!list_species$species %in% str_replace_all(list.files("www/phylopic/"),".png",""),]
 
 for (species in list_species$species){ print(species)
   taxon = taxonomy[taxonomy$species %in% species,]
