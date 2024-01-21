@@ -373,7 +373,9 @@ server <- function(input, output,session) {
     secies_name <- str_replace(input$species_gene_struct," ","_")
     list(src=paste("www/phylopic/",
                    # list(src=paste("www/species_images/",
-                   secies_name,".png",sep=""))
+                   secies_name,".png",sep=""),
+         width = "140px",
+         height = "140px")
   } , deleteFile=FALSE)
   
   output$structureGene <- renderPlotly({
