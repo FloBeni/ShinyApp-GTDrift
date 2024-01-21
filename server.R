@@ -249,8 +249,8 @@ server <- function(input, output,session) {
     # list(src=paste("www/species_images/",
     list(src=paste("www/phylopic/",
                    secies_name,".png",sep=""),
-         width = "160px",
-         height = "160px")
+         width = "140px",
+         height = "140px")
   },deleteFile=FALSE)
   
   
