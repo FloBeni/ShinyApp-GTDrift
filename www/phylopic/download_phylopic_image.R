@@ -20,7 +20,7 @@ for (species in list_species$species){ print(species)
       } else {
         save_phylopic(img,paste("www/phylopic/",species,".png",sep=""))
         img = load.image(paste("www/phylopic/",species,".png",sep=""))
-        thmb <- resize(img,162,162)
+        thmb <- resize(img,2*162,2*162)
         save.image(thmb,paste("www/phylopic/",species,".png",sep=""))
         found=T
       }

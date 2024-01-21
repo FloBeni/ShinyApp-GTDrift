@@ -248,7 +248,9 @@ server <- function(input, output,session) {
     secies_name <- str_replace(input$species_selected_intra," ","_")
     # list(src=paste("www/species_images/",
     list(src=paste("www/phylopic/",
-                   secies_name,".png",sep=""))
+                   secies_name,".png",sep=""),
+         width = "160px",
+         height = "160px")
   },deleteFile=FALSE)
   
   
