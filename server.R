@@ -155,12 +155,14 @@ server <- function(input, output,session) {
     data_by_species$speciesname = str_replace(data_by_species$species,"_"," ")
     data_by_species$xlabel = data_by_species[,xlabel]
     data_by_species$ylabel = data_by_species[,ylabel]
+    
     p = ggplot(
       data_by_species,aes(x=xlabel,y=ylabel , text=speciesname,
                           customdata=custom_data))+ 
-      scale_fill_manual(values=Clade_color) +
-      xlab(input$x_inter) + 
-      ylab(input$y_inter) + theme_bw() + theme(
+      scale_fill_manual("Clades",values=Clade_color) +
+      xlab(input$x_inter) +
+      ylab(input$y_inter) +
+      theme_bw() + theme(
         axis.title.x = element_text(color="black", size=25,family="economica"),
         axis.title.y = element_text(color="black", size=25, family="economica"),
         axis.text.y =  element_text(color="black", size=20, family="economica"),
@@ -196,19 +198,25 @@ server <- function(input, output,session) {
         ) + ggtitle(paste("N=",nrow(data_by_species))) + theme(legend.position='none')
     } else if ( !input$boxplot_inter ){
       if (input$pgls_inter){
-        shorebird <- comparative.data(arbrePhylo, 
-                                      data.frame(species=data_by_species$species,
-                                                 pgls_x=lm_x,
-                                                 pgls_y=lm_y), species, vcv=TRUE)
+        # shorebird <- comparative.data(arbrePhylo, 
+        #                               data.frame(species=data_by_species$species,
+        #                                          pgls_x=lm_x,
+        #                                          pgls_y=lm_y), species, vcv=TRUE)
         
-        gls = GLS(shorebird)
-        p = p + geom_abline(slope=1,intercept=0,alpha = .6) +
-          ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y ~ lm_x)),
-                        " / PGLS:",lm_eqn(pgls(pgls_y~pgls_x,shorebird)),
-                        "/ Best",gls[[3]],":",lm_eqn(gls[[2]])
-          ))
+        # gls = GLS(shorebird)
+        model_to_use = fitted_model(x_value=lm_x, y_value=lm_y, species_label=data_by_species$species, tree = arbrePhylo)
+        print(model_to_use)
+        p = p + geom_abline(slope=1,intercept=0,alpha = .6,linetype="dotted") +
+          geom_abline(lwd=1,slope = model_to_use$slope, intercept = model_to_use$intercept)+
+          # ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y ~ lm_x)),
+          #               " / PGLS:",lm_eqn(pgls(pgls_y~pgls_x,shorebird)),
+          #               "/ Best",gls[[3]],":",lm_eqn(gls[[2]])
+          # ))
+          ggtitle(paste("N=",model_to_use$no_species,model_to_use$title_graphic,sep="" ))
       } else { 
-        p = p + geom_abline(slope=1,intercept=0,alpha = .6)+ ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y~lm_x))))
+        model_to_use = fitted_model(x_value=lm_x, y_value=lm_y, species_label=data_by_species$species, tree = NA)
+        p = p + geom_abline(slope=1,intercept=0,alpha = .6,linetype="dotted")+ ggtitle(paste("N=",nrow(data_by_species)," / LM:",lm_eqn(lm(lm_y~lm_x)))) + 
+          ggtitle(paste("N=",model_to_use$no_species,model_to_use$title_graphic,sep="" ))
       }
     }
     
