@@ -98,12 +98,11 @@ fitted_model <- function(x_value=x_axis,y_value=y_axis,species_label=species_lab
   ))
   
   
-  print(dt_fit)
-  
   dt_fit = dt_fit[order(dt_fit$aic),]
   
-  title_graphic = paste(paste("/ ",dt_fit$model,": AIC=",round(dt_fit$aic),
-                              "; R2=",round(dt_fit$r.squared, 2),
+  title_graphic = paste(paste("/ ",dt_fit$model,":", 
+                              # AIC=",round(dt_fit$aic),
+                              " R2=",round(dt_fit$r.squared, 2),
                               "; p-value=",formatC(dt_fit$p_val_slope, format = "e", digits = 0),sep=""),collapse = " ")
   if ( nrow(dt_fit) == 1 ){
     title_graphic = paste(paste("/ ",dt_fit$model,": R2=",round(dt_fit$r.squared, 2),
@@ -112,130 +111,8 @@ fitted_model <- function(x_value=x_axis,y_value=y_axis,species_label=species_lab
   
   dt_fit = dt_fit[dt_fit$aic == min(dt_fit$aic),]
   
-  return(list(no_species=length(x_value),title_graphic,slope=dt_fit$slope,intercept=dt_fit$intercept))
+  return(list(no_species=length(x_value),title_graphic=title_graphic,slope=dt_fit$slope,intercept=dt_fit$intercept))
   
-}
-
-
-
-
-# fitted_model <- function(x=dt_graph[,xlabel],y=dt_graph[,ylabel],label=dt_graph$species,tree = NA,display_other=T,pagels_obliged=F){
-#   # Function to choose which model between PGLS, LM and Pagel's lambda is best suited to the data.
-#   dt_fit = data.frame()
-#   if ( length(tree) != 1){
-#     shorebird <- comparative.data(tree, 
-#                                   data.frame(label=label,
-#                                              x=x,
-#                                              y=y), label, vcv=TRUE)
-#     fit = pgls(y~x,shorebird)
-#     summ_fit = summary(fit)
-#     dt_fit = rbind(dt_fit,data.frame(
-#       model="PGLS",
-#       p_val_slope = summ_fit$coefficients[2,4],
-#       r.squared = summ_fit$r.squared,
-#       adj.r.squared = summ_fit$adj.r.squared,
-#       aic = AIC(fit),
-#       slope = coef(fit)[2],
-#       intercept = coef(fit)[1]
-#     ))
-#     
-#     fit <- phylolm(y~x, phy = shorebird$phy, data = shorebird$data, model = "lambda")
-#     summ_fit = summary(fit)
-#     dt_fit = rbind(dt_fit,data.frame(
-#       model="Pagel's lambda",
-#       p_val_slope = summ_fit$coefficients[2,4],
-#       r.squared = summ_fit$r.squared,
-#       adj.r.squared = summ_fit$adj.r.squared,
-#       aic = AIC(fit),
-#       slope = coef(fit)[2],
-#       intercept = coef(fit)[1]
-#     ))
-#     
-#     if (pagels_obliged){
-#       
-#       dt_fit = rbind(dt_fit,data.frame(
-#         model="Pagel's lambda",
-#         p_val_slope = summ_fit$coefficients[2,4],
-#         r.squared = summ_fit$r.squared,
-#         adj.r.squared = summ_fit$adj.r.squared,
-#         aic = -1000000000000,
-#         slope = coef(fit)[2],
-#         intercept = coef(fit)[1]
-#       ))
-#     }
-#   } 
-#   
-#   fit = lm(y~x)
-#   summ_fit = summary(fit)
-#   dt_fit = rbind(dt_fit,data.frame(
-#     model="LM",
-#     p_val_slope = summ_fit$coefficients[2,4],
-#     r.squared = summ_fit$r.squared,
-#     adj.r.squared = summ_fit$adj.r.squared,
-#     aic = AIC(fit),
-#     slope = coef(fit)[2],
-#     intercept = coef(fit)[1]
-#   ))
-#   
-#   print(dt_fit)
-#   
-#   model_sub = dt_fit[dt_fit$aic != min(dt_fit$aic),]
-#   dt_fit = dt_fit[dt_fit$aic == min(dt_fit$aic),]
-#   
-#   model = paste(dt_fit$model,sep="")
-#   R2 = paste(round(dt_fit$r.squared, 2),sep="")
-#   pvalue = paste(formatC(dt_fit$p_val_slope, format = "e", digits = 0),sep="")
-#   model_non_opti = ""
-#   
-#   if ( length(tree) != 1 & display_other){
-#     AIC = paste(" AIC = ",round(dt_fit$aic),",",sep="")
-#     model_non_opti = paste(paste("/ ",model_sub$model,": AIC = ",round(model_sub$aic),sep=""),collapse = " ")
-#   }
-#   return(list(model=model,aic=AIC,r2=R2,pvalue=pvalue,model_non_opti=model_non_opti,slope=dt_fit$slope,intercept=dt_fit$intercept))
-# }
-
-GLS <- function(dataframe=shorebird){
-  aic = 1000000
-  dt = data.frame()
-  for (model in c("LM","lambda","OUfixedRoot","OUrandomRoot","BM")){
-    for (measurement_error in c(T,F)){
-      if (model == "LM"){
-        fit = lm(pgls_y~pgls_x, data = dataframe$data)
-        measurement_error = NA
-      } else if (model != "lambda"){
-        fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model,measurement_error=measurement_error)
-      } else{ fit <- phylolm(pgls_y~pgls_x, phy = dataframe$phy, data = dataframe$data, model = model)
-      measurement_error = NA}
-      a = summary(fit)
-      if (length(a$optpar)==0){a$optpar=NA}
-      if (length(a$aic)==0){a$aic=AIC(fit)
-      a$logLik=NA
-      a$optpar=NA
-      a$sigma2=NA}
-      
-      dt = rbind(dt,data.frame(
-        model,
-        measurement_error,
-        p_val_slope = a$coefficients[2,4],
-        r.squared = a$r.squared,
-        adj.r.squared = a$adj.r.squared,
-        aic = a$aic,
-        logLik = a$logLik,
-        optpar = a$optpar,
-        sigma2 = a$sigma2,
-        slope = coef(fit)[2],
-        intercept = coef(fit)[1]
-      ))
-      if ( !is.na(a$aic < aic) & a$aic < aic ){ best_fit_model = fit
-      best_model = model
-      aic = a$aic}
-    }
-  }
-  dt = dt[!duplicated(dt$aic),]
-  dt = dt[order(dt$aic),]
-  print(dt)
-  return(list(dt,best_fit_model,best_model))
-  return(list(0,0,0))
 }
 
 
