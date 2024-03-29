@@ -59,8 +59,8 @@ setSliderColor <- function(color, sliderId) {
 fitted_model <- function(x_value=x_axis,y_value=y_axis,species_label=species_label,tree = NA){
   dt_fit = data.frame()
   if ( length(tree) != 1){ # If tree exist
-    shorebird <- comparative.data(tree, data.frame(label=species_label, x=x_value, y=y_value), label, vcv=TRUE)
-    fit = pgls(y~x,shorebird)
+    shorebird <- comparative.data(tree, data.frame(label=species_label, x_shorebird=x_value, y_shorebird=y_value), label, vcv=TRUE)
+    fit = pgls(y_shorebird~x_shorebird,shorebird)
     summ_fit = summary(fit)
     dt_fit = rbind(dt_fit,data.frame(
       model="PGLS",
@@ -72,7 +72,7 @@ fitted_model <- function(x_value=x_axis,y_value=y_axis,species_label=species_lab
       intercept = coef(fit)[1]
     ))
     
-    fit <- phylolm(y_value~x_value, phy = shorebird$phy, data = shorebird$data, model = "lambda")
+    fit <- phylolm(y_shorebird~x_shorebird, phy = shorebird$phy, data = shorebird$data, model = "lambda")
     summ_fit = summary(fit)
     dt_fit = rbind(dt_fit,data.frame(
       model="Pagel's λ",

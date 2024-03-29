@@ -16,7 +16,7 @@ ui <- shinyUI(fluidPage(
                               column(1, offset = 1, h2("Y axis :")),
                               column(5, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
                               column(2, tags$a(href = "https://doi.org/10.1101/2024.01.23.576799",
-                                               tags$img(src = "GTDrift.png", width = "200px", height = "90px")
+                                               tags$img(src = "GTDrift.png", width = "250px", height = "90px")
                               )),
                               column(1, tags$a(href = "https://lbbe.univ-lyon1.fr/en",
                                                tags$img(src = "LBBE.png", width = "400px", height = "90px")
