@@ -10,17 +10,27 @@ ui <- shinyUI(fluidPage(
 }
     ")),
   setSliderColor(c("#529bde","#529bde","#529bde","#529bde","#529bde","#529bde"), c(1, 2, 3, 4, 5,6)), shinyjs::useShinyjs(), 
+  column(12,offset = 8,
+         column(1,actionButton(inputId = "email1", label = "Contact Admin", 
+                         icon = icon("envelope", lib = "font-awesome"),
+                         onclick ="location.href='mailto:florian.benitiere@gmail.com;anamaria.necsulea@univ-lyon1.fr';")),
+                column(1,tags$button(
+    id = "web_button",
+    class = "btn action_button",style="color: #fff; background-color: #a7c2da; border-color: #2e6da4",
+    onclick ="location.href='https://doi.org/10.1101/2024.01.23.576799';",
+    img(src = "GTDrift.png", width = "100px", height = "40px"))
+  ),
+  column(1,tags$button(
+    id = "web_button",
+    class = "btn action_button",style="color: #fff; background-color: #a7c2da; border-color: #2e6da4",
+    onclick ="location.href='https://lbbe.univ-lyon1.fr/en';",
+    img(src = "LBBE.png", width = "140px", height = "40px"))
+  )),
   tabsetPanel(id = "tabs",
               tabPanel("Inter-species graphics",
                        column(12,
                               column(1, offset = 1, h2("Y axis :")),
-                              column(5, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
-                              column(2, tags$a(href = "https://doi.org/10.1101/2024.01.23.576799",
-                                               tags$img(src = "GTDrift.png", width = "250px", height = "90px")
-                              )),
-                              column(1, tags$a(href = "https://lbbe.univ-lyon1.fr/en",
-                                               tags$img(src = "LBBE.png", width = "400px", height = "90px")
-                              )),
+                              column(6, selectInput("y_inter", "",choices = axisInter_list_quantitative)),
                               column(9, class = "well",offset = 0,withSpinner(type = 4 , color ="#136dc0",plotlyOutput("plot_inter", width = "100%", height = "100%"))),
                               column(3, class="well", 
                                      fluidRow(column(4,

@@ -11,11 +11,11 @@ The application is available at: <https://lbbe-shiny.univ-lyon1.fr/ShinyApp-GTDr
 
 There are 6 tabs.
 
--   The tab 'Inter-species graphics' facilitates the comparison of genome characteristics across different species through graphical representation. Additionally, users have the option to upload data in a tab-separated text format, where each species is represented in a separate row, with the variables of interest organized in columns. An illustrative example of such a tabular dataset can be found in the table accessible at 'www/species_informations_tables/data_by_species.tab'. Important: the provided table must have a column 'species' with the scientific name of the species.
+-   The tab 'Inter-species graphics' facilitates the comparison of genome characteristics across different species through graphical representation. Additionally, users have the option to upload data in a tab-separated text format, where each species is represented in a separate row, with the variables of interest organized in columns. An illustrative example of such a tabular dataset can be found in the table accessible at 'www/species_informations_tables/data_by_species.tab'. Important: the provided table must have a column 'species' with the scientific name of the species (*i.e. Arabidopsis_thaliana).
 
 -   The tab 'Inter-species Axis' described the variables that are available in the 'Inter-species graphics' tab.
 
--   The tab 'Intra-species graphics' permit to explore characteristics within a species between introns or between genes. Also, users can download metadata for BUSCO annotation, genes expression or introns splicing events (see method in original paper).
+-   The tab 'Intra-species graphics' permit to explore characteristics within a species between introns or between genes. Also, users can download metadata for BUSCO annotation, genes expression profile or introns splicing events (see method in original paper).
 
 -   The tab 'Intra-species Axis' described the variables that are proposed in the 'Intra-species graphics' tab.
   
