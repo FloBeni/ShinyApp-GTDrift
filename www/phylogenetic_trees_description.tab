@@ -1,5 +1,5 @@
-name	description
-www/database/dNdS/phylogeny/Metazoa_root.nwk	Metazoa 257 species  genes
-www/database/dNdS/phylogeny/merged_root.nwk	merged 1240 species  genes
-www/database/dNdS/phylogeny/Eukaryota_root.nwk	Eukaryota 279 species  genes
-www/database/dNdS/phylogeny/Embryophyta_root.nwk	Embryophyta 80 species  genes
+file	description
+www/database/dNdS/phylogeny//merged_clades_tree_root.nwk	merged 1240 species  genes
+www/database/dNdS/phylogeny//Eukaryota_root.nwk	Eukaryota 279 species  genes
+www/database/dNdS/phylogeny//Metazoa_root.nwk	Metazoa 257 species  genes
+www/database/dNdS/phylogeny//Embryophyta_root.nwk	Embryophyta 80 species  genes

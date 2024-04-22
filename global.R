@@ -121,7 +121,7 @@ Clade_color = c(Embryophyta="#33A02C",Diptera="red",Lepidoptera="#FB9A99",Coleop
 )
 
 table_phylo = read.delim("www/phylogenetic_trees_description.tab")
-phylogenetic_trees = paste("www/",table_phylo$name,sep="")
+phylogenetic_trees = paste(table_phylo$file,sep="")
 names(phylogenetic_trees) = table_phylo$description
 
 data_by_species = data.frame(species="")
