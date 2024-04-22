@@ -1,0 +1,984 @@
+species	NCBI.taxid	mass_kg	mass_db	lifespan_days	lifespan_db	length_cm	length_db	polymorphism_derived_Ne
+Acanthaster_planci	133434	NA	NA	6205	ADW text	70	ADW	NA
+Acanthochromis_polyacanthus	80966	NA	NA	NA	NA	14	EOL;fishbase	NA
+Acanthopagrus_latus	8177	1.5	fishbase	NA	NA	40	fishbase;EOL	NA
+Accipiter_gentilis	8957	1.364	ADW	8030	AnAge	61	ADW	NA
+Acinonyx_jubatus	32536	72	ADW	7482.5	AnAge	150	ADW	NA
+Acipenser_ruthenus	7906	16	fishbase	16826.5	AnAge	125	fishbase;EOL	NA
+Acomys_russatus	60746	0.08	ADW	1095	ADW	15	ADW	NA
+Acromyrmex_echinatior	103372	NA	NA	5475	Romiguier 2014	1.4	Romiguier 2014	NA
+Acropora_millepora	45264	NA	NA	NA	NA	1.5	ADW text	NA
+Acyrthosiphon_pisum	7029	0.0000005	Lynch et al. 2023	30	Abanda 2012	0.25	EOL image	3951981.10488093
+Aedes_aegypti	7159	NA	NA	40	ADW Aedes albopictus	1	ADW Aedes albopictus	NA
+Aedes_albopictus	7160	NA	NA	117	ADW	1	ADW	NA
+Aegithalos_caudatus	73327	0.009	ADW	4051.5	AnAge	14	ADW	NA
+Aegotheles_bennettii	48278	0.06	EOL	NA	NA	NA	NA	NA
+Aethina_tumida	116153	NA	NA	360	ADW	0.7	ADW	NA
+Agelaius_phoeniceus	39638	0.0705	ADW	7300	AnAge;ADW	24	ADW	NA
+Agrilus_planipennis	224129	NA	NA	365	ADW	1.5	ADW	NA
+Ailuropoda_melanoleuca	9646	125	ADW	13432	AnAge	180	ADW	NA
+Aix_galericulata	8832	0.693	ADW	3796	AnAge;EOL	NA	NA	NA
+Albula_glossodonta	121402	8.61	EOL	NA	NA	90	EOL;fishbase	NA
+Albula_goreensis	1534307	9	ADW	7300	ADW	100	ADW	NA
+Aleadryas_rufinucha	461220	0.0471	EOL	NA	NA	NA	NA	NA
+Alectura_lathami	81907	2.34	AnAge;EOL	4562.5	AnAge;EOL	NA	NA	NA
+Alligator_mississippiensis	8496	360	ADW	28105	AnAge	437	ADW	NA
+Alligator_sinensis	38654	14.6	AnAge	25550	ADW	220	ADW	NA
+Alosa_alosa	278164	4	fishbase	3650	AnAge;fishbase;EOL	83	fishbase;EOL	NA
+Alosa_sapidissima	34773	5.5	fishbase	4745	AnAge;fishbase	76.2	ADW	NA
+Amazona_guildingii	175529	0.646	AnAge;EOL	10220	AnAge;EOL	NA	NA	NA
+Amblyraja_radiata	386614	11.4	fishbase	10220	EOL;fishbase	105	EOL;fishbase	NA
+Ameiurus_melas	219545	3.63	ADW	3650	AnAge;ADW;fishbase	66	EOL;fishbase	NA
+Amphibalanus_amphitrite	1232801	NA	NA	NA	NA	1.2	EOL	NA
+Amphiprion_ocellaris	80972	0.001	Lynch et al. 2023	3650	ADW	11	ADW;EOL;fishbase	107189.750835893
+Anabarilius_grahami	495550	NA	NA	NA	NA	15.6	EOL;fishbase	NA
+Anabas_testudineus	64144	NA	NA	2920	AnAge;EOL	25	fishbase;EOL	NA
+Anarrhichthys_ocellatus	433405	18.4	EOL;fishbase	NA	NA	240	EOL;fishbase	NA
+Anas_platyrhynchos	8839	1.082	ADW	10621.5	AnAge	98	EOL	NA
+Ancylostoma_caninum	29170	NA	NA	NA	NA	2	ADW	NA
+Ancylostoma_ceylanicum	53326	NA	NA	NA	NA	1.3	Blaine et al. 2022	NA
+Ancylostoma_duodenale	51022	NA	NA	NA	NA	1.3	ADW	NA
+Angiostrongylus_cantonensis	6313	NA	NA	NA	NA	3.284	EOL	NA
+Angiostrongylus_costaricensis	334426	NA	NA	NA	NA	4.2	EOL	NA
+Anguilla_anguilla	7936	6.6	fishbase	32120	AnAge	150	EOL	NA
+Anhinga_anhinga	56067	1.35	ADW	5986	AnAge;ADW	85	ADW	NA
+Anisakis_simplex	6269	NA	NA	NA	NA	20	EOL	NA
+Anolis_carolinensis	28377	0.006	ADW	3650	ADW	20.32	ADW	NA
+Anopheles_coluzzii	1518534	0.00000035	Lynch et al. 2023	NA	NA	NA	NA	6673511.2936345
+Anopheles_gambiae	7165	NA	NA	NA	NA	0.4	EOL image	NA
+Anopheles_stephensi	30069	0.0000004175	Lynch et al. 2023	NA	NA	NA	NA	2576964.81149493
+Anoplophora_glabripennis	217634	NA	NA	66	ADW	3.5	ADW	NA
+Anoplopoma_fimbria	229290	31.35	AnAge;EOL	41610	AnAge	120	EOL;fishbase	NA
+Anser_cygnoides	8845	3.15	ADW	14600	ADW	94	ADW	NA
+Anseranas_semipalmata	8851	3	ADW	11680	ADW	90	ADW	NA
+Antechinus_flavipes	38775	0.045	AnAge	1423.5	AnAge	NA	NA	NA
+Anthonomus_grandis	7044	NA	NA	NA	NA	0.7	ADW	NA
+Anthoscopus_minutus	156561	0.0076	EOL	NA	NA	NA	NA	NA
+Aotus_nancymaae	37293	0.95	ADW	NA	NA	77.4	ADW	NA
+Apaloderma_vittatum	57397	0.059	EOL	NA	NA	NA	NA	NA
+Aphelenchus_avenae	70226	NA	NA	NA	NA	0.075	http://nemaplex.ucdavis.edu/	NA
+Aphelocoma_coerulescens	39617	0.0787	AnAge;ADW	5767	ADW	30	ADW	NA
+Apis_cerana	7461	NA	NA	1095	Apis_mellifera	2	Apis_mellifera	NA
+Apis_florea	7463	NA	NA	1095	Apis_mellifera	2	Apis_mellifera	NA
+Apis_mellifera	7460	0.00002245	Lynch et al. 2023	2920	AnAge	2	ADW	163647.60194272
+Aplysia_californica	6500	2.3	ADW	365	ADW	40	ADW	NA
+Apodemus_sylvaticus	10129	0.0234	AnAge;ADW	2299.5	AnAge	15	ADW	NA
+Aptenodytes_forsteri	9233	45	ADW	18250	ADW	132	ADW	67943.712094349
+Aptenodytes_patagonicus	9234	17.3	ADW	9855	AnAge	95	ADW	NA
+Apteryx_rowi	308060	3.5	ADW Apteryx australis	14600	ADW Apteryx australis	54	ADW Apteryx australis	NA
+Apus_apus	8895	0.0449	ADW	7701.5	AnAge	17	ADW format	NA
+Aquila_chrysaetos	8962	6.125	ADW	17520	ADW;AnAge	84	ADW	NA
+Arabidopsis_thaliana	3702	NA	NA	NA	NA	NA	NA	252182.596290194
+Archocentrus_centrarchus	63155	NA	NA	2920	en.aqua-fish.net	11	EOL;fishbase	NA
+Ardeotis_kori	89386	19	ADW	9490	ADW	128	ADW	NA
+Arenaria_interpres	54971	0.19	ADW	8139.5	AnAge	57	EOL	NA
+Armadillidium_vulgare	13347	0.000116	ADW	730	ADW	1.8	ADW	NA
+Artibeus_jamaicensis	9417	0.06	ADW	7008	AnAge	8.5	ADW	NA
+Arvicanthis_niloticus	61156	0.183	ADW	2445.5	ADW;AnAge	20.4	ADW	NA
+Arvicola_amphibius	1047088	0.25	ADW	1825	ADW	22	ADW format	NA
+Astatotilapia_calliptera	8154	NA	NA	NA	NA	15	fishbase;EOL	NA
+Asterias_rubens	7604	0.495358	EOL	3650	http://www.marlin.ac.uk/	28	EOL	NA
+Astyanax_mexicanus	7994	NA	NA	5475	AnAge	12	fishbase;EOL	NA
+Athalia_rosae	37344	NA	NA	11.64	Park 2017	0.73	Kamangar 2012	NA
+Athene_cunicularia	194338	0.255	ADW	4015	AnAge;ADW	25	ADW	NA
+Atlantisia_rogersi	2478892	0.042	EOL	NA	NA	NA	NA	NA
+Atractosteus_spatula	7917	137	ADW;fishbase	18250	ADW	305	fishbase	NA
+Atrichornis_clamosus	449594	0.041525	AnAge	2847	AnAge	NA	NA	NA
+Atta_cephalotes	12957	0.00002	ADW Atta sexdens	5475	ADW Atta sexdens	2.54	ADW Atta sexdens	NA
+Austrofundulus_limnaeus	52670	NA	NA	NA	NA	8	EOL;fishbase	NA
+Aythya_fuligula	219594	1.0262	ADW	16498	AnAge	48	ADW	NA
+Bagarius_yarrelli	175774	NA	NA	NA	NA	230	fishbase	NA
+Balaeniceps_rex	33584	5.984	AnAge	13140	ADW	140	ADW	NA
+Balaenoptera_acutorostrata	9767	10000	ADW text	18250	ADW;AnAge	1020	ADW text	NA
+Balaenoptera_musculus	9771	190000	ADW	40150	AnAge;ADW text	3350	ADW	NA
+Balearica_regulorum	925459	4	ADW	9928	AnAge	110	ADW format	NA
+Bambusicola_thoracicus	9083	0.297	EOL	NA	NA	NA	NA	NA
+Baryphthengus_martii	176943	0.2	EOL	NA	NA	NA	NA	NA
+Betta_splendens	158456	0.000625	Lynch et al. 2023	730	EOL;AnAge;fishbase;ADW	7.5	ADW text	185229.466404759
+Bicyclus_anynana	110368	NA	NA	182.5	AnAge;EOL	NA	NA	NA
+Biomphalaria_glabrata	6526	0.00505	EOL	NA	NA	2.95	EOL	NA
+Bison_bison	9901	900	ADW	14600	ADW	380	ADW	NA
+Blattella_germanica	6973	0.00012	ADW	200	ADW	1.588	ADW error unit	NA
+Boleophthalmus_pectinirostris	150288	0.0914	fishbase	1460	EOL;fishbase	22	fishbase	NA
+Bombina_bombina	8345	0.0137	EOL	7300	AnAge;EOL	5.3	EOL	NA
+Bombus_affinis	309941	0.0008	ADW	365	ADW	2.3	ADW	NA
+Bombus_bifarius	103933	NA	NA	NA	NA	1.9	fieldguide	NA
+Bombus_impatiens	132113	NA	NA	365	ADW text	2.1	ADW	NA
+Bombus_terrestris	30195	0.0003	Lynch et al. 2023	150	Amin 2011	2.5	Amin 2011	173832.067280151
+Bombus_vosnesenskii	207650	NA	NA	NA	NA	2.1	EOL image	NA
+Bombycilla_garrulus	125297	0.069	ADW	4927.5	AnAge	20.3	ADW	NA
+Bombyx_mori	7091	0.001416	Lynch et al. 2023	50	Song 2016	1.9	EOL image	582236.742503192
+Bos_indicus	9915	750	AnAge Bos taurus	7300	AnAge Bos taurus	NA	NA	NA
+Bos_taurus	9913	1363	ADW	7300	AnAge;ADW	245	NA	NA
+Bothrops_jararaca	8724	NA	NA	7300	ADW	160	ADW	NA
+Brachypteracias_leptosomus	135165	0.217	EOL	NA	NA	NA	NA	NA
+Branchiostoma_belcheri	7741	NA	NA	NA	NA	6	EOL	NA
+Branchiostoma_floridae	7739	NA	NA	NA	NA	6	EOL	NA
+Branchiostoma_lanceolatum	7740	NA	NA	NA	NA	6	EOL	NA
+Brienomyrus_brachyistius	42636	NA	NA	NA	NA	20	EOL;fishbase	NA
+Brugia_malayi	6279	NA	NA	NA	NA	8	ADW	NA
+Bubalus_bubalis	89462	1200	ADW	12738.5	ADW;AnAge	300	ADW	NA
+Bucco_capensis	135168	0.054	EOL	NA	NA	NA	NA	NA
+Buceros_rhinoceros	175835	2.58	ADW	25550	ADW text	150	ADW text	NA
+Budorcas_taxicolor	37181	400	ADW	7993.5	AnAge	220	ADW	NA
+Bufo_bufo	8384	0.164	BDJ biodiversity data journal	14600	AnAge;EOL	11.3	EOL	NA
+Buphagus_erythrorhynchus	245048	0.059	EOL	NA	NA	NA	NA	NA
+Burhinus_bistriatus	240201	0.787	EOL	NA	NA	NA	NA	NA
+Caenorhabditis_angaria	860376	NA	NA	NA	NA	0.0849	Vielle et al. 2016	NA
+Caenorhabditis_brenneri	135651	NA	NA	NA	NA	0.1273	Vielle et al. 2016	NA
+Caenorhabditis_briggsae	6238	0.000000000102	Lynch et al. 2023	NA	NA	0.1061	Vielle et al. 2016	279618.889809445
+Caenorhabditis_elegans	6239	0.0000000001786858	Lynch et al. 2023	58.4	AnAge;ADW;EOL	0.14	http://nemaplex.ucdavis.edu/	124155.298307105
+Caenorhabditis_nigoni	1611254	NA	NA	NA	NA	0.1266	Vielle et al. 2016	11538461.5384615
+Caenorhabditis_remanei	31234	NA	NA	NA	NA	0.1187	Vielle et al. 2016	NA
+Calcarius_ornatus	198940	0.025	ADW	1460	ADW	16.5	ADW	NA
+Calidris_pugnax	198806	0.11	BirdFacts	4015	https://www.oiseaux.net/	25	BirdFacts	NA
+Caligus_rogercresseyi	217165	NA	NA	NA	NA	0.516	EOL	NA
+Callithrix_jacchus	9483	0.36	ADW	8322	AnAge	52.5	EOL	NA
+Callorhinchus_milii	7868	4	ADW	5475	ADW	125	EOL;fishbase	NA
+Callorhinus_ursinus	34884	275	ADW	12600	EOL	213	ADW	NA
+Caloenas_nicobarica	187106	0.519	AnAge;EOL	7482.5	AnAge;EOL	NA	NA	NA
+Calypte_anna	9244	0.0045	ADW	3102.5	AnAge;ADW	10	ADW	NA
+Camarhynchus_parvulus	87175	0.016	EOL	5475	AnAge	11	EOL image	NA
+Camelus_bactrianus	9837	690	ADW	18250	ADW	345	ADW	NA
+Camelus_dromedarius	9838	690	ADW	18250	ADW	NA	NA	NA
+Camponotus_floridanus	104421	NA	NA	3650	ADW Camponotus pennsylvanicus	1.9	ADW Camponotus pennsylvanicus	NA
+Campylorhamphus_procurvoides	190295	0.036	EOL	NA	NA	NA	NA	NA
+Canis_lupus	9612	80	ADW	10620	EOL	130	ADW	57413.9539923204
+Capitella_teleta	283909	NA	NA	NA	NA	10	EOL	NA
+Capra_hircus	9925	113	ADW	8030	ADW	170	ADW text	161043.257923824
+Caranx_melampygus	181461	43.5	fishbase	NA	NA	117	EOL;fishbase	NA
+Carassius_auratus	7957	3	ADW	15695	ADW	48	EOL;fishbase	NA
+Carassius_gibelio	101364	3	EOL;fishbase	3650	EOL;fishbase	46.6	EOL;fishbase	NA
+Carcharodon_carcharias	13397	3000	ADW	18250	AnAge	720	EOL	NA
+Caretta_caretta	8467	545	ADW	28105	AnAge	213	ADW	NA
+Cariama_cristata	54380	1.4	EOL	NA	NA	NA	NA	NA
+Carlito_syrichta	1868482	0.1192	AnAge	5840	AnAge	40	EOL	NA
+Castor_canadensis	51338	32	ADW	8541	AnAge	117	ADW	NA
+Cathartes_aura	43455	2.2	AnAge	7592	AnAge	81	ADW	NA
+Catharus_fuscescens	159581	0.0288	AnAge;EOL	3686.5	AnAge;EOL	NA	NA	NA
+Catharus_ustulatus	91951	0.0279	AnAge;EOL	4015	ADW;AnAge;EOL	19.3	ADW error unit	NA
+Cavia_porcellus	10141	1.1	ADW	5402	ADW	25.4	ADW	NA
+Centrocercus_urophasianus	9002	3.19	EOL	2555	AnAge;ADW	NA	NA	NA
+Centropus_bengalensis	1463675	0.29	EOL	NA	NA	NA	NA	NA
+Centropus_unirufus	1118519	0.188	EOL	NA	NA	NA	NA	NA
+Cephalopterus_ornatus	114276	0.38	EOL	NA	NA	NA	NA	NA
+Cephus_cinctus	211228	NA	NA	7	Rand 2019	0.86	EOL image	NA
+Cepphus_grylle	28697	0.55	ADW	10913.5	AnAge	58	EOL	NA
+Ceratitis_capitata	7213	NA	NA	178.85	AnAge	0.5	ADW format	NA
+Ceratotherium_simum	9807	3600	ADW	18250	ADW	377	ADW	26500.5061553706
+Cercocebus_atys	9531	14	ADW	9782	ADW	131.5	EOL	NA
+Certhia_brachydactyla	73330	0.0082	AnAge;EOL	NA	NA	NA	NA	NA
+Certhia_familiaris	73333	0.0129	ADW	2993	AnAge	15	ADW	NA
+Cervus_canadensis	1574408	275	EOL	NA	NA	NA	NA	NA
+Cervus_elaphus	9860	497	ADW	11497.5	AnAge	270	ADW	97229.9272601217
+Cettia_cetti	68486	0.0185	ADW	3394.5	AnAge;EOL	NA	NA	NA
+Ceuthmochares_aereus	1961834	0.08	EOL	NA	NA	NA	NA	NA
+Chaenocephalus_aceratus	36190	3.7	fishbase	NA	NA	72	EOL;fishbase	NA
+Chaetops_frenatus	221966	0.061	EOL	NA	NA	NA	NA	NA
+Chaetorhynchus_papuensis	254446	0.045	EOL	NA	NA	NA	NA	NA
+Chaetura_pelagica	8897	0.0228	AnAge;ADW	5475	AnAge	NA	NA	NA
+Chanos_chanos	29144	14	fishbase;ADW	5475	AnAge;fishbase;ADW	180	fishbase;ADW;EOL	NA
+Charadrius_vociferus	50402	0.088	AnAge;ADW	4380	ADW	27	ADW	NA
+Chauna_torquata	30388	4.4	EOL	NA	NA	NA	NA	112815.563229559
+Cheilinus_undulatus	241271	191	fishbase	11680	fishbase;EOL	229	fishbase;EOL	NA
+Chelmon_rostratus	109905	NA	NA	3650	AnAge;EOL;fishbase	20	fishbase;EOL	NA
+Chelonia_mydas	8469	200	ADW	27375	AnAge;ADW	120	ADW	NA
+Chelonoidis_abingdonii	106734	88.60592	EOL	64605	EOL Chelonoidis abingdonii	NA	NA	NA
+Chelonus_insularis	460826	NA	NA	NA	NA	0.5	EOL image	NA
+Chelydra_serpentina	8475	16	ADW	17155	AnAge;ADW	45	ADW	NA
+Chiloscyllium_plagiosum	36176	NA	NA	9125	AnAge;EOL;fishbase	95	EOL;fishbase	NA
+Chiloscyllium_punctatum	137246	NA	NA	NA	NA	132	fishbase;EOL	NA
+Chinchilla_lanigera	34839	0.8	ADW	7300	ADW text	38	ADW	NA
+Chionis_minor	227182	0.73	EOL	NA	NA	NA	NA	NA
+Chionoecetes_opilio	41210	1.35	ADW	6935	ADW	16.5	ADW text	NA
+Chironomus_riparius	315576	NA	NA	NA	NA	NA	NA	481447.375312357
+Chiroxiphia_lanceolata	296741	0.0185	EOL	NA	NA	NA	NA	NA
+Chloebia_gouldiae	44316	0.016	EOL	2190	AnAge Erythrura gouldiae;EOL	NA	NA	NA
+Chlorocebus_sabaeus	60711	8	ADW	4745	ADW	140	EOL	NA
+Chloroceryle_aenea	176938	0.0169	EOL	NA	NA	NA	NA	NA
+Chloropsis_cyanopogon	1218682	0.0253	EOL	NA	NA	NA	NA	NA
+Chloropsis_hardwickii	667144	0.04	EOL	NA	NA	NA	NA	NA
+Choloepus_didactylus	27675	8	ADW	13432	AnAge	73.66	ADW text	NA
+Chordeiles_acutipennis	118183	NA	NA	NA	NA	20	ADW text	NA
+Chrysemys_picta	8479	0.371812	ADW	22265	AnAge	25	ADW	365464.741507552
+Chrysochloris_asiatica	185453	0.047	ADW	NA	NA	10.65	EOL	NA
+Chunga_burmeisteri	1352770	1.395	EOL	NA	NA	NA	NA	NA
+Ciccaba_nigrolineata	1118524	0.535	ADW	10585	ADW	45	ADW	NA
+Cimex_lectularius	79782	NA	NA	572	Johnson 1940	0.5	EOL image	NA
+Cinclus_mexicanus	161649	0.0502	AnAge;ADW	2956.5	AnAge;EOL	18	ADW text	NA
+Ciona_intestinalis	7719	0.020434	EOL	730	AnAge	15	EOL	NA
+Circaetus_pectoralis	321084	2.3	EOL	NA	NA	NA	NA	NA
+Clarias_gariepinus	13013	60	fishbase	5475	fishbase	170	fishbase;ADW text;EOL	NA
+Clarias_magur	1594786	1.2	ADW	5913	ADW Clarias batrachus	47	ADW Clarias batrachus	NA
+Cloeon_dipterum	197152	NA	NA	NA	NA	0.8	EOL image	NA
+Clonorchis_sinensis	79923	NA	NA	NA	NA	2.5	ADW	NA
+Clunio_marinus	568069	NA	NA	NA	NA	0.15	EOL	NA
+Clupea_harengus	7950	1.1	fishbase	9125	fishbase	45.72	ADW	401284.109149278
+Cnemophilus_loriae	254448	0.101	EOL	NA	NA	NA	NA	NA
+Coccinella_septempunctata	41139	NA	NA	730	ADW	0.78	ADW	NA
+Cochlearius_cochlearius	110676	0.726	EOL	NA	NA	NA	NA	NA
+Colius_striatus	57412	0.051	AnAge;EOL	4197.5	AnAge;EOL	NA	NA	NA
+Collichthys_lucidus	240159	0.0771	fishbase	NA	NA	19.8	fishbase;EOL	NA
+Colobus_angolensis	54131	11.7	ADW	12884.5	AnAge	154	EOL	NA
+Colossoma_macropomum	42526	40	EOL;fishbase	9125	Animal-world	108	EOL;fishbase	NA
+Columba_livia	8932	0.3587	AnAge;ADW	12775	AnAge;ADW	NA	NA	NA
+Columbina_picui	115618	0.051	EOL	NA	NA	NA	NA	NA
+Condylura_cristata	143302	0.075	ADW	1460	ADW	20.5	ADW	NA
+Contarinia_nasturtii	265458	NA	NA	2	Harris and Foster, 1999	0.2	EOL image	NA
+Copsychus_sechellarum	797021	0.065	EOL	NA	NA	NA	NA	NA
+Coptotermes_formosanus	36987	NA	NA	5475	ADW	1.5	ADW	NA
+Corapipo_altera	415028	0.0111	EOL	NA	NA	NA	NA	NA
+Coregonus_clupeaformis	59861	19	ADW;fishbase	18250	AnAge;ADW;fishbase	100	ADW;EOL;fishbase	NA
+Corvus_brachyrhynchos	85066	0.45	ADW	7300	AnAge	NA	NA	NA
+Corvus_cornix	181096	0.5445	AnAge	6132	AnAge;EOL	46	BirdFacts	NA
+Corvus_hawaiiensis	134902	0.52	AnAge;EOL	9125	AnAge;EOL	NA	NA	NA
+Corvus_kubaryi	68294	0.27	EOL	NA	NA	NA	NA	NA
+Corvus_moneduloides	1196302	0.249	EOL	NA	NA	NA	NA	NA
+Coryphaenoides_rupestris	163118	1.7	fishbase	19710	AnAge;EOL;fishbase	110	EOL;fishbase	NA
+Corythaeola_cristata	103954	1.231	EOL	NA	NA	NA	NA	NA
+Corythaixoides_concolor	103956	0.35	EOL	NA	NA	NA	NA	NA
+Cottoperca_gobio	56716	NA	NA	NA	NA	80	EOL;fishbase	NA
+Coturnix_japonica	93934	0.115	AnAge;ADW	2190	AnAge;ADW	NA	NA	459553.000849802
+Crassostrea_gigas	29159	0.232	EOL	2555	AnAge	15.3	EOL	NA
+Crassostrea_virginica	6565	2.88	EOL	1825	AnAge	28.3	EOL	NA
+Cricetulus_griseus	10029	NA	NA	1934.5	EOL Cricetulus barabensis	NA	NA	NA
+Crocodylus_porosus	8502	1200	ADW	20805	AnAge	700	ADW text	NA
+Crocuta_crocuta	9678	80	ADW	15001.5	AnAge;ADW	150	ADW	NA
+Crotalus_adamanteus	8729	7	ADW	8322	AnAge;EOL	240	ADW	NA
+Crotalus_tigris	88082	0.454	ADW	5584.5	AnAge	91	ADW	NA
+Cryptotermes_secundus	105785	NA	NA	4745	Monroy 2019	0.6	Korb, 2010	NA
+Crypturellus_soui	458187	0.268	EOL	NA	NA	NA	NA	NA
+Crypturellus_undulatus	48396	0.569	EOL	NA	NA	NA	NA	NA
+Ctenocephalides_felis	7515	NA	NA	1095	ADW	0.2	ADW	NA
+Ctenopharyngodon_idella	7959	45	fishbase	7665	AnAge;EOL;fishbase	150	EOL;fishbase	NA
+Cuculus_canorus	55661	0.13	ADW format	4708.5	AnAge;ADW	34	ADW format	NA
+Cyanistes_caeruleus	156563	0.0103	AnAge;EOL	5329	AnAge;EOL	12	BirdFacts	177578.915544344
+Cyclopterus_lumpus	8103	9.5	fishbase	4745	EOL;fishbase	61	EOL;fishbase	NA
+Cygnus_atratus	8868	8.75	ADW text	14600	ADW	140	ADW	NA
+Cygnus_olor	8869	14.3	ADW	14600	AnAge;ADW	158	ADW	NA
+Cynoglossus_semilaevis	244447	0.25	Lynch et al. 2023	NA	NA	61.1	EOL;fishbase	202499.691265408
+Cyprinodon_tularosa	77115	NA	NA	1825	AnAge;EOL;fishbase	5	EOL;fishbase	NA
+Cyprinodon_variegatus	28743	NA	NA	NA	NA	9	EOL;fishbase	NA
+Cyprinus_carpio	7962	40.1	fishbase	17155	ADW;AnAge	120	EOL;fishbase	NA
+Dallia_pectoralis	75939	0.366	fishbase	2920	AnAge;EOL;fishbase	33	EOL;fishbase	NA
+Danio_aesculapii	1142201	NA	NA	NA	NA	3	EOL;fishbase	NA
+Danio_rerio	7955	NA	NA	2007.5	AnAge	6.4	ADW	NA
+Danionella_translucida	623744	NA	NA	NA	NA	1.2	fishbase;EOL	NA
+Daphnia_galeata	27404	0.000000007400516	Lynch et al. 2023	NA	NA	0.233	EOL	3115914.73773481
+Daphnia_magna	35525	0.0000001633943	Lynch et al. 2023	56	ADW	0.59	EOL	424900.290065265
+Daphnia_pulex	6669	0.00000002223609	Lynch et al. 2023	NA	NA	0.35	EOL	1494285.89485586
+Daphnia_pulicaria	35523	NA	NA	69.35	AnAge	0.175	EOL	NA
+Daphoenositta_chrysoptera	254528	0.0145	EOL	2518.5	AnAge	NA	NA	NA
+Dasyornis_broadbenti	243059	0.0745	EOL	NA	NA	NA	NA	NA
+Dasypus_novemcinctus	9361	7.7	ADW	8395	ADW	80	ADW	NA
+Delphinapterus_leucas	9749	1600	ADW	21900	ADW	700	ADW	NA
+Dendroctonus_ponderosae	77166	NA	NA	730	ADW	0.75	ADW;EOL	NA
+Denticeps_clupeoides	299321	NA	NA	NA	NA	15	fishbase;EOL	NA
+Dermacentor_andersoni	34620	0.0007	ADW	1460	ADW	1.65	ADW	NA
+Dermochelys_coriacea	27794	900	ADW	10950	ADW;AnAge	213	ADW text	NA
+Desmodus_rotundus	9430	0.05	ADW	10658	AnAge	9	ADW	NA
+Diabrotica_balteata	107213	NA	NA	NA	NA	0.52	EOL	NA
+Diabrotica_virgifera	50389	NA	NA	NA	NA	0.6	EOL image	NA
+Diachasma_alloeum	454923	NA	NA	NA	NA	0.4	EOL image	NA
+Diaphorina_citri	121845	NA	NA	NA	NA	0.3	EOL image	NA
+Dibothriocephalus_latus	60516	NA	NA	NA	NA	2500	EOL	NA
+Dicaeum_eximium	667154	0.0095	EOL	NA	NA	NA	NA	NA
+Dicentrarchus_labrax	13489	12	fishbase	10950	fishbase;EOL	110	EOL	NA
+Dicrocoelium_dendriticum	57078	NA	NA	NA	NA	1	ADW	NA
+Dicrurus_megarhynchus	450177	0.13	EOL	NA	NA	NA	NA	NA
+Dictyocaulus_viviparus	29172	NA	NA	NA	NA	8	EOL	NA
+Dinoponera_quadriceps	609295	NA	NA	NA	NA	2.5	EOL image	NA
+Dipodomys_ordii	10020	0.096	ADW	3613.5	AnAge	36.5	ADW	NA
+Dipodomys_spectabilis	105255	0.145	AnAge;ADW	4635.5	AnAge;ADW	14.114	EOL	NA
+Dirofilaria_immitis	6287	NA	NA	NA	NA	30	ADW	NA
+Dissostichus_eleginoides	100907	9.6	fishbase	18250	AnAge	215	EOL;fishbase	NA
+Dissostichus_mawsoni	36200	80	fishbase	14235	EOL;fishbase	200	EOL;fishbase	NA
+Diuraphis_noxia	143948	NA	NA	90	ADW	0.21	ADW	NA
+Donacobius_atricapilla	237420	0.044	EOL	NA	NA	NA	NA	NA
+Dracunculus_medinensis	318479	NA	NA	730	ADW	120	ADW	NA
+Dreissena_polymorpha	45954	0.00204	EOL	3285	ADW text	2	ADW;EOL	NA
+Dromaius_novaehollandiae	8790	40	ADW	7300	ADW	190	ADW	NA
+Dromas_ardeola	458190	0.325	EOL	NA	NA	NA	NA	NA
+Dromiciops_gliroides	33562	0.042	ADW	1152	EOL	13	ADW	NA
+Drosophila_grimshawi	7222	NA	NA	50	Johansson 2005	0.5	web	NA
+Drosophila_melanogaster	7227	0.000000354	Lynch et al. 2023	109.5	AnAge;ADW;EOL	0.3	ADW format;EOL image	627824.294333939
+Drosophila_pseudoobscura	7237	0.000001	Lynch et al. 2023	90	Vetukhiv 1957	0.1955	Druger 1962	350177.774106756
+Drosophila_simulans	7240	0.000000263	Lynch et al. 2023	NA	NA	NA	NA	1465439.57485146
+Drosophila_suzukii	28584	NA	NA	38	Lin 2014	0.33	EOL image	NA
+Drymodes_brunneopygia	626378	0.04	EOL	3540.5	AnAge	NA	NA	NA
+Dryoscopus_gambensis	85069	0.035	EOL	NA	NA	NA	NA	NA
+Dunckerocampus_dactyliophorus	161453	NA	NA	NA	NA	19	EOL;fishbase	NA
+Echeneis_naucrates	173247	2.363	EOL	NA	NA	110	fishbase;EOL	NA
+Echinococcus_granulosus	6210	NA	NA	NA	NA	0.9	ADW	NA
+Echinococcus_multilocularis	6211	NA	NA	NA	NA	1.5	EOL	NA
+Echinops_telfairi	9371	0.18	AnAge	6935	AnAge	16	EOL	NA
+Eciton_burchellii	213866	NA	NA	NA	NA	1.2	ADW	NA
+Egretta_garzetta	188379	0.312	AnAge;EOL	8139.5	AnAge;EOL	NA	NA	NA
+Electrophorus_electricus	8005	20	ADW;fishbase	8030	ADW	250	ADW;fishbase;EOL	NA
+Elephantulus_edwardii	28737	0.05	AnAge	NA	NA	11.886	EOL	NA
+Elephas_maximus	9783	6000	ADW	31390	ADW	640	ADW	NA
+Eleutherodactylus_coqui	57060	0.117	ADW	2190	ADW	5.5	ADW	NA
+Elysia_chlorotica	188477	NA	NA	330	ADW	6	ADW	NA
+Empidonax_traillii	164674	0.0164	ADW	4015	AnAge;ADW	17	ADW text	NA
+Engystomops_pustulosus	76066	0.00236	EOL	NA	NA	3	EOL	NA
+Enhydra_lutris	34882	45	ADW	10800	EOL	150	ADW	NA
+Enterobius_vermicularis	51028	NA	NA	60	ADW	1.3	ADW	NA
+Eolophus_roseicapilla	176039	0.432	EOL	14600	AnAge;EOL	NA	NA	NA
+Epinephelus_fuscoguttatus	293821	17.422	EOL	14600	EOL;fishbase	120	EOL;fishbase	NA
+Epinephelus_lanceolatus	310571	400	fishbase	NA	NA	270	fishbase;EOL	NA
+Epinephelus_moara	300413	33	fishbase;EOL Epinephelus bruneus	NA	NA	136	fishbase;EOL Epinephelus bruneus	NA
+Eptesicus_fuscus	29078	0.023	AnAge;ADW	7200	EOL	13	ADW	NA
+Equus_asinus	9793	320	ADW	18250	ADW	140	ADW	NA
+Equus_caballus	9796	900	ADW	22630	ADW	280	ADW	NA
+Equus_quagga	89248	300	ADW	14600	ADW	NA	NA	NA
+Erinaceus_europaeus	9365	1.2	ADW	5040	EOL	26.5	ADW	NA
+Eriocheir_sinensis	95602	NA	NA	1825	ADW	8	ADW text	NA
+Erpetoichthys_calabaricus	27687	NA	NA	NA	NA	37	EOL;fishbase	NA
+Erythrocercus_mccallii	107208	0.008	EOL	NA	NA	NA	NA	NA
+Esox_lucius	8010	28.4	fishbase	10950	AnAge;fishbase	150	fishbase;EOL	NA
+Etheostoma_cragini	417921	NA	NA	1095	AnAge;EOL;fishbase	6	EOL;fishbase	NA
+Etheostoma_spectabile	54343	NA	NA	NA	NA	7.2	EOL;fishbase	NA
+Eublepharis_macularius	481883	0.03553	AnAge	10402.5	AnAge;EOL	25.4	ADW text	184799.010680433
+Eubucco_bourcierii	91767	0.041	EOL	NA	NA	NA	NA	NA
+Eudyptes_chrysocome	79626	3	ADW	3650	ADW	55	ADW	NA
+Eudyptes_chrysolophus	79627	6	ADW	NA	NA	71	ADW text	NA
+Eudyptes_filholi	1419345	6	ADW Eudyptes schlegeli	7300	ADW Eudyptes schlegeli	75	ADW Eudyptes schlegeli	NA
+Eudyptes_schlegeli	57240	6	ADW	7300	ADW	75	ADW	NA
+Eudyptes_sclateri	92688	6.5	ADW text	NA	NA	65	ADW text	NA
+Eudyptula_albosignata	345258	1.5	EOL Eudyptula minor	NA	NA	NA	NA	NA
+Eudyptula_minor	37083	2.13	EOL	15403	AnAge	30	ADW	NA
+Eulacestoma_nigropectus	461239	0.0232	EOL	NA	NA	NA	NA	NA
+Eumetopias_jubatus	34886	1120	ADW	11972	AnAge	340	ADW	NA
+Euphydryas_editha	104508	NA	NA	10	ADW text	NA	NA	NA
+Eurypyga_helias	54383	0.21	AnAge;EOL	5475	AnAge;EOL	NA	NA	NA
+Eurystomus_gularis	325343	0.11	EOL	NA	NA	NA	NA	NA
+Eurytemora_affinis	88015	NA	NA	150	Life cycle traits of two transatlantic populations of Eurytemora affinis (Copepoda: Calanoida): salinity effects	0.19	EOL	NA
+Falco_biarmicus	345155	0.9	ADW	NA	NA	50	ADW	NA
+Falco_cherrug	345164	1.3	ADW	9125	ADW	55	ADW	NA
+Falco_naumanni	148594	0.1525	AnAge;EOL	3978.5	AnAge;EOL	36	ADW	NA
+Falco_peregrinus	8954	1.058	EOL	9125	AnAge;ADW	58	ADW	NA
+Falco_rusticolus	120794	2.1	ADW	4927.5	AnAge;EOL	56	ADW format	NA
+Falcunculus_frontatus	254539	0.0332	EOL	4343.5	AnAge	NA	NA	NA
+Fasciolopsis_buski	27845	NA	NA	365	ADW	7.5	ADW	NA
+Felis_catus	9685	5.4	ADW	12240	EOL	76.2	ADW	109129.072965449
+Ficedula_albicollis	59894	0.0127	AnAge;EOL	3577	AnAge;EOL	NA	NA	218264.361795006
+Formicarius_rufipectus	1118560	0.082	EOL	NA	NA	NA	NA	NA
+Fregata_magnificens	37042	1.815	ADW	12410	AnAge	230	ADW	NA
+Fregetta_grallaria	79628	0.065	EOL	NA	NA	NA	NA	NA
+Fukomys_damarensis	885580	0.045	Lynch et al. 2023	NA	NA	NA	NA	40186.3051247917
+Fulmarus_glacialis	30455	1	ADW	18615	AnAge	112	EOL	NA
+Fundulus_heteroclitus	8078	NA	NA	1460	EOL;fishbase	17.8	ADW text	NA
+Furnarius_figulus	463165	0.028	EOL	NA	NA	NA	NA	NA
+Gadus_morhua	8049	96	ADW;fishbase	9125	AnAge;fishbase	200	fishbase;ADW;EOL	NA
+Galbula_dea	1109041	0.0315	EOL	NA	NA	NA	NA	NA
+Galemys_pyrenaicus	202257	0.0575	AnAge;ADW	1800	EOL	12.5	EOL	NA
+Galeopterus_variegatus	482537	NA	NA	103.5	EOL	37.943	EOL	NA
+Gallus_gallus	9031	2.5802	ADW	10950	ADW;AnAge;EOL	70	ADW text	221800.305663105
+Gambusia_affinis	33528	0.002	EOL	1095	AnAge;fishbase;EOL	7	fishbase;EOL	NA
+Gasterosteus_aculeatus	69293	NA	NA	2920	AnAge;ADW;fishbase	11	EOL;fishbase	NA
+Gavia_stellata	37040	1.816	AnAge;ADW	8760	AnAge	116	EOL	NA
+Gavialis_gangeticus	94835	181	ADW	21535	AnAge	650	ADW	NA
+Gekko_japonicus	146911	0.05413	AnAge Gekko gecko	8577.5	AnAge Gekko gecko	NA	NA	NA
+Geococcyx_californianus	8947	0.376	AnAge	3285	AnAge	62	ADW	NA
+Geospiza_fortis	48883	0.032	EOL	NA	NA	NA	NA	NA
+Girardinichthys_multiradiatus	208333	NA	NA	NA	NA	5	EOL;fishbase	NA
+Glaucidium_brasilianum	78217	0.0765	ADW	NA	NA	18	ADW	NA
+Globicephala_melas	9731	3800	ADW	21900	AnAge;ADW	850	ADW	NA
+Gongylonema_pulchrum	637853	NA	NA	NA	NA	14.5	EOL	NA
+Gopherus_evgoodei	1825980	23	ADW Gopherus agassizii	29200	ADW Gopherus agassizii	36	ADW Gopherus agassizii	NA
+Gopherus_flavomarginatus	286002	100	ADW	25550	ADW	37.1	ADW format	NA
+Gorilla_gorilla	9593	275	ADW	21936.5	AnAge	175	ADW text	35166.6744567528
+Gouania_willdenowi	441366	NA	NA	NA	NA	6	EOL	NA
+Gracilinanus_agilis	191870	0.022	AnAge	2226.5	AnAge;ADW	27.5	EOL	NA
+Grallaria_varia	117165	0.134	EOL	NA	NA	NA	NA	NA
+Grantiella_picta	266360	0.025	EOL	NA	NA	NA	NA	NA
+Grus_americana	9117	8.5	ADW	14600	AnAge;ADW	160	ADW format	NA
+Gulo_gulo	48420	30	ADW	7117.5	AnAge	105	ADW	NA
+Gymnodraco_acuticeps	8218	0.0862	fishbase	NA	NA	38.5	EOL;fishbase	NA
+Gymnogyps_californianus	33616	11.175	AnAge	16425	AnAge;ADW	139.7	ADW text	NA
+Gymnorhina_tibicen	9132	0.36	EOL	NA	NA	NA	NA	NA
+Haemonchus_placei	6290	NA	NA	NA	NA	2.55	EOL	NA
+Haliaeetus_albicilla	8969	6.697	AnAge	15330	AnAge;EOL	240	EOL	NA
+Haliaeetus_leucocephalus	52644	4.3	ADW	17520	AnAge	94	ADW	NA
+Halichoerus_grypus	9711	268	AnAge	16802.1	EOL	220	ADW	NA
+Haliotis_rubra	36100	0.162	EOL	NA	NA	13.1	EOL	NA
+Haliotis_rufescens	6454	0.469	EOL	NA	NA	20.7	EOL	NA
+Halyomorpha_halys	286706	NA	NA	300	ADW	1.7	ADW	NA
+Haplochromis_burtoni	8153	NA	NA	NA	NA	15	EOL Astatotilapia burtoni;fishbase	NA
+Harmonia_axyridis	115357	NA	NA	1095	ADW	0.8	ADW	NA
+Harpegnathos_saltator	610380	NA	NA	653.35	Liebig 2004	1.7	EOL image	NA
+Harpia_harpyja	202280	9	ADW	12775	ADW	109	ADW	NA
+Heliornis_fulica	54369	0.132	EOL	NA	NA	NA	NA	NA
+Hemibagrus_wyckioides	337641	86	fishbase;EOL	NA	NA	130	fishbase;EOL	NA
+Hemicordylus_capensis	884348	NA	NA	NA	NA	9.59	EOL	NA
+Hermetia_illucens	343691	0.00022	ADW	365	ADW	2	ADW	NA
+Herpetotheres_cachinnans	56343	0.8	ADW	5110	ADW	47	ADW	NA
+Heterocephalus_glaber	10181	0.08	ADW	11315	ADW;AnAge	16.5	ADW	NA
+Hippocampus_comes	109280	NA	NA	NA	NA	18.7	fishbase	NA
+Hippocampus_zosterae	109293	NA	NA	365	ADW format;AnAge;fishbase	5	ADW;EOL;fishbase	NA
+Hippoglossus_hippoglossus	8267	320	fishbase	32850	AnAge	470	EOL;fishbase	NA
+Hippoglossus_stenolepis	195615	363	fishbase	20075	EOL;fishbase	267	EOL;fishbase	NA
+Hippolais_icterina	68497	0.0132	AnAge;EOL	3942	AnAge;EOL	NA	NA	NA
+Hirundo_rustica	43150	0.022	EOL	5840	AnAge	19.9	ADW	NA
+Homarus_americanus	6706	20	ADW	36500	AnAge	110	ADW	NA
+Homo_sapiens	9606	62.035	AnAge	44712.5	AnAge	200	NA	22118.2380471877
+Hyaena_hyaena	95912	45	ADW	9125	AnAge	110.47	EOL	NA
+Hylia_prasina	208073	0.0165	EOL	NA	NA	NA	NA	NA
+Hylobates_moloch	81572	9	ADW	16425	AnAge;ADW	67.56	EOL	NA
+Hypocryptadius_cinnamomeus	589841	0.0315	EOL	NA	NA	NA	NA	NA
+Hypomesus_transpacificus	137520	NA	NA	365	EOL;fishbase	12	EOL;fishbase	NA
+Ibidorhyncha_struthersii	425643	0.32	EOL	NA	NA	NA	NA	NA
+Ictalurus_furcatus	66913	68	fishbase	9125	ADW error unit	165	EOL;fishbase	NA
+Ictalurus_punctatus	7998	26.3	fishbase	14600	ADW	132	fishbase;EOL	NA
+Ictidomys_tridecemlineatus	43179	0.1727	AnAge	2883.5	AnAge	13.75	EOL	NA
+Ifrita_kowaldi	461245	0.036	EOL	NA	NA	NA	NA	NA
+Illadopsis_cleaveri	201329	0.034	EOL	NA	NA	NA	NA	NA
+Indicator_indicator	1002788	0.0489	ADW	4380	ADW	20	ADW	NA
+Indicator_maculatus	545262	0.051	EOL	NA	NA	NA	NA	NA
+Ixodes_scapularis	6945	NA	NA	730	ADW	0.3	ADW	NA
+Jacana_jacana	54508	0.0875	EOL	NA	NA	NA	NA	NA
+Jaculus_jaculus	51337	0.073	ADW	2664.5	AnAge	11	ADW	NA
+Kryptolebias_marmoratus	37003	NA	NA	NA	NA	7.5	EOL;fishbase	NA
+Labeo_rohita	84645	45	fishbase	3650	AnAge;EOL;fishbase	200	EOL;fishbase	NA
+Labrus_bergylta	56723	4.4	fishbase	10585	AnAge;fishbase;EOL	65.9	fishbase;EOL	NA
+Lagenorhynchus_obliquidens	90247	200	ADW	16790	AnAge;ADW	250	ADW	NA
+Lagopus_leucura	30410	0.425	ADW	5475	AnAge;EOL	31	ADW	NA
+Lagopus_muta	64668	0.5355	AnAge;EOL	4270.5	AnAge	40.64	ADW text	NA
+Lamprotornis_superbus	245042	0.077	EOL	9125	AnAge	18	Birds of the world	NA
+Lanius_ludovicianus	28713	0.046	AnAge;ADW	4562.5	AnAge	25.4	ADW text	NA
+Larimichthys_crocea	215358	0.2436	fishbase	2190	fishbase;EOL	80	fishbase;EOL	1010407.37553914
+Lasius_niger	67767	NA	NA	10220	AnAge;EOL	NA	NA	NA
+Lates_calcarifer	8187	60	fishbase	12775	fishbase	200	ADW;EOL;fishbase	NA
+Latimeria_chalumnae	7897	95	fishbase	17520	AnAge;ADW;EOL;fishbase	200	EOL;fishbase;ADW text	NA
+Leiothrix_lutea	36275	0.0215	AnAge;EOL	5475	AnAge;EOL	NA	NA	NA
+Lemur_catta	9447	2.555	AnAge;ADW	13614.5	AnAge	103.5	EOL	NA
+Leopardus_geoffroyi	46844	7.4	ADW	8395	AnAge	75	ADW	NA
+Lepeophtheirus_salmonis	72036	NA	NA	NA	NA	1.8	EOL	NA
+Lepisosteus_oculatus	7918	4.4	fishbase	6570	AnAge;fishbase;ADW	150	fishbase;EOL	NA
+Leptinotarsa_decemlineata	7539	NA	NA	720	ADW	1	ADW	NA
+Leptonychotes_weddellii	9713	600	ADW	9000	EOL	350	ADW	NA
+Leptosomus_discolor	188344	0.301	EOL	NA	NA	NA	NA	NA
+Leucoraja_erinacea	7782	NA	NA	4380	fishbase	62	fishbase	NA
+Limosa_lapponica	161683	0.455	EOL	12410	AnAge;EOL	80	EOL	NA
+Limulus_polyphemus	6850	NA	NA	NA	NA	60	EOL	NA
+Linepithema_humile	83485	0.0000043	ADW	365	ADW	0.5	ADW error unit;Keller 1989	NA
+Lingula_anatina	7574	0.0164	EOL	NA	NA	4.9	EOL	NA
+Liparis_tanakae	230148	1.7	fishbase	NA	NA	56.3	fishbase;EOL	NA
+Lipotes_vexillifer	118797	167	ADW	8760	AnAge;ADW	253	ADW	NA
+Lithobates_catesbeianus	8400	0.5	ADW	5840	AnAge;ADW	20.3	EOL	NA
+Loa_loa	7209	NA	NA	NA	NA	7	H.D. Alan Lindquist, John H. Cross, in Infectious Diseases (Fourth Edition), 2017;ADW	NA
+Locustella_ochotensis	187437	0.024	EOL	NA	NA	NA	NA	NA
+Lonchura_striata	40157	0.0123	AnAge;EOL	3650	AnAge;EOL	11	thainationalparks	NA
+Lontra_canadensis	76717	14	ADW	9855	AnAge	130	ADW	NA
+Lottia_gigantea	225164	0.00255	EOL	7300	ADW	10	ADW	NA
+Loxia_curvirostra	64802	0.053	EOL	5876.5	AnAge	20	ADW	NA
+Loxia_leucoptera	96539	0.0379	EOL	1460	AnAge;EOL	NA	NA	NA
+Loxodonta_africana	9785	6100	ADW	29200	ADW	400	ADW	NA
+Lucifuga_dentata	670423	NA	NA	NA	NA	15.2	fishbase;EOL	NA
+Lucilia_cuprina	7375	NA	NA	20.56	Zied 2003	0.9	Levot 2009	NA
+Lucilia_sericata	13632	NA	NA	NA	NA	1	ADW	NA
+Lutra_lutra	9657	6.75	AnAge;ADW	8030	ADW	68.794	EOL	NA
+Lutzomyia_longipalpis	7200	NA	NA	NA	NA	0.2	EOL image	NA
+Lynx_canadensis	61383	17.3	ADW	9782	AnAge	106.7	ADW	NA
+Lynx_pardinus	191816	15	ADW	4745	ADW	130	ADW	NA
+Lynx_rufus	61384	15	ADW	11789.5	AnAge;ADW	105	ADW	NA
+Lytechinus_pictus	7653	NA	NA	NA	NA	3.2	EOL text	NA
+Lytechinus_variegatus	7654	NA	NA	NA	NA	2.5	EOL	NA
+Macaca_fascicularis	9541	7	ADW	14235	AnAge	118	EOL	NA
+Macaca_mulatta	9544	12	ADW	14600	AnAge	82	EOL	110931.312403077
+Macaca_nemestrina	9545	14.5	ADW	13724	AnAge	84	EOL	NA
+Macaca_thibetana	54602	10.3	AnAge	9855	AnAge	67.3	EOL	NA
+Machaerirhynchus_nigripectus	1160894	0.0133	EOL	NA	NA	NA	NA	NA
+Macrostomum_lignano	282301	NA	NA	365	AnAge	NA	NA	NA
+Malaclemys_terrapin	8485	0.72	ADW;AnAge	NA	NA	22.86	ADW text	NA
+Malurus_elegans	720584	0.0115	EOL	3650	AnAge	NA	NA	NA
+Manacus_candei	415023	0.0209	EOL	NA	NA	NA	NA	NA
+Manacus_vitellinus	328815	0.0171	EOL	NA	NA	NA	NA	NA
+Mandrillus_leucophaeus	9568	25	ADW	16790	ADW	76.4	ADW	122323.35356908
+Manis_javanica	9974	12	static1.squarespace.com	7300	ADW Manis crassicaudata	88	ADW	NA
+Manis_pentadactyla	143292	2.35	AnAge;ADW	NA	NA	60	ADW text	NA
+Marmota_flaviventris	93162	5.22	ADW	7738	AnAge	70	ADW	NA
+Marmota_marmota	9993	4.54	ADW text	6570	ADW	41.276	EOL Marmota monax	NA
+Marmota_monax	9995	6	ADW	5110	AnAge;ADW	67.5	ADW	NA
+Mastacembelus_armatus	205130	0.5	EOL;fishbase	NA	NA	90	fishbase	NA
+Mastomys_coucha	35658	NA	NA	NA	NA	11.966	EOL Mastomys natalensis	NA
+Mauremys_mutica	74926	0.3195	AnAge	8066.5	AnAge;EOL	NA	NA	NA
+Mauremys_reevesii	260615	1.92397	EOL	8833	AnAge;EOL	NA	NA	NA
+Maylandia_zebra	106582	NA	NA	NA	NA	11.3	EOL;fishbase	NA
+Megachile_rotundata	143995	NA	NA	60	ADW	1.9	ADW error unit	NA
+Megadyptes_antipodes	37085	8	ADW	8395	ADW	78	ADW	NA
+Megalobrama_amblycephala	75352	NA	NA	NA	NA	200	fishbase;EOL	NA
+Megalops_atlanticus	7932	161	ADW;fishbase	22995	ADW	250	EOL;fishbase	NA
+Megalops_cyprinoides	118141	18	fishbase	16060	AnAge;fishbase;EOL	150	fishbase;EOL	NA
+Melanocharis_versteri	254552	0.02	EOL	NA	NA	NA	NA	NA
+Melanotaenia_boesemani	1250792	NA	NA	NA	NA	9	EOL;fishbase	NA
+Meleagris_gallopavo	9103	11	ADW	4745	AnAge;ADW	NA	NA	NA
+Meles_meles	9662	16.7	ADW	6935	ADW	90	ADW	NA
+Meloidogyne_enterolobii	390850	NA	NA	NA	NA	0.0667	Philbrick et al. 2020	NA
+Melopsittacus_undulatus	13146	0.03	AnAge;ADW	7665	AnAge;ADW	20	ADW	NA
+Melospiza_melodia	44397	0.0457	EOL	4124.5	AnAge	17	ADW	NA
+Melozone_crissalis	40204	0.047	AnAge	4672	AnAge	NA	NA	NA
+Menidia_menidia	238744	NA	NA	730	AnAge;fishbase;EOL	15	fishbase;EOL	NA
+Menura_novaehollandiae	47692	0.97995	AnAge	6533.5	AnAge	NA	NA	NA
+Mercenaria_mercenaria	6596	1.02	EOL	38690	AnAge	17	EOL	NA
+Meriones_unguiculatus	10047	0.133	ADW	2299.5	AnAge	12	ADW	NA
+Merops_nubicus	57421	0.059	ADW	6205	ADW	27	ADW	NA
+Mesembrinibis_cayennensis	1118748	0.865	EOL	NA	NA	NA	NA	NA
+Mesitornis_unicolor	54374	0.148	EOL	NA	NA	NA	NA	NA
+Mesocricetus_auratus	10036	0.125	ADW	3600	EOL	18	EOL	NA
+Microcebus_murinus	30608	0.0648	ADW;AnAge	6643	AnAge	28.5	EOL	41116.7014879783
+Micropterus_dolomieu	147949	5.4	fishbase	9490	AnAge;ADW;fishbase	69	EOL;fishbase	NA
+Micropterus_salmoides	27706	10.1	fishbase;ADW	8395	ADW;AnAge;fishbase	97	ADW;fishbase;EOL	NA
+Microtus_ochrogaster	79684	0.07	ADW	1934.5	AnAge	18	ADW	NA
+Microtus_oregoni	111838	NA	NA	450	EOL	9.922	EOL	NA
+Miniopterus_natalensis	291302	NA	NA	4745	www.ewt.org.za	NA	NA	NA
+Mionectes_macconnelli	254557	0.016	EOL	NA	NA	NA	NA	NA
+Mirounga_angustirostris	9716	2300	ADW	7305	EOL	500	ADW	NA
+Mirounga_leonina	9715	3700	ADW	8280	EOL	600	ADW	NA
+Misgurnus_anguillicaudatus	75329	NA	NA	NA	NA	28	EOL;fishbase	NA
+Mizuhopecten_yessoensis	6573	0.261	EOL	2190	EOL	18	EOL	NA
+Mohoua_ochrocephala	874463	0.0325	EOL	NA	NA	NA	NA	NA
+Molossus_molossus	27622	0.014	AnAge	2044	AnAge	5.982	EOL	NA
+Molothrus_ater	84834	0.05	ADW	6168.5	ADW;AnAge	22	ADW	NA
+Monodelphis_domestica	13616	0.155	ADW	3650	ADW	20	Macrini 2004	197962.059313904
+Monodon_monoceros	40151	1600	ADW	18250	AnAge;ADW	509.253	EOL	NA
+Monomorium_pharaonis	307658	NA	NA	NA	NA	0.2	ADW	NA
+Monopterus_albus	43700	0.25	ADW	NA	NA	100	ADW;fishbase;EOL	NA
+Morone_saxatilis	34816	57	fishbase	10950	AnAge;fishbase;ADW	200	fishbase;EOL	NA
+Moschus_berezovskii	68408	12	AnAge	NA	NA	89.999	EOL	53179.3337042461
+Motacilla_alba	45807	0.0329	EOL	5000.5	AnAge;EOL	15	EOL image	NA
+Mugil_cephalus	48193	8	ADW	5840	AnAge;fishbase	120	ADW;EOL	NA
+Muntiacus_muntjak	9888	35	ADW	6862	AnAge	135	ADW	NA
+Muraenolepis_orangiensis	630683	NA	NA	NA	NA	30	EOL;fishbase	NA
+Mus_caroli	10089	0.0112	AnAge;EOL	1204.5	AnAge observations	NA	NA	NA
+Mus_musculus	10090	0.03	ADW	2190	ADW format	9.5	ADW	163119.218827587
+Musca_domestica	7370	0.000012	ADW	60	ADW	0.8	ADW	NA
+Mustela_erminea	36723	0.116	ADW	4562.5	AnAge;ADW	33	ADW	NA
+Mustela_putorius	9668	1.71	ADW	5110	ADW	35.892	EOL	NA
+Mya_arenaria	6604	0.047	EOL	10220	AnAge	7.7	EOL	NA
+Myiagra_hebetior	381031	0.0215	EOL	NA	NA	NA	NA	NA
+Myodes_glareolus	447135	0.0208	AnAge	1788.5	AnAge	11	ADW	NA
+Myotis_brandtii	109478	0.007	AnAge	14965	AnAge	5	First-nature	NA
+Myotis_lucifugus	59463	0.014	ADW	12410	AnAge	10.2	ADW	NA
+Myotis_myotis	51298	0.045	ADW	13541.5	AnAge	8	ADW	NA
+Myripristis_murdjan	586833	NA	NA	NA	NA	60	fishbase;EOL	NA
+Mystacornis_crossleyi	98133	0.0285	EOL	NA	NA	NA	NA	NA
+Mytilus_californianus	6549	0.0189	EOL	1095	ADW;AnAge	53	EOL	NA
+Myxocyprinus_asiaticus	70543	4.001	EOL	NA	NA	68	fishbase;EOL	NA
+Naja_naja	35670	NA	NA	11789.5	AnAge;EOL	220	ADW text	NA
+Nasonia_vitripennis	7425	NA	NA	25	King 1963	0.3	Burton- Chellew 2007	NA
+Necator_americanus	51031	NA	NA	1825	ADW text	1.1	ADW	NA
+Nematolebias_whitei	451745	NA	NA	NA	NA	8	EOL;fishbase	NA
+Nematostella_vectensis	45351	0.025	ADW	NA	NA	6	EOL;ADW text	NA
+Neodrepanis_coruscans	254563	0.0085	EOL	NA	NA	NA	NA	NA
+Neolamprologus_brichardi	32507	NA	NA	NA	NA	9	EOL;fishbase	NA
+Neomonachus_schauinslandi	29088	NA	NA	10800	EOL Monachus schauinslandi	223.283	EOL Monachus schauinslandi	NA
+Neopelma_chrysocephalum	114329	0.017	EOL	NA	NA	NA	NA	NA
+Neophocaena_asiaeorientalis	189058	70	EOL Neophocaena phocaenoides	8280	EOL Neophocaena phocaenoides	170	EOL Neophocaena phocaenoides	NA
+Neopipo_cinnamomea	456388	0.012	EOL	NA	NA	NA	NA	NA
+Neotoma_lepida	56216	0.35	ADW	3832.5	AnAge;ADW	40.7	ADW	NA
+Nesospiza_acunhae	381881	0.034	EOL	NA	NA	NA	NA	NA
+Nestor_notabilis	176057	0.922	ADW	17155	AnAge	48	ADW	NA
+Nibea_albiflora	240163	1.5	fishbase	1460	fishbase;EOL	43.5	EOL;fishbase	NA
+Nicator_chloris	237433	0.055	EOL	NA	NA	NA	NA	NA
+Nicrophorus_vespilloides	110193	NA	NA	NA	NA	1.6	EOL	NA
+Nipponia_nippon	128390	1.9	AnAge	9490	ADW	75	ADW	NA
+Nomascus_leucogenys	61853	6	AnAge	16096.5	AnAge	63	ADW	NA
+Notechis_scutatus	8663	NA	NA	5146.5	AnAge;EOL	87.1	EOL	NA
+Nothobranchius_furzeri	105023	NA	NA	401.5	AnAge	6.5	EOL;fishbase	NA
+Nothoprocta_ornata	83376	0.761	EOL	NA	NA	NA	NA	NA
+Nothoprocta_pentlandii	2585814	0.384	EOL	NA	NA	NA	NA	NA
+Nothoprocta_perdicaria	30464	0.458	EOL	NA	NA	NA	NA	NA
+Notiomystis_cincta	366454	0.094	EOL	NA	NA	NA	NA	NA
+Notolabrus_celidotus	1203425	NA	NA	2555	AnAge;EOL;fishbase	23.9	EOL format;fishbase	NA
+Notothenia_coriiceps	8208	NA	NA	NA	NA	62	EOL;fishbase	NA
+Numida_meleagris	8996	1.842	ADW	NA	NA	67	ADW error unit	NA
+Nyctereutes_procyonoides	34880	10	ADW	6059	AnAge	68	ADW	NA
+Nyctibius_bracteatus	48426	0.058	EOL	NA	NA	NA	NA	NA
+Nycticebus_coucang	9470	0.8905	AnAge	9672.5	ADW	38	ADW	NA
+Nyctiprogne_leucopyga	382315	0.0282	EOL	NA	NA	NA	NA	NA
+Oceanites_oceanicus	79653	NA	NA	NA	NA	42	EOL	NA
+Oceanodroma_tethys	79633	0.023	EOL	NA	NA	NA	NA	NA
+Ochotona_curzoniae	130825	0.2	ADW	957	ADW	17	EOL	NA
+Ochotona_princeps	9978	0.176	ADW	2555	AnAge;ADW	21.6	ADW	NA
+Octodon_degus	10160	0.3	ADW	5110	AnAge	44	ADW	NA
+Octopus_bimaculoides	37653	NA	NA	730	ADW Octopus bimaculatus	60	ADW Octopus bimaculatus	NA
+Odocoileus_virginianus	9874	137	ADW	8395	ADW;AnAge	220	ADW	NA
+Odontomachus_brunneus	486640	NA	NA	NA	NA	0.9	EOL image	NA
+Odontophorus_gujanensis	886794	0.298	EOL	NA	NA	NA	NA	NA
+Oenanthe_oenanthe	279966	0.0306	EOL	3686.5	AnAge;EOL	NA	NA	NA
+Oesophagostomum_dentatum	61180	NA	NA	NA	NA	1.4	EOL	NA
+Oncorhynchus_gorbuscha	8017	6.8	fishbase	1095	AnAge;fishbase;EOL	76	fishbase;EOL	NA
+Oncorhynchus_keta	8018	15.9	fishbase	2555	AnAge;fishbase;EOL	100	fishbase;EOL	NA
+Oncorhynchus_kisutch	8019	15.2	fishbase	1825	ADW;AnAge;EOL;fishbase	108	fishbase;EOL	NA
+Oncorhynchus_mykiss	8022	25.4	ADW;fishbase	4015	ADW;AnAge;fishbase	122	fishbase;EOL	NA
+Oncorhynchus_nerka	8023	7.7	fishbase	2920	AnAge;fishbase;ADW	84	fishbase;EOL	NA
+Oncorhynchus_tshawytscha	74940	61.4	fishbase;ADW	3285	AnAge;fishbase;ADW	150	fishbase;EOL	NA
+Onthophagus_taurus	166361	NA	NA	160	Kotiaho 2001	1	EOL image	NA
+Onychomys_torridus	38674	0.022	ADW;AnAge	1679	ADW;AnAge	13	ADW text	NA
+Onychorhynchus_coronatus	360224	0.0162	EOL	NA	NA	NA	NA	NA
+Onychostoma_macrolepis	369639	0.297	EOL	NA	NA	26.5	EOL;fishbase	NA
+Ophiophagus_hannah	8665	8	AnAge	8212.5	AnAge;EOL	NA	NA	NA
+Opisthocomus_hoazin	30419	NA	NA	NA	NA	66.04	ADW text	NA
+Orbicella_faveolata	48498	NA	NA	NA	NA	120	EOL text	NA
+Orcinus_orca	9733	7200	ADW	36000	EOL	975	ADW	NA
+Oreocharis_arfaki	979223	0.0215	EOL	NA	NA	NA	NA	NA
+Oreochromis_aureus	47969	2	fishbase	NA	NA	45.7	fishbase;EOL	NA
+Oreochromis_niloticus	8128	4.3	fishbase	3285	AnAge;fishbase;EOL	60	fishbase;EOL	NA
+Oreotrochilus_melanogaster	689266	0.0095	EOL	NA	NA	NA	NA	NA
+Origma_solitaria	720586	0.016	EOL	2555	AnAge	NA	NA	NA
+Oriolus_oriolus	181099	0.079	AnAge;EOL	5402	AnAge;EOL	NA	NA	NA
+Ornithorhynchus_anatinus	9258	2.5	ADW	8249	AnAge	60	ADW	32171.8117734532
+Orthonyx_spaldingii	38397	0.148	EOL	6022.5	AnAge	NA	NA	NA
+Orussus_abietinus	222816	NA	NA	7	Cephus cinctus	1	web	NA
+Orycteropus_afer	9818	82	ADW	10877	AnAge	158	ADW	NA
+Oryctolagus_cuniculus	9986	2.5	ADW	6480	EOL	50	ADW	NA
+Oryx_dammah	59534	200	ADW	10037.5	AnAge;ADW	191	EOL	NA
+Oryzias_javanicus	123683	NA	NA	NA	NA	4.5	fishbase;EOL	NA
+Oryzias_latipes	8090	NA	NA	1825	AnAge;EOL	4	EOL;fishbase	NA
+Oryzias_melastigma	30732	NA	NA	NA	NA	4	EOL;fishbase	NA
+Osmia_lignaria	473952	NA	NA	NA	NA	1	EOL image	NA
+Ostrea_edulis	37623	0.0146	EOL	5840	AnAge	4.4	EOL	NA
+Otolemur_garnettii	30611	1.3	AnAge	7300	AnAge	79.7	EOL	NA
+Ovis_ammon	30527	185	ADW	7300	ADW	190	ADW	NA
+Ovis_aries	9940	200	ADW	8322	ADW;AnAge	180	ADW	NA
+Owenia_fusiformis	6347	NA	NA	NA	NA	10	EOL	NA
+Oxylabes_madagascariensis	98144	0.03	EOL	NA	NA	NA	NA	NA
+Oxyruncus_cristatus	114331	0.046	EOL	NA	NA	NA	NA	NA
+Oxyura_jamaicensis	8884	0.795	ADW	7300	AnAge	43	ADW	NA
+Pachycephala_philippinensis	449367	0.0288	EOL	NA	NA	NA	NA	NA
+Pachyramphus_minor	369605	0.044	EOL	NA	NA	NA	NA	NA
+Pan_paniscus	9597	61	ADW	20075	AnAge	124	ADW	NA
+Pan_troglodytes	9598	70	ADW	24820	AnAge	170	ADW text	16907.1082893523
+Pandion_haliaetus	56262	2	ADW	11680	AnAge	58	ADW	NA
+Pangasianodon_gigas	30993	350	EOL;fishbase	3650	EOL;fishbase	300	EOL;fishbase	NA
+Pangasianodon_hypophthalmus	310915	44	fishbase	NA	NA	130	fishbase;EOL	NA
+Pangasius_djambal	1691987	16	fishbase	NA	NA	90	EOL;fishbase	NA
+Panthera_leo	9689	433.2	EOL	10950	ADW	330	ADW	NA
+Panthera_pardus	9691	65	ADW	9964.5	AnAge	230	ADW	29325.6826566437
+Panthera_tigris	9694	423	ADW	9599.5	AnAge	370	ADW	NA
+Panthera_uncia	29064	NA	NA	6480	EOL Uncia uncia	114.657	EOL Uncia uncia	NA
+Pantherophis_guttatus	94885	0.9	ADW	11789.5	ADW	182	ADW	NA
+Panurus_biarmicus	181101	0.0138	AnAge;EOL	2591.5	AnAge;EOL	NA	NA	NA
+Papilio_polytes	76194	NA	NA	43	ADW	NA	NA	NA
+Papio_anubis	9555	25	ADW	13687.5	ADW	175	EOL	NA
+Paragonimus_kellicotti	100269	NA	NA	7300	ADW text	1.6	ADW	NA
+Paragonimus_westermani	34504	NA	NA	7300	ADW	1.2	ADW	NA
+Paralichthys_olivaceus	8255	9.1	fishbase	NA	NA	103	EOL;fishbase	NA
+Parambassis_ranga	210632	0.01153	fishbase	NA	NA	9.5	fishbase;EOL	NA
+Paramormyrops_kingsleyae	1676925	NA	NA	NA	NA	13.5	EOL;fishbase	NA
+Parasteatoda_tepidariorum	114398	NA	NA	NA	NA	0.6	ADW text	NA
+Pardalotus_punctatus	254575	0.015	EOL	1460	AnAge	NA	NA	NA
+Parelaphostrongylus_tenuis	148309	NA	NA	NA	NA	9	EOL	NA
+Parus_major	9157	0.0179	AnAge;EOL	5621	AnAge;EOL	NA	NA	NA
+Passer_montanus	9160	0.0205	AnAge	4781.5	AnAge	NA	NA	NA
+Passerina_amoena	142471	0.018	ADW	3613.5	AnAge;EOL;ADW text	15	ADW	NA
+Patagioenas_fasciata	372321	0.47	EOL	6752.5	AnAge;EOL	NA	NA	NA
+Patella_vulgata	6465	0.00312	EOL	NA	NA	3	EOL	NA
+Patiria_miniata	46514	NA	NA	NA	NA	10.16	ADW text	NA
+Pecten_maximus	6579	0.270519	EOL	8030	EOL	15	EOL	NA
+Pediculus_humanus	121225	NA	NA	NA	NA	0.35	ADW text	NA
+Pedionomus_torquatus	227192	0.095	EOL	839.5	AnAge	NA	NA	NA
+Pelecanoides_urinatrix	37079	0.185	ADW;EOL	2372.5	ADW	25	ADW	NA
+Pelecanus_crispus	36300	9.55	AnAge;EOL	12884.5	AnAge;EOL	NA	NA	28755.4984385817
+Penaeus_japonicus	27405	NA	NA	NA	NA	30	EOL	NA
+Penaeus_monodon	6687	0.32	ADW	1095	ADW	35	EOL	NA
+Penaeus_vannamei	6689	0.32	ADW Penaeus monodon	730	ADW Penaeus monodon	17.4	ADW Penaeus monodon	NA
+Penelope_pileata	1118817	1.1	EOL	NA	NA	NA	NA	NA
+Perca_flavescens	8167	1.9	fishbase	4380	AnAge;ADW	50	fishbase;EOL	NA
+Perca_fluviatilis	8168	4.8	fishbase	8030	AnAge;fishbase;EOL	60	EOL;fishbase	NA
+Periophthalmus_magnuspinnatus	409849	NA	NA	NA	NA	10.3	EOL;fishbase	NA
+Periplaneta_americana	6978	NA	NA	NA	NA	5.3	ADW text	NA
+Perognathus_longimembris	38669	0.008	AnAge	3029.5	AnAge	NA	NA	NA
+Peromyscus_californicus	42520	0.0544	ADW	2007.5	AnAge;ADW	28.5	ADW	NA
+Peromyscus_leucopus	10041	0.025	ADW	2883.5	AnAge	20.5	ADW	NA
+Peromyscus_maniculatus	10042	0.024	ADW	3029.5	ADW;AnAge	22.2	ADW	NA
+Petromyzon_marinus	7757	2.5	ADW;fishbase	4015	fishbase	120	EOL;fishbase	NA
+Peucedramus_taeniatus	135441	0.0121	EOL	NA	NA	NA	NA	NA
+Phacochoerus_africanus	41426	150	ADW	10950	AnAge	150	ADW	NA
+Phaethon_lepturus	97097	0.367	EOL	NA	NA	NA	NA	NA
+Phaetusa_simplex	297813	0.275	EOL	NA	NA	NA	NA	NA
+Phainopepla_nitens	161653	NA	NA	NA	NA	16	ADW	NA
+Phalacrocorax_carbo	9209	3.7	ADW	11716.5	AnAge	160	EOL	NA
+Phascolarctos_cinereus	38626	11.8	ADW	8066.5	AnAge	78	ADW	NA
+Phasianus_colchicus	9054	1.263	ADW	9855	AnAge	53.6	ADW	NA
+Pheucticus_melanocephalus	371919	0.054	ADW	9125	AnAge;ADW	20	ADW format	NA
+Phoca_vitulina	9720	170	ADW	17374	AnAge;ADW	190	ADW	NA
+Phocoena_sinus	42100	55	ADW	NA	NA	152	EOL	NA
+Phodopus_roborovskii	109678	0.0272	ADW	1752	AnAge	10.6	ADW	NA
+Photinus_pyralis	7054	NA	NA	30	ADW	1.4	ADW	NA
+Phrynocephalus_forsythii	171643	0.00458	EOL	NA	NA	NA	NA	NA
+Phrynosoma_platyrhinos	52577	NA	NA	NA	NA	8.7	EOL	NA
+Phyllostomus_discolor	89673	0.1204	ADW Phyllostomus hastatus	3285	AnAge	13.4	ADW Phyllostomus hastatus	NA
+Phyllostomus_hastatus	9423	0.12041	ADW	6570	AnAge;ADW	13.795	ADW	NA
+Physeter_catodon	9755	50000	ADW	28105	ADW	1900	ADW text	NA
+Piaya_cayana	33601	0.129	EOL	NA	NA	NA	NA	NA
+Picathartes_gymnocephalus	175131	0.226	EOL	NA	NA	NA	NA	NA
+Pieris_rapae	64459	NA	NA	42	ADW	3.5	ADW text	NA
+Piliocolobus_tephrosceles	591936	5.5	ADW Piliocolobus kirkii	7738	ADW format	126.9	EOL	NA
+Pimephales_promelas	90988	0.005	ADW format	1825	fishbase	10.1	EOL;fishbase	NA
+Pipistrellus_kuhlii	59472	0.006	AnAge	2920	AnAge	4.599	EOL	NA
+Pipra_filicauda	649802	0.019	EOL	NA	NA	NA	NA	NA
+Piprites_chloris	114369	0.0185	EOL	NA	NA	NA	NA	NA
+Pitangus_sulphuratus	371930	0.074	EOL	2490	ADW	26	ADW text	NA
+Pitta_sordida	9163	0.082	EOL	NA	NA	NA	NA	NA
+Platysteira_castanea	1160851	0.015	EOL	NA	NA	NA	NA	NA
+Platysternon_megacephalum	55544	NA	NA	9855	AnAge;EOL	40	ADW	NA
+Plectropomus_leopardus	160734	23.6	fishbase	9490	AnAge;fishbase;EOL	120	fishbase;EOL	NA
+Pleuronectes_platessa	8262	7	fishbase	18250	AnAge;EOL;fishbase	100	EOL;fishbase	NA
+Ploceus_nigricollis	441696	0.04	EOL	NA	NA	NA	NA	NA
+Plutella_xylostella	51655	NA	NA	NA	NA	0.8	EOL image	NA
+Pluvianellus_socialis	227228	0.087	EOL	NA	NA	NA	NA	NA
+Pocillopora_damicornis	46731	NA	NA	NA	NA	0.144	EOL	NA
+Podarcis_muralis	64176	0.00541	AnAge	3650	AnAge;EOL	NA	NA	NA
+Podarcis_raffonei	65483	0.01556	EOL Podarcis raffoneae	NA	NA	NA	NA	NA
+Podiceps_cristatus	345573	1.49	ADW	7008	AnAge	90	EOL	NA
+Podilymbus_podiceps	9252	0.568	ADW	1825	ADW	38.1	ADW	NA
+Poecilia_formosa	48698	NA	NA	NA	NA	9.6	fishbase;EOL	NA
+Poecilia_latipinna	48699	NA	NA	NA	NA	15	EOL;fishbase	NA
+Poecilia_mexicana	48701	NA	NA	NA	NA	11	EOL;fishbase	NA
+Poecilia_reticulata	8081	NA	NA	1825	AnAge;EOL	6	fishbase;EOL	NA
+Poeciliopsis_prolifica	188132	NA	NA	NA	NA	3	EOL;fishbase	NA
+Pogona_vitticeps	103695	0.5	AnAge;EOL	4380	AnAge;EOL	60.96	ADW text	278937.639850788
+Pogonomyrmex_barbatus	144034	NA	NA	10220	Ingram 2013	1.1	EOL image	NA
+Pogonophryne_albipinna	1090488	NA	NA	NA	NA	3.8	EOL;fishbase	NA
+Polioptila_caerulea	66707	0.0065	AnAge;ADW	1533	AnAge;EOL	NA	NA	NA
+Polistes_canadensis	91411	NA	NA	506	Southon 2015	2	Polistes_dominula	NA
+Polistes_dominula	743375	NA	NA	506	Southon 2015 Polistes_canadensis	2	EOL image;ADW	NA
+Polistes_fuscatus	30207	NA	NA	365	ADW	2.1	ADW	NA
+Pollicipes_pollicipes	41117	NA	NA	NA	NA	5	EOL	NA
+Polyodon_spathula	7913	90.7	fishbase	20075	AnAge;ADW;fishbase	250	ADW	NA
+Polypterus_senegalus	55291	0.207	fishbase	12410	AnAge;EOL	70	EOL;fishbase	NA
+Pomacea_canaliculata	400727	0.0514	EOL	1460	ADW	8	EOL	NA
+Pomatorhinus_ruficollis	932028	0.035	EOL	NA	NA	NA	NA	NA
+Pomatostomus_ruficeps	9176	0.071	EOL	3029.5	AnAge	NA	NA	NA
+Pomphorhynchus_laevis	141832	NA	NA	NA	NA	2.5	EOL	NA
+Pongo_abelii	9601	90	ADW	21170	ADW	180	ADW	47741.2237127153
+Pongo_pygmaeus	9600	87	ADW	21600	EOL	141	EOL	NA
+Pontoporia_blainvillei	48723	40.5	AnAge;ADW	7665	ADW	177	EOL	NA
+Populus_trichocarpa	3694	NA	NA	NA	NA	NA	NA	682075.165693741
+Prionailurus_bengalensis	37029	7	ADW	7300	ADW	107	ADW error unit	NA
+Prionailurus_viverrinus	61388	12	ADW	6278	AnAge	85.7	ADW	NA
+Pristionchus_pacificus	54126	0.0000000011492	Lynch et al. 2023	NA	NA	NA	NA	1774847.87018256
+Pristis_pectinata	685728	350	fishbase;EOL	21900	ADW	760	fishbase;EOL	NA
+Probosciger_aterrimus	141839	1.1	ADW	36500	ADW text	68	ADW	NA
+Procambarus_clarkii	6728	NA	NA	NA	NA	11.938	ADW text	NA
+Prochilodus_magdalenae	148989	0.905	EOL;fishbase	NA	NA	51	fishbase	NA
+Promerops_cafer	254652	0.035	EOL	NA	NA	NA	NA	NA
+Propithecus_coquereli	379532	4.3	ADW	11315	ADW	NA	NA	NA
+Protopterus_annectens	7888	4	EOL;fishbase	6570	AnAge;EOL	100	EOL;fishbase	NA
+Prunella_fulvescens	670355	0.021	EOL	NA	NA	NA	NA	NA
+Prunella_himalayana	670356	0.0271	EOL	NA	NA	NA	NA	NA
+Psammomys_obesus	48139	0.212	AnAge	1460	ADW	18.5	ADW	NA
+Pseudoatta_argentina	621737	NA	NA	NA	NA	0.6	EOL image	NA
+Pseudochaenichthys_georgianus	52239	2.1	fishbase	NA	NA	60	EOL;fishbase	NA
+Pseudoliparis_swirei	2059687	NA	NA	NA	NA	22.6	EOL;fishbase	NA
+Psophia_crepitans	54359	1.1	EOL	NA	NA	NA	NA	NA
+Pterocles_burchelli	2585816	0.2	EOL	NA	NA	NA	NA	NA
+Pterocles_gutturalis	240206	0.4	EOL	NA	NA	NA	NA	NA
+Pteronotus_parnellii	59476	0.02	ADW	NA	NA	10.2	ADW	NA
+Pteropus_alecto	9402	0.6721	AnAge	7409.5	AnAge	25.46	EOL	NA
+Pteropus_giganteus	143291	1.6	ADW	16060	AnAge	23	ADW	NA
+Pteropus_vampyrus	132908	1.1	ADW	10950	ADW	NA	NA	NA
+Pteruthius_melanotis	357074	0.015	EOL	NA	NA	NA	NA	NA
+Ptilonorhynchus_violaceus	28724	0.29	EOL	9161.5	AnAge	NA	NA	NA
+Ptilorrhoa_leucosticta	449384	0.051	EOL	NA	NA	NA	NA	NA
+Puma_concolor	9696	120	ADW	9855	AnAge	154	ADW	NA
+Puma_yagouaroundi	1608482	9	ADW	6789	AnAge	77	ADW	NA
+Pundamilia_nyererei	303518	NA	NA	NA	NA	7.7	EOL Haplochromis nyererei;fishbase	NA
+Pungitius_pungitius	134920	NA	NA	1825	AnAge;fishbase;EOL	9	EOL;fishbase	NA
+Puntigrus_tetrazona	1606681	NA	NA	NA	NA	7	EOL;fishbase	NA
+Pycnonotus_jocosus	182897	0.0277	AnAge	4051.5	AnAge;EOL	NA	NA	NA
+Pygocentrus_nattereri	42514	3.9	fishbase	NA	NA	50	fishbase;EOL	NA
+Pygoscelis_adeliae	9238	4.99	ADW	5840	ADW	69.85	ADW	83258.9757054979
+Pygoscelis_antarcticus	79643	5	ADW	NA	NA	72	ADW text	NA
+Pygoscelis_papua	30457	8.5	ADW	14965	AnAge	95	ADW	NA
+Quiscalus_mexicanus	64278	0.1687	AnAge	4562.5	AnAge;ADW	45	ADW text	NA
+Ramphastos_sulfuratus	322582	0.537	EOL	NA	NA	52	ADW text	NA
+Rana_temporaria	8407	0.127	EOL	9855	AnAge;EOL	10.9	EOL	NA
+Rangifer_tarandus	9870	318	ADW	7957	AnAge	230	ADW	98558.0204872194
+Rattus_norvegicus	10116	0.5	ADW	1460	ADW	40	ADW text	NA
+Rattus_rattus	10117	0.3	ADW	1533	AnAge	41.4	EOL	NA
+Regulus_satrapa	13245	0.0063	ADW	2299.5	AnAge;ADW;EOL	11.375	ADW	NA
+Rhabdornis_inornatus	237438	0.0472	EOL	NA	NA	NA	NA	NA
+Rhagoletis_pomonella	28610	NA	NA	103	ADW	0.7	ADW	NA
+Rhagologus_leucostigma	156170	0.0295	EOL	NA	NA	NA	NA	NA
+Rhincodon_typus	259920	34000	fishbase	54750	ADW	2000	fishbase;EOL;ADW	NA
+Rhinolophus_ferrumequinum	59479	0.034	ADW	11132.5	AnAge	7.1	ADW	NA
+Rhinopithecus_bieti	61621	17	ADW	8395	ADW	83	ADW	NA
+Rhinopithecus_roxellana	61622	14.75	AnAge;EOL	10767.5	AnAge;EOL	76	ADW	NA
+Rhinopomastus_cyanomelas	113115	0.035	EOL	NA	NA	NA	NA	NA
+Rhinoptilus_africanus	240209	0.0955	EOL	NA	NA	NA	NA	NA
+Rhipicephalus_microplus	6941	NA	NA	NA	NA	0.2	EOL image	NA
+Rhipidura_dahli	667186	0.011	EOL	NA	NA	NA	NA	NA
+Rhodinocichla_rosea	58203	0.0518	EOL	NA	NA	NA	NA	NA
+Rhopalosiphum_maidis	43146	NA	NA	35	ADW	0.256	ADW	NA
+Rissa_tridactyla	75485	0.317	AnAge;ADW	10402.5	AnAge	120	EOL	NA
+Rostratula_benghalensis	118793	0.121	EOL	NA	NA	NA	NA	NA
+Rousettus_aegyptiacus	9407	0.17	ADW	9125	ADW	19.2	ADW	92628.255074453
+Rynchops_niger	227184	0.365	ADW	7373	AnAge	50	ADW	NA
+Sagittarius_serpentarius	56258	4.27	ADW	6789	ADW	120	ADW text	NA
+Saimiri_boliviensis	27679	1.135	ADW	11059.5	AnAge	73.7	EOL	72202.4415880832
+Sakesphorus_luctuosus	419690	0.034	EOL	NA	NA	NA	NA	NA
+Salarias_fasciatus	181472	0.018	EOL	NA	NA	14	fishbase;EOL	NA
+Salmo_salar	8030	46.8	fishbase	4745	ADW;AnAge;fishbase	150	EOL;fishbase	111066.856865733
+Salmo_trutta	8032	50	fishbase	13870	AnAge;fishbase;ADW	140	fishbase;EOL	NA
+Salvelinus_fontinalis	8038	8	fishbase	8760	AnAge;ADW;fishbase	86	EOL;fishbase	NA
+Salvelinus_namaycush	8040	32.7	fishbase	18250	AnAge;fishbase;EOL	150	fishbase;EOL	NA
+Sander_lucioperca	283035	20	fishbase	6205	EOL;fishbase	100	EOL;fishbase	NA
+Sapajus_apella	9515	2.643	AnAge	16790	AnAge	94.3	EOL	NA
+Sapayoa_aenigma	239371	0.0208	EOL	NA	NA	NA	NA	NA
+Sarcophilus_harrisii	9305	12	ADW	4745	AnAge	80	ADW	25387.5842839747
+Sarcoptes_scabiei	52283	NA	NA	60	ADW	0.045	ADW	NA
+Scatophagus_argus	75038	1.336	EOL	NA	NA	45	fishbase	NA
+Sceloporus_undulatus	8520	0.015	ADW	1825	ADW	19	ADW	NA
+Schistocerca_americana	7009	NA	NA	NA	NA	9.4	EOL	NA
+Schistosoma_haematobium	6185	NA	NA	NA	NA	1.5	ADW text	NA
+Schistosoma_mansoni	6183	NA	NA	80	ADW	1.4	ADW	NA
+Sciurus_carolinensis	30640	0.75	ADW	8640	EOL	52.5	ADW	NA
+Scleropages_formosus	113540	NA	NA	NA	NA	90	fishbase;EOL	NA
+Sclerurus_mexicanus	265632	0.0277	EOL	NA	NA	NA	NA	NA
+Scomber_japonicus	13676	2.9	fishbase	6570	AnAge;EOL;fishbase	64	EOL;fishbase	NA
+Scophthalmus_maximus	52904	25	fishbase	9490	AnAge	110	EOL	NA
+Scortum_barcoo	214431	NA	NA	NA	NA	35	fishbase;EOL	NA
+Scyliorhinus_canicula	7830	3.7	fishbase	4380	AnAge;fishbase;EOL	100	EOL;fishbase	NA
+Scyliorhinus_torazame	75743	NA	NA	NA	NA	77.8	EOL;fishbase	NA
+Scytalopus_superciliaris	312124	0.02	EOL	NA	NA	NA	NA	NA
+Sebastes_umbrosus	72105	0.57	EOL;fishbase	NA	NA	29.8	EOL;fishbase	NA
+Semnornis_frantzii	91796	0.0573	EOL	NA	NA	NA	NA	NA
+Sepia_pharaonis	158019	5	ADW	240	ADW	80	ADW	NA
+Serilophus_lunatus	239386	0.035	EOL	NA	NA	NA	NA	NA
+Serinus_canaria	9135	0.0243	AnAge;EOL	8760	AnAge;EOL	NA	NA	NA
+Seriola_aureovittata	2871759	96.8	fishbase	4380	ADW;fishbase	250	ADW;EOL Seriola lalandi;fishbase	NA
+Seriola_dumerili	41447	80.6	fishbase	5475	fishbase;EOL	190	fishbase;EOL	NA
+Seriola_lalandi	302047	96.8	fishbase	4380	ADW;fishbase	250	ADW;EOL;fishbase	NA
+Silurus_asotus	30991	30	fishbase	NA	NA	130	fishbase;EOL	NA
+Silurus_meridionalis	175797	10.8	fishbase;EOL	NA	NA	114	fishbase;EOL	NA
+Simochromis_diagramma	43689	NA	NA	NA	NA	19.5	EOL;fishbase	NA
+Siniperca_chuatsi	119488	8	fishbase	3285	fishbase;EOL	70	fishbase;EOL	NA
+Sinocyclocheilus_anshuiensis	1608454	NA	NA	NA	NA	10	EOL;fishbase	NA
+Sinocyclocheilus_grahami	75366	0.25	EOL;fishbase	NA	NA	23	fishbase	NA
+Sinocyclocheilus_rhinocerous	307959	NA	NA	NA	NA	9.7	EOL;fishbase	NA
+Sitta_europaea	50251	0.022	EOL	4708.5	AnAge;EOL	NA	NA	NA
+Smithornis_capensis	363769	0.0285	EOL	NA	NA	NA	NA	NA
+Soboliphyme_baturini	241478	NA	NA	NA	NA	3.53	EOL	NA
+Solea_senegalensis	28829	NA	NA	NA	NA	60	EOL;fishbase	NA
+Solenopsis_invicta	13686	NA	NA	2482	Romiguier 2014	0.7	EOL image	NA
+Sorex_araneus	42254	0.014	ADW	1168	AnAge	8	ADW	NA
+Sorex_cinereus	36803	0.0043	AnAge	730	ADW	9.9	ADW	NA
+Sparus_aurata	8175	17.2	fishbase	4015	AnAge;fishbase;EOL	70	fishbase;EOL	NA
+Spea_bombifrons	233779	0.0239	EOL	NA	NA	6.5	ADW text	NA
+Sphaeramia_orbicularis	375764	NA	NA	NA	NA	10	EOL;fishbase	NA
+Sphaerodactylus_townsendi	933632	0.0005	EOL	NA	NA	NA	NA	NA
+Spheniscus_demersus	92683	3.135	AnAge	9964.5	AnAge	45	ADW	NA
+Spheniscus_magellanicus	37081	7.5	ADW	10950	AnAge;ADW	16.9	ADW	NA
+Spizaetus_tyrannus	252798	1.15	EOL	NA	NA	NA	NA	NA
+Spizella_passerina	40210	0.0155	ADW	4307	AnAge	14.7	ADW	NA
+Spodoptera_exigua	7107	NA	NA	40	ADW	3	ADW	NA
+Steatornis_caripensis	48435	0.4	ADW	NA	NA	49	ADW	NA
+Stegastes_partitus	144197	NA	NA	NA	NA	10	EOL;fishbase	NA
+Stegostoma_fasciatum	378071	NA	NA	12045	ADW	354	fishbase;EOL	NA
+Steinernema_carpocapsae	34508	NA	NA	NA	NA	0.51	Chapter 4. Steinernematidae: species descriptions	NA
+Stercorarius_parasiticus	54059	0.45	ADW	11550	ADW	125	EOL	NA
+Stomoxys_calcitrans	35570	NA	NA	NA	NA	0.8	ADW	NA
+Strigops_habroptila	2489341	4	ADW	21900	ADW text;AnAge	64	ADW	NA
+Strongylocentrotus_purpuratus	7668	NA	NA	18250	AnAge;EOL	10	ADW text	NA
+Strongyloides_ratti	34506	NA	NA	401.5	AnAge	NA	NA	NA
+Strongylus_vulgaris	40348	NA	NA	NA	NA	6	ADW	NA
+Struthidea_cinerea	181839	0.132	AnAge	9125	AnAge;ADW	47	ADW	NA
+Struthio_camelus	8801	130	ADW	18250	ADW;AnAge	200	ADW text	NA
+Sturnus_vulgaris	9172	0.1	ADW	8358.5	AnAge	21.5	ADW	NA
+Styela_clava	7725	NA	NA	NA	NA	12	EOL	NA
+Sula_dactylatra	56068	2.353	ADW	9307.5	AnAge	86	ADW	NA
+Suncus_etruscus	109475	0.003	ADW	1168	AnAge	5	ADW	NA
+Suricata_suricatta	37032	0.776	AnAge;ADW	7519	ADW;AnAge	29	ADW text	NA
+Sus_scrofa	9823	272	ADW	9855	AnAge;ADW	240	ADW	320431.309425731
+Sylvietta_virens	208069	0.01	EOL	NA	NA	NA	NA	NA
+Symphalangus_syndactylus	9590	12	ADW	15695	AnAge	90	ADW	NA
+Synchiropus_splendidus	270530	0.004	EOL	5475	ADW	7	EOL;fishbase	NA
+Syngnathus_acus	161584	NA	NA	NA	NA	50	fishbase;EOL	NA
+Syngnathus_scovelli	161590	0.0025	Lynch et al. 2023	1095	AnAge;EOL;fishbase	18.3	EOL;fishbase	331375.428889966
+Syrrhaptes_paradoxus	302527	0.256	EOL	NA	NA	NA	NA	NA
+Tachuris_rubrigastra	495162	0.0095	EOL	NA	NA	NA	NA	NA
+Tachyglossus_aculeatus	9261	7	ADW	18250	ADW	45	ADW	NA
+Tachysurus_fulvidraco	1234273	0.3	fishbase	NA	NA	34.5	EOL;fishbase	NA
+Taeniopygia_guttata	59729	0.0157	EOL	4380	AnAge;ADW	11	ADW	425278.857580565
+Takifugu_bimaculatus	433685	NA	NA	NA	NA	30	EOL;fishbase	NA
+Takifugu_flavidus	433684	NA	NA	NA	NA	35	EOL;fishbase	NA
+Takifugu_rubripes	31033	NA	NA	NA	NA	80	fishbase;EOL	NA
+Talpa_occidentalis	50954	NA	NA	2520	EOL Talpa europaea	13	EOL Talpa europaea	NA
+Tauraco_erythrolophus	121530	0.325	EOL	NA	NA	NA	NA	NA
+Tegillarca_granosa	220873	NA	NA	2737.5	EOL	NA	NA	NA
+Teladorsagia_circumcincta	45464	NA	NA	NA	NA	1.22	EOL	NA
+Terrapene_carolina	158814	0.372	AnAge	50370	AnAge;ADW;EOL	18	ADW	NA
+Tetranychus_urticae	32264	NA	NA	29	Comparative life table analysis of Tetranychus urticae Koch (Acari: Tetranychidae) on ten rose cultivars	0.03	EOL image	NA
+Tetraodon_nigroviridis	99883	NA	NA	NA	NA	17	fishbase;EOL Dichotomyctere nigroviridis	NA
+Thalassarche_chlororhynchos	54017	3.89	AnAge;EOL	13505	AnAge;EOL	NA	NA	NA
+Thalassophryne_amazonica	390379	NA	NA	NA	NA	9.3	EOL;fishbase	NA
+Thamnophis_elegans	35005	0.4	AnAge	6497	AnAge	107	ADW	NA
+Thamnophis_sirtalis	35019	0.15	AnAge;ADW	7300	ADW	137	ADW	130372.110598497
+Theropithecus_gelada	9565	21	ADW	13140	AnAge	74	ADW	NA
+Thinocorus_orbignyianus	161742	0.14	EOL	NA	NA	NA	NA	NA
+Thrips_palmi	161013	NA	NA	30	Capinera 2008	1	EOL image	NA
+Thryothorus_ludovicianus	74200	0.02	ADW	3358	AnAge	14	ADW	NA
+Thunnus_albacares	8236	200	fishbase	3285	AnAge;fishbase;EOL	239	fishbase;EOL	NA
+Thunnus_maccoyii	8240	260	fishbase	7300	AnAge;fishbase;EOL	245	fishbase;EOL	NA
+Tichodroma_muraria	237442	0.018	EOL	NA	NA	NA	NA	NA
+Tinamus_guttatus	94827	0.8	EOL	NA	NA	NA	NA	NA
+Todus_mexicanus	135184	0.0059	AnAge;EOL	5110	AnAge	NA	NA	NA
+Tokudaia_osimensis	73109	0.08465	EOL	NA	NA	NA	NA	NA
+Toxocara_canis	6265	NA	NA	NA	NA	18.4	EOL	NA
+Toxostoma_redivivum	99882	0.0844	AnAge;EOL	2518.5	AnAge;EOL	NA	NA	NA
+Toxotes_jaculatrix	941984	NA	NA	NA	NA	30	EOL;fishbase	NA
+Trachemys_scripta	34903	3.2	ADW	15074.5	ADW;AnAge	29	ADW	NA
+Trachypithecus_francoisi	54180	14	ADW	9599.5	AnAge;ADW	76	ADW	NA
+Trematomus_bernacchii	40690	NA	NA	3650	AnAge;fishbase;EOL	35	fishbase;EOL	NA
+Tribolium_castaneum	7070	NA	NA	170	Grunwald 2013	0.5	EOL image	NA
+Trichechus_manatus	9778	1500	ADW;EOL	25185	AnAge	450	ADW	NA
+Trichinella_pseudospiralis	6337	NA	NA	NA	NA	0.246	ADW	NA
+Trichinella_spiralis	6334	NA	NA	NA	NA	0.32	ADW	NA
+Trichogramma_pretiosum	7493	NA	NA	10.5	Oliveira 2017	0.0387	Greenberg 1998	NA
+Trichosurus_vulpecula	9337	4.5	ADW	5803.5	AnAge	58	ADW	NA
+Trichuris_suis	68888	NA	NA	NA	NA	8	Pittman et al. 2010	NA
+Trichuris_trichiura	36087	NA	NA	NA	NA	5	ADW;EOL	NA
+Triplophysa_rosa	992332	NA	NA	NA	NA	5.6	EOL;fishbase	NA
+Triplophysa_tibetana	1572043	NA	NA	NA	NA	13.9	EOL;fishbase	NA
+Trogon_melanurus	56311	0.114	EOL	NA	NA	NA	NA	NA
+Turdus_rufiventris	311356	0.0668	EOL	NA	NA	NA	NA	NA
+Turnix_velox	2529409	0.064	EOL	NA	NA	NA	NA	NA
+Tursiops_truncatus	9739	500	ADW	19345	ADW	381	ADW	35265.6768271818
+Tympanuchus_pallidicinctus	109042	0.8	ADW	4927.5	AnAge	41	ADW	NA
+Tyrannus_savana	137541	0.04	EOL	NA	NA	41	ADW	NA
+Tyto_alba	56313	0.62	ADW	12410	ADW;AnAge	40	ADW	NA
+Upupa_epops	57439	0.086	EOL	4051.5	AnAge;EOL	NA	NA	NA
+Uria_aalge	13746	1.044	ADW	15622	AnAge	71	EOL	NA
+Urocitellus_parryii	9999	NA	NA	NA	NA	27.892	EOL	NA
+Urocolius_indicus	458196	0.065	EOL	NA	NA	NA	NA	NA
+Ursus_americanus	9643	409	ADW	12410	AnAge	200	ADW	NA
+Ursus_arctos	9644	600	ADW	18250	ADW	280	ADW	NA
+Ursus_maritimus	29073	800	ADW	15995	ADW format	250	ADW;EOL	NA
+Vanessa_cardui	171605	NA	NA	365	ADW	7.3	ADW	NA
+Varanus_komodoensis	61221	165	ADW	22630	AnAge	310	ADW	NA
+Vespa_crabro	7445	NA	NA	NA	NA	2.5	EOL	NA
+Vespa_mandarinia	7446	NA	NA	365	ADW text	5.5	ADW	NA
+Vespula_pensylvanica	30213	NA	NA	NA	NA	13	EOL image	NA
+Vicugna_pacos	30538	65	ADW Lama pacos	9417	ADW Lama pacos;AnAge	225	ADW Lama pacos	93808.0098961722
+Vidua_chalybeata	81927	0.0134	EOL	NA	NA	NA	NA	NA
+Vireo_altiloquus	34956	0.0262	EOL	NA	NA	NA	NA	NA
+Vombatus_ursinus	29139	35	ADW	10950	AnAge;ADW	110	ADW	NA
+Vulpes_lagopus	494514	5.2	AnAge;ADW	5949.5	AnAge;ADW	56.481	EOL	NA
+Vulpes_vulpes	9627	14	ADW	7774.5	AnAge	90	ADW	121250.341658734
+Xenopus_laevis	8355	0.2	ADW	11059.5	AnAge	12	ADW	NA
+Xiphias_gladius	8245	650	fishbase	NA	NA	455	fishbase;EOL	NA
+Xiphophorus_couchianus	32473	NA	NA	NA	NA	6	EOL;fishbase	NA
+Xiphophorus_hellerii	8084	NA	NA	1825	AnAge	16	fishbase;EOL	NA
+Xiphophorus_maculatus	8083	NA	NA	NA	NA	6	fishbase;EOL	NA
+Xiphorhynchus_elegans	269412	0.0385	EOL	NA	NA	NA	NA	NA
+Xyrauchen_texanus	154827	6	ADW text	18250	ADW	91	ADW;EOL;fishbase	NA
+Zalophus_californianus	9704	390	ADW	13030.5	AnAge	240	ADW;EOL	NA
+Zea_mays	4577	NA	NA	NA	NA	NA	NA	134603.995046573
+Zonotrichia_albicollis	44394	0.026	ADW	5438.5	AnAge	17	ADW	NA
+Zootermopsis_nevadensis	136037	NA	NA	2299.5	Thorne 2002	1	Nozaki 2019	NA
+Zootoca_vivipara	8524	0.005	ADW	2920	ADW	7.7	ADW	NA
+Zosterops_borbonicus	364589	0.0092	EOL	NA	NA	NA	NA	NA
+Zosterops_hypoxanthus	2485327	0.013	EOL	NA	NA	NA	NA	NA
