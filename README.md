@@ -5,7 +5,7 @@ This archive includes a Shiny Application to explore the database from the paper
 Developed by Florian Bénitière, Anamaria Necsulea and Laurent Duret.
 Laboratoire de Biométrie et Biologie Évolutive, Université Lyon 1, UMR CNRS 5558, Villeurbanne, France.
 
-A light version of the database is present in 'www/database' which corresponds to 'database_ShyniApp.tar.gz' downloadable at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10017653.svg)](https://doi.org/10.5281/zenodo.10017653).
+A light version of the database is present in 'www/database' which corresponds to database downloadable at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10908656.svg)](https://doi.org/10.5281/zenodo.10908656).
 
 The application is available at: <https://lbbe-shiny.univ-lyon1.fr/ShinyApp-GTDrift/>
 
