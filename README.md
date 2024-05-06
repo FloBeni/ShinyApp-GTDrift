@@ -2,7 +2,7 @@
 
 This archive includes a Shiny Application to explore the database from the paper 'GTDrift: A resource for exploring the interplay between genetic drift, genomic and transcriptomic characteristics in eukaryotes'.
 
-Developed by Florian Bénitière, Anamaria Necsulea and Laurent Duret. Laboratoire de Biométrie et Biologie Évolutive, Université Lyon 1, UMR CNRS 5558, Villeurbanne, France.
+Developed by Florian Bénitière, Laurent Duret and Anamaria Necsulea. Laboratoire de Biométrie et Biologie Évolutive, Université Lyon 1, UMR CNRS 5558, Villeurbanne, France.
 
 A light version of the database is present in 'www/database' which corresponds to database downloadable at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10908656.svg)](https://doi.org/10.5281/zenodo.10908656).
 
