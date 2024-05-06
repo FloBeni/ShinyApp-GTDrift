@@ -40,7 +40,7 @@ for (file in list_files){
                 ))
 }
 
-write.table(phylo[c(nrow(phylo):1),c("file" , "description")] , paste("www/phylogenetic_trees_description.tab",sep=""),quote=F,row.names = F,col.names = T,sep="\t")
+write.table(phylo[c(3,2,4,1),c("file" , "description")] , paste("www/phylogenetic_trees_description.tab",sep=""),quote=F,row.names = F,col.names = T,sep="\t")
 
 
 
