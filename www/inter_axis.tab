@@ -2,7 +2,7 @@ group	display_label	name_label	description	quantitative
 Life-history traits	Clades	clade.qual	Clade corresponding to the species, it can be the class for vertebrates or the order for insects.	FALSE
 Life-history traits	Life-span (days)	lifespan_days.quant	For longevity when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
 Life-history traits	Body length (cm)	length_cm.quant	For body length, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
-Life-history traits	Weight (kg)	weight_kg.quant	For body weight, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
+Life-history traits	Body mass (kg)	mass_kg.quant	For body mass, when sex-specific parameters were available, we retained values measured in females. For insects, longevity and body length were taken at the adult stage (imago).	TRUE
 Life-history traits	RGBIF Observation	RGBIF_observation.quant	Observation on GBIF	TRUE
 				
 Genome characteristics	Genome size (Mb)	genome_size.quant	The number of A T C and G in the genome fasta	TRUE

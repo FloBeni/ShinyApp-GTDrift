@@ -1,19 +1,29 @@
 # Prepare for applications
-# system("wget -O www/database_ShyniApp.tar.gz https://zenodo.org/records/10529523/files/database_ShyniApp.tar.gz?download=1")
-# system("tar -xvzf www/database_ShyniApp.tar.gz")
-# system("mv database www/database")
+# Download the archive containing the database
+system("wget -O www/database.zip https://zenodo.org/api/records/10908656/files-archive")
+
+# Uncompress the archive
+system("unzip www/database.zip -d www/database")
+system("tar -xvzf www/database/Transcriptomic.tar.gz --exclude='Run' -C www/")
+system("tar -xvzf www/database/BUSCO_annotations.tar.gz -C www/")
+system("tar -xvzf www/database/dNdS.tar.gz -C www/")
+
+# Remove the archive
+system("rm database/*.tar.gz")
+system("rm www/database.zip")
 
 
-## Tree preparation
+
+## Phylogenetic trees preparation
 library(ape)
 library(stringr)
-list_files = list.files("database/dNdS/phylogeny/",recursive = T,pattern = "root.nwk" ,full.names = T)
+list_files = list.files("www/database/dNdS/phylogeny/",recursive = T,pattern = "root.nwk" ,full.names = T)
 
 phylo=data.frame()
 for (file in list_files){
   print(file)
   tree = read.tree(file)
-  set = str_split_1(str_replace(file,"database/dNdS/phylogeny//",""),"_")[1]
+  set = str_split_1(str_replace(file,"www/database/dNdS/phylogeny//",""),"_")[1]
   nb_genes = ""
   if (file.exists(paste("data/dnds_phylo/",set,"/readme",sep=""))){
     readme = read.table(paste("data/dnds_phylo/",set,"/readme",sep=""))
@@ -25,12 +35,12 @@ for (file in list_files){
   phylo = rbind(phylo,
                 data.frame(
                   file,
-                  name = paste("database/dNdS/phylogeny/",set,"_root.nwk",sep=""),
+                  name = paste("www/database/dNdS/phylogeny/",set,"_root.nwk",sep=""),
                   description = paste(set,nb_species,"species",nb_genes,"genes")
                 ))
 }
 
-write.table(phylo[c(nrow(phylo):1),c("name" , "description")] , paste("phylogenetic_trees_description.tab",sep=""),quote=F,row.names = F,col.names = T,sep="\t")
+write.table(phylo[c(nrow(phylo):1),c("file" , "description")] , paste("www/phylogenetic_trees_description.tab",sep=""),quote=F,row.names = F,col.names = T,sep="\t")
 
 
 
@@ -77,17 +87,17 @@ list_species = read.delim(paste("www/database/list_species.tab",sep=""))
 rownames(list_species) = list_species$species
 list_species$path_db = paste(list_species$species,"_NCBI.taxid",list_species$NCBI.taxid,"/",list_species$assembly_accession,sep="")
 
-data_lht = read.delim("www/database/life_history_traits.tab")
-rownames(data_lht) = paste(data_lht$species,data_lht$life_history_traits)
+data_lht = read.delim("www/database/life_history_traits_and_polymorphism_derived_Ne.tab")
+rownames(data_lht) = paste(data_lht$species)
 
-list_species$max_lifespan_days = data_lht[paste(list_species$species,"lifespan_days"),]$value
-list_species$max_length_cm = data_lht[paste(list_species$species,"length_cm"),]$value
-list_species$max_weight_kg = data_lht[paste(list_species$species,"weight_kg"),]$value
+list_species$max_lifespan_days = data_lht[list_species$species,]$lifespan_days
+list_species$max_length_cm = data_lht[list_species$species,]$length_cm
+list_species$max_mass_kg = data_lht[list_species$species,]$mass_kg
 
 all_dt = data.frame()
 for (species in rev(list_species$species) ){print(species)
-  # pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
-  pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
+  pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
+  # pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
   
   gff_path = paste(pathData , "Annotations/",species,"/data_source/annotation.gff",sep="")
   gc_table_path = paste(pathData, "Annotations/",species,"/GC_content.tab",sep="")
@@ -109,7 +119,7 @@ for (species in rev(list_species$species) ){print(species)
   data_summary = add_charac(data_summary,'clade;qual',"", list_species[species,]$clade_group)
   data_summary = add_charac(data_summary,'lifespan_days;quant',"", list_species[species,]$max_lifespan_days)
   data_summary = add_charac(data_summary,'length_cm;quant',"", list_species[species,]$max_length_cm)
-  data_summary = add_charac(data_summary,'weight_kg;quant',"", list_species[species,]$max_weight_kg)
+  data_summary = add_charac(data_summary,'mass_kg;quant',"", list_species[species,]$max_mass_kg)
   
   key = name_backbone(name=str_replace(species,"_"," "),rank="species")$usageKey
   RGBIF_count = occ_search(key,limit=0)$meta$count

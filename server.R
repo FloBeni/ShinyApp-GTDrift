@@ -28,7 +28,7 @@ server <- function(input, output,session) {
   observeEvent(input$upload_data,ignoreNULL = T, {
     data_by_species = data_by_species_original
     inFile <- input$upload_data
-    dt = read.delim(inFile$datapath,header = T)
+    dt = read.delim(inFile$datapath,header = T,comment.char = "#")
     data_by_species <<- merge(dt,data_by_species, by.x = "species", by.y = "species", all.x = TRUE, all.y = TRUE)
     
     axisInter <<- rbind(axisInter_original,data.frame(group = "Uploaded" , "display_label" = colnames(dt),name_label=colnames(dt),description=NA,quantitative=T))
