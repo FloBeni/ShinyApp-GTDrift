@@ -93,11 +93,12 @@ rownames(data_lht) = paste(data_lht$species)
 list_species$max_lifespan_days = data_lht[list_species$species,]$lifespan_days
 list_species$max_length_cm = data_lht[list_species$species,]$length_cm
 list_species$max_mass_kg = data_lht[list_species$species,]$mass_kg
+list_species$polymorphism_derived_Ne = data_lht[list_species$species,]$polymorphism_derived_Ne
 
 all_dt = data.frame()
 for (species in rev(list_species$species) ){print(species)
-  pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
-  # pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
+  # pathData = "/home/fbenitiere/data/Projet-SplicedVariants/"
+  pathData = "/beegfs/data/fbenitiere/Projet-SplicedVariants/"
   
   gff_path = paste(pathData , "Annotations/",species,"/data_source/annotation.gff",sep="")
   gc_table_path = paste(pathData, "Annotations/",species,"/GC_content.tab",sep="")
@@ -120,6 +121,7 @@ for (species in rev(list_species$species) ){print(species)
   data_summary = add_charac(data_summary,'lifespan_days;quant',"", list_species[species,]$max_lifespan_days)
   data_summary = add_charac(data_summary,'length_cm;quant',"", list_species[species,]$max_length_cm)
   data_summary = add_charac(data_summary,'mass_kg;quant',"", list_species[species,]$max_mass_kg)
+  data_summary = add_charac(data_summary,'polymorphism_derived_Ne;quant',"", list_species[species,]$polymorphism_derived_Ne)
   
   key = name_backbone(name=str_replace(species,"_"," "),rank="species")$usageKey
   RGBIF_count = occ_search(key,limit=0)$meta$count
