@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/706581407.svg)](https://zenodo.org/doi/10.5281/zenodo.10022520)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10022520.svg)](https://doi.org/10.5281/zenodo.10022520)
 
 This archive includes a Shiny Application to explore the database from the paper 'GTDrift: A resource for exploring the interplay between genetic drift, genomic and transcriptomic characteristics in eukaryotes'.
 
